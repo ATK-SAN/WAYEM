@@ -1,0 +1,640 @@
+{"text": "somewhere between wind down and not post rock", "labels": ["Calm"]}
+{"text": "not too vintage feel, keep it coffee shop", "labels": ["Chill"]}
+{"text": "not too tearful, keep it soft", "labels": ["Mellow"]}
+{"text": "somewhere between floaty and not intimate", "labels": ["Dreamy"]}
+{"text": "not too decompress, keep it soundscape", "labels": ["Atmospheric"]}
+{"text": "not too anthemic, keep it spacey textures", "labels": ["Hypnotic"]}
+{"text": "not too club drop, keep it concentrate", "labels": ["Focus"]}
+{"text": "not too unwind, keep it inward", "labels": ["Introspective"]}
+{"text": "less power playlist, more sad", "labels": ["Melancholic"]}
+{"text": "somewhere between rainy night and not festival high", "labels": ["Somber"]}
+{"text": "somewhere between moody and not feel good", "labels": ["Brooding"]}
+{"text": "less shiny, more ominous", "labels": ["Dark"]}
+{"text": "less crying in the club, more comforting", "labels": ["Warm"]}
+{"text": "less feelgood, more sparkly", "labels": ["Bright"]}
+{"text": "not too stormy, keep it feel good", "labels": ["Uplifting"]}
+{"text": "somewhere between club drop and not soundscape", "labels": ["Euphoric"]}
+{"text": "somewhere between whimsical and not garage", "labels": ["Playful"]}
+{"text": "somewhere between date night and not glimmer", "labels": ["Romantic"]}
+{"text": "not too love songs, keep it bedroom", "labels": ["Sensual"]}
+{"text": "somewhere between sweet sorrow and not hiit", "labels": ["Bittersweet"]}
+{"text": "less funky, more old memories", "labels": ["Nostalgic"]}
+{"text": "less sensual, more new beginnings", "labels": ["Hopeful"]}
+{"text": "somewhere between race day and not positive vibes", "labels": ["Triumphant"]}
+{"text": "not too smooth, keep it final boss", "labels": ["Epic"]}
+{"text": "somewhere between track day and not good mood", "labels": ["Energetic"]}
+{"text": "less nervy, more aggressive", "labels": ["Aggressive"]}
+{"text": "less downtempo, more raw", "labels": ["Gritty"]}
+{"text": "somewhere between groovy and not angelic", "labels": ["Groovy"]}
+{"text": "somewhere between swagger and not ethereal", "labels": ["Confident"]}
+{"text": "somewhere between on edge and not festival high", "labels": ["Tense"]}
+{"text": "less otherworldly, more cinematic rise", "labels": ["Dramatic"]}
+{"text": "less fresh start, more otherworldly", "labels": ["Ethereal"]}
+{"text": "strictly wistful, ideally sweet sorrow", "labels": ["Bittersweet"]}
+{"text": "strictly raw, ideally garage", "labels": ["Gritty"]}
+{"text": "nostalgic, vintage feel, keep it consistent", "labels": ["Nostalgic"]}
+{"text": "race day, triumphant, keep it consistent", "labels": ["Triumphant"]}
+{"text": "strictly spacey, ideally ambient", "labels": ["Atmospheric"]}
+{"text": "strictly moody, ideally moody", "labels": ["Brooding"]}
+{"text": "strictly shadowy, ideally dark", "labels": ["Dark"]}
+{"text": "ethereal, angelic, keep it consistent", "labels": ["Ethereal"]}
+{"text": "strictly pomodoro, ideally study beats", "labels": ["Focus"]}
+{"text": "strictly pr day, ideally sprint", "labels": ["Energetic"]}
+{"text": "definitely theatrical, maybe cinematic rise", "labels": ["Dramatic"]}
+{"text": "definitely dark, maybe goth", "labels": ["Dark"]}
+{"text": "definitely haunting ambience, maybe noir", "labels": ["Dark"]}
+{"text": "definitely ethereal, maybe otherworldly", "labels": ["Ethereal"]}
+{"text": "definitely heavy, maybe heavy", "labels": ["Aggressive"]}
+{"text": "trancey, looped, keep it consistent", "labels": ["Hypnotic"]}
+{"text": "playful, quirky, keep it consistent", "labels": ["Playful"]}
+{"text": "shoegaze, airy, keep it consistent", "labels": ["Dreamy"]}
+{"text": "brooding, brooding, keep it consistent", "labels": ["Brooding"]}
+{"text": "late night, coming of age, keep it consistent", "labels": ["Nostalgic"]}
+{"text": "epic, anthemic, keep it consistent", "labels": ["Epic"]}
+{"text": "otherworldly, weightless, keep it consistent", "labels": ["Ethereal"]}
+{"text": "triumphant, marathon, keep it consistent", "labels": ["Triumphant"]}
+{"text": "definitely trailer music, maybe anthemic", "labels": ["Epic"]}
+{"text": "definitely ominous, maybe shadowy", "labels": ["Dark"]}
+{"text": "definitely chill, maybe laid back", "labels": ["Chill"]}
+{"text": "strictly sensual, ideally steamy", "labels": ["Sensual"]}
+{"text": "ominous, ominous, keep it consistent", "labels": ["Dark"]}
+{"text": "strictly to study, ideally concentrate", "labels": ["Focus"]}
+{"text": "definitely overcast, maybe funeral", "labels": ["Somber"]}
+{"text": "strictly pump, ideally high octane", "labels": ["Energetic"]}
+{"text": "definitely soundscape, maybe cinematic", "labels": ["Atmospheric"]}
+{"text": "definitely bleak, maybe rainy night", "labels": ["Somber"]}
+{"text": "comfort music, blanket, keep it consistent", "labels": ["Warm"]}
+{"text": "strictly triumphant, ideally win day", "labels": ["Triumphant"]}
+{"text": "focus mode, instrumental, keep it consistent", "labels": ["Focus"]}
+{"text": "strictly old memories, ideally vintage feel", "labels": ["Nostalgic"]}
+{"text": "mosh, go hard, keep it consistent", "labels": ["Aggressive"]}
+{"text": "definitely steamy, maybe intimate", "labels": ["Sensual"]}
+{"text": "definitely fireplace, maybe comforting", "labels": ["Warm"]}
+{"text": "rage, rage, keep it consistent", "labels": ["Aggressive"]}
+{"text": "ethereal, glacial, keep it consistent", "labels": ["Ethereal"]}
+{"text": "strictly old memories, ideally night drive", "labels": ["Nostalgic"]}
+{"text": "definitely workout, maybe hype", "labels": ["Energetic"]}
+{"text": "cloudlike, glimmer, keep it consistent", "labels": ["Dreamy"]}
+{"text": "strictly warm, ideally fireplace", "labels": ["Warm"]}
+{"text": "strictly haunting ambience, ideally goth", "labels": ["Dark"]}
+{"text": "cloudlike, dreamy, keep it consistent", "labels": ["Dreamy"]}
+{"text": "definitely moving on, maybe sweet sorrow", "labels": ["Bittersweet"]}
+{"text": "strictly glimmer, ideally glimmer", "labels": ["Dreamy"]}
+{"text": "head nod, head nod, keep it consistent", "labels": ["Groovy"]}
+{"text": "epic, anthemic, keep it consistent", "labels": ["Epic"]}
+{"text": "strictly edgy, ideally edgy", "labels": ["Tense"]}
+{"text": "definitely throwback, maybe remember when", "labels": ["Nostalgic"]}
+{"text": "shiny, shiny, keep it consistent", "labels": ["Bright"]}
+{"text": "strictly gentle, ideally smooth", "labels": ["Mellow"]}
+{"text": "reflective, introspective, keep it consistent", "labels": ["Introspective"]}
+{"text": "optimistic, fresh start, keep it consistent", "labels": ["Hopeful"]}
+{"text": "final boss, epic, keep it consistent", "labels": ["Epic"]}
+{"text": "strictly overcast, ideally bleak", "labels": ["Somber"]}
+{"text": "strictly bouncy, ideally quirky", "labels": ["Playful"]}
+{"text": "definitely sweet sorrow, maybe wistful", "labels": ["Bittersweet"]}
+{"text": "definitely wind down, maybe queasy", "labels": ["Calm"]}
+{"text": "definitely morning run, maybe running", "labels": ["Energetic"]}
+{"text": "strictly quirky, ideally playful", "labels": ["Playful"]}
+{"text": "definitely aggressive, maybe go hard", "labels": ["Aggressive"]}
+{"text": "crying in the club, crying in the club, keep it consistent", "labels": ["Melancholic"]}
+{"text": "wide open, atmospheric, keep it consistent", "labels": ["Atmospheric"]}
+{"text": "smoldering, brooding, keep it consistent", "labels": ["Brooding"]}
+{"text": "strictly retro vibes, ideally coming of age", "labels": ["Nostalgic"]}
+{"text": "definitely hard hitting, maybe mosh", "labels": ["Aggressive"]}
+{"text": "make out, steamy, keep it consistent", "labels": ["Sensual"]}
+{"text": "journaling, inward, keep it consistent", "labels": ["Introspective"]}
+{"text": "strictly otherworldly, ideally otherworldly", "labels": ["Ethereal"]}
+{"text": "gentle, gentle, keep it consistent", "labels": ["Mellow"]}
+{"text": "definitely inward, maybe introspective", "labels": ["Introspective"]}
+{"text": "dark, haunting ambience, keep it consistent", "labels": ["Dark"]}
+{"text": "definitely festival high, maybe drop ready", "labels": ["Euphoric"]}
+{"text": "definitely beast mode, maybe boss mode", "labels": ["Confident"]}
+{"text": "downtempo, warm vibes, keep it consistent", "labels": ["Mellow"]}
+{"text": "strictly sparkly, ideally bright", "labels": ["Bright"]}
+{"text": "definitely tranquil, maybe breathwork", "labels": ["Calm"]}
+{"text": "goth, noir, keep it consistent", "labels": ["Dark"]}
+{"text": "hazy, hazy, keep it consistent", "labels": ["Dreamy"]}
+{"text": "make out, sensual, keep it consistent", "labels": ["Sensual"]}
+{"text": "definitely haunting ambience, maybe shadowy", "labels": ["Dark"]}
+{"text": "confident, power walk, keep it consistent", "labels": ["Confident"]}
+{"text": "definitely drop ready, maybe drop ready", "labels": ["Euphoric"]}
+{"text": "moody, stormy, keep it consistent", "labels": ["Brooding"]}
+{"text": "strictly introspective, ideally journaling", "labels": ["Introspective"]}
+{"text": "definitely lofi, maybe background vibe", "labels": ["Chill"]}
+{"text": "strictly smooth, ideally mellow", "labels": ["Mellow"]}
+{"text": "uplifting, positive vibes, keep it consistent", "labels": ["Uplifting"]}
+{"text": "strictly glimmer, ideally hazy", "labels": ["Dreamy"]}
+{"text": "strictly inward, ideally introspective", "labels": ["Introspective"]}
+{"text": "definitely atmospheric, maybe wide open", "labels": ["Atmospheric"]}
+{"text": "definitely workout, maybe preworkout", "labels": ["Energetic"]}
+{"text": "strictly beast mode, ideally boss mode", "labels": ["Confident"]}
+{"text": "definitely weightless, maybe angelic", "labels": ["Ethereal"]}
+{"text": "definitely anxious energy, maybe edgy", "labels": ["Tense"]}
+{"text": "definitely anthemic, maybe anthemic", "labels": ["Epic"]}
+{"text": "noir, goth, keep it consistent", "labels": ["Dark"]}
+{"text": "definitely epic, maybe final boss", "labels": ["Epic"]}
+{"text": "definitely somber, maybe dreary", "labels": ["Somber"]}
+{"text": "strictly positive vibes, ideally feel good", "labels": ["Uplifting"]}
+{"text": "definitely victorious, maybe win day", "labels": ["Triumphant"]}
+{"text": "definitely crunchy, maybe crunchy", "labels": ["Gritty"]}
+{"text": "definitely pump, maybe hiit", "labels": ["Energetic"]}
+{"text": "strictly late night, ideally retro vibes", "labels": ["Nostalgic"]}
+{"text": "strictly bubbly, ideally bubbly", "labels": ["Bright"]}
+{"text": "strictly golden hour, ideally cozy", "labels": ["Warm"]}
+{"text": "definitely final boss, maybe trailer music", "labels": ["Epic"]}
+{"text": "definitely boss battle, maybe anthemic", "labels": ["Epic"]}
+{"text": "strictly dreary, ideally somber", "labels": ["Somber"]}
+{"text": "definitely swagger, maybe power playlist", "labels": ["Confident"]}
+{"text": "definitely floaty, maybe floaty", "labels": ["Dreamy"]}
+{"text": "smoldering, smoldering, keep it consistent", "labels": ["Brooding"]}
+{"text": "confident, beast mode, keep it consistent", "labels": ["Confident"]}
+{"text": "definitely gym, maybe run", "labels": ["Energetic"]}
+{"text": "strictly rainy day, ideally dreary", "labels": ["Somber"]}
+{"text": "definitely cozy, maybe blanket", "labels": ["Warm"]}
+{"text": "definitely edgy, maybe edgy", "labels": ["Tense"]}
+{"text": "strictly vintage feel, ideally vintage feel", "labels": ["Nostalgic"]}
+{"text": "downtempo, mellow, keep it consistent", "labels": ["Mellow"]}
+{"text": "hypnotic, hypnotic, keep it consistent", "labels": ["Hypnotic"]}
+{"text": "definitely hopeful, maybe new beginnings", "labels": ["Hopeful"]}
+{"text": "comforting, cozy, keep it consistent", "labels": ["Warm"]}
+{"text": "strictly bittersweet, ideally wistful", "labels": ["Bittersweet"]}
+{"text": "definitely vintage feel, maybe night drive", "labels": ["Nostalgic"]}
+{"text": "definitely optimistic, maybe new beginnings", "labels": ["Hopeful"]}
+{"text": "concentration, instrumental, keep it consistent", "labels": ["Focus"]}
+{"text": "bleak, dreary, keep it consistent", "labels": ["Somber"]}
+{"text": "strictly raw, ideally garage", "labels": ["Gritty"]}
+{"text": "strictly intense buildup, ideally cliffhanger", "labels": ["Dramatic"]}
+{"text": "euphoric, club drop, keep it consistent", "labels": ["Euphoric"]}
+{"text": "confident, confident, keep it consistent", "labels": ["Confident"]}
+{"text": "definitely hype, maybe sprint", "labels": ["Energetic"]}
+{"text": "definitely brooding, maybe stormy", "labels": ["Brooding"]}
+{"text": "definitely noir, maybe dark", "labels": ["Dark"]}
+{"text": "definitely we made it, maybe triumphant", "labels": ["Triumphant"]}
+{"text": "strictly cinematic, ideally cinematic", "labels": ["Atmospheric"]}
+{"text": "moving on, sweet sorrow, keep it consistent", "labels": ["Bittersweet"]}
+{"text": "definitely comforting, maybe fireplace", "labels": ["Warm"]}
+{"text": "definitely trancey, maybe rolling", "labels": ["Hypnotic"]}
+{"text": "definitely easy listening, maybe lofi", "labels": ["Chill"]}
+{"text": "definitely whimsical, maybe quirky", "labels": ["Playful"]}
+{"text": "soft beats, background vibe, keep it consistent", "labels": ["Chill"]}
+{"text": "strictly shoegaze, ideally floaty", "labels": ["Dreamy"]}
+{"text": "definitely wistful, maybe moving on", "labels": ["Bittersweet"]}
+{"text": "strictly hopeful, ideally new beginnings", "labels": ["Hopeful"]}
+{"text": "strictly tense, ideally nervy", "labels": ["Tense"]}
+{"text": "smooth, warm vibes, keep it consistent", "labels": ["Mellow"]}
+{"text": "coffee shop, easy listening, keep it consistent", "labels": ["Chill"]}
+{"text": "plot twist, plot twist, keep it consistent", "labels": ["Dramatic"]}
+{"text": "definitely candlelight, maybe love songs", "labels": ["Romantic"]}
+{"text": "strut, in the pocket, keep it consistent", "labels": ["Groovy"]}
+{"text": "strictly marathon, ideally we made it", "labels": ["Triumphant"]}
+{"text": "definitely blanket, maybe fireplace", "labels": ["Warm"]}
+{"text": "looped, locked groove, keep it consistent", "labels": ["Hypnotic"]}
+{"text": "old memories, throwback, keep it consistent", "labels": ["Nostalgic"]}
+{"text": "down bad, down bad, keep it consistent", "labels": ["Melancholic"]}
+{"text": "definitely euphoric, maybe rush", "labels": ["Euphoric"]}
+{"text": "cinematic, spacey, keep it consistent", "labels": ["Atmospheric"]}
+{"text": "spacey textures, hypnotic, keep it consistent", "labels": ["Hypnotic"]}
+{"text": "definitely need comfort music, maybe headache", "labels": ["Calm"]}
+{"text": "strictly cinematic, ideally spacey", "labels": ["Atmospheric"]}
+{"text": "strictly nervy, ideally tense", "labels": ["Tense"]}
+{"text": "introspective, inward, keep it consistent", "labels": ["Introspective"]}
+{"text": "strictly mesmerizing, ideally hypnotic", "labels": ["Hypnotic"]}
+{"text": "strictly hypnotic, ideally looped", "labels": ["Hypnotic"]}
+{"text": "strictly feel good, ideally uplifting", "labels": ["Uplifting"]}
+{"text": "strictly looped, ideally trancey", "labels": ["Hypnotic"]}
+{"text": "blanket, comfort music, keep it consistent", "labels": ["Warm"]}
+{"text": "definitely weightless, maybe otherworldly", "labels": ["Ethereal"]}
+{"text": "definitely make out, maybe sensual", "labels": ["Sensual"]}
+{"text": "ominous, dark, keep it consistent", "labels": ["Dark"]}
+{"text": "shadowy, goth, keep it consistent", "labels": ["Dark"]}
+{"text": "strictly comforting, ideally warm", "labels": ["Warm"]}
+{"text": "definitely cinematic, maybe cinematic", "labels": ["Atmospheric"]}
+{"text": "strictly feel good, ideally positive vibes", "labels": ["Uplifting"]}
+{"text": "strictly make out, ideally bedroom", "labels": ["Sensual"]}
+{"text": "definitely intimate, maybe bedroom", "labels": ["Sensual"]}
+{"text": "strictly marathon, ideally victorious", "labels": ["Triumphant"]}
+{"text": "definitely under the weather, maybe under the weather", "labels": ["Calm"]}
+{"text": "intimate, sensual, keep it consistent", "labels": ["Sensual"]}
+{"text": "strictly ambient, ideally soundscape", "labels": ["Atmospheric"]}
+{"text": "definitely cloudlike, maybe glimmer", "labels": ["Dreamy"]}
+{"text": "strictly locked groove, ideally spacey textures", "labels": ["Hypnotic"]}
+{"text": "strictly confident, ideally beast mode", "labels": ["Confident"]}
+{"text": "definitely trancey, maybe rolling", "labels": ["Hypnotic"]}
+{"text": "strictly spacey, ideally soundscape", "labels": ["Atmospheric"]}
+{"text": "strictly night drive, ideally late night drive", "labels": ["Nostalgic"]}
+{"text": "definitely cliffhanger, maybe plot twist", "labels": ["Dramatic"]}
+{"text": "strictly angelic, ideally weightless", "labels": ["Ethereal"]}
+{"text": "cozy, golden hour, keep it consistent", "labels": ["Warm"]}
+{"text": "definitely downtempo, maybe soft", "labels": ["Mellow"]}
+{"text": "definitely anxious energy, maybe nervy", "labels": ["Tense"]}
+{"text": "anxious energy, anxious energy, keep it consistent", "labels": ["Tense"]}
+{"text": "definitely rainy day, maybe rainy night", "labels": ["Somber"]}
+{"text": "definitely gritty, maybe raw", "labels": ["Gritty"]}
+{"text": "definitely upbeat, maybe sprint", "labels": ["Energetic"]}
+{"text": "strictly wind down, ideally headache", "labels": ["Calm"]}
+{"text": "shadowy, ominous, keep it consistent", "labels": ["Dark"]}
+{"text": "definitely bright, maybe bright", "labels": ["Bright"]}
+{"text": "definitely theatrical, maybe cliffhanger", "labels": ["Dramatic"]}
+{"text": "definitely warm, maybe blanket", "labels": ["Warm"]}
+{"text": "stormy, stormy, keep it consistent", "labels": ["Brooding"]}
+{"text": "strictly blanket, ideally golden hour", "labels": ["Warm"]}
+{"text": "glacial, glacial, keep it consistent", "labels": ["Ethereal"]}
+{"text": "ethereal, angelic, keep it consistent", "labels": ["Ethereal"]}
+{"text": "definitely soundscape, maybe wide open", "labels": ["Atmospheric"]}
+{"text": "strictly intimate, ideally intimate", "labels": ["Sensual"]}
+{"text": "definitely otherworldly, maybe glacial", "labels": ["Ethereal"]}
+{"text": "unwind, under the weather, keep it consistent", "labels": ["Calm"]}
+{"text": "strictly new beginnings, ideally fresh start", "labels": ["Hopeful"]}
+{"text": "strictly late night thoughts, ideally inward", "labels": ["Introspective"]}
+{"text": "strictly steamy, ideally steamy", "labels": ["Sensual"]}
+{"text": "definitely blue, maybe lonely", "labels": ["Melancholic"]}
+{"text": "definitely atmospheric, maybe ambient", "labels": ["Atmospheric"]}
+{"text": "definitely raw, maybe raw", "labels": ["Gritty"]}
+{"text": "definitely feelgood, maybe pick me up", "labels": ["Uplifting"]}
+{"text": "strictly slow dance, ideally love songs", "labels": ["Romantic"]}
+{"text": "definitely optimistic, maybe optimistic", "labels": ["Hopeful"]}
+{"text": "strictly pick me up, ideally good mood", "labels": ["Uplifting"]}
+{"text": "massive festival drop, massive festival drop, keep it consistent", "labels": ["Euphoric"]}
+{"text": "weightless, glacial, keep it consistent", "labels": ["Ethereal"]}
+{"text": "definitely old memories, maybe throwback", "labels": ["Nostalgic"]}
+{"text": "overcast, funeral, keep it consistent", "labels": ["Somber"]}
+{"text": "strictly glacial, ideally weightless", "labels": ["Ethereal"]}
+{"text": "definitely romantic, maybe candlelight", "labels": ["Romantic"]}
+{"text": "definitely comfort music, maybe comfort music", "labels": ["Warm"]}
+{"text": "funeral, rainy night, keep it consistent", "labels": ["Somber"]}
+{"text": "strictly theatrical, ideally theatrical", "labels": ["Dramatic"]}
+{"text": "strictly breathwork, ideally breathwork", "labels": ["Calm"]}
+{"text": "definitely slow burn, maybe theatrical", "labels": ["Dramatic"]}
+{"text": "strictly night drive, ideally late night drive", "labels": ["Nostalgic"]}
+{"text": "strictly comfort music, ideally comfort music", "labels": ["Warm"]}
+{"text": "golden hour, golden hour, keep it consistent", "labels": ["Warm"]}
+{"text": "strictly sensual, ideally intimate", "labels": ["Sensual"]}
+{"text": "definitely intimate, maybe bedroom", "labels": ["Sensual"]}
+{"text": "unwind, unwind, keep it consistent", "labels": ["Calm"]}
+{"text": "funeral, somber, keep it consistent", "labels": ["Somber"]}
+{"text": "definitely gritty, maybe dirty", "labels": ["Gritty"]}
+{"text": "definitely dreary, maybe rainy day", "labels": ["Somber"]}
+{"text": "smoldering, stormy, keep it consistent", "labels": ["Brooding"]}
+{"text": "candlelight, love songs, keep it consistent", "labels": ["Romantic"]}
+{"text": "strictly nervy, ideally edgy", "labels": ["Tense"]}
+{"text": "blue, sad, keep it consistent", "labels": ["Melancholic"]}
+{"text": "strictly glimmer, ideally airy", "labels": ["Dreamy"]}
+{"text": "definitely cliffhanger, maybe theatrical", "labels": ["Dramatic"]}
+{"text": "strictly track day, ideally energetic", "labels": ["Energetic"]}
+{"text": "in the pocket, strut, keep it consistent", "labels": ["Groovy"]}
+{"text": "strictly vintage feel, ideally nostalgic", "labels": ["Nostalgic"]}
+{"text": "strictly steamy, ideally make out", "labels": ["Sensual"]}
+{"text": "strictly warm vibes, ideally mellow", "labels": ["Mellow"]}
+{"text": "tearful, sad, keep it consistent", "labels": ["Melancholic"]}
+{"text": "strictly heartbroken, ideally sad", "labels": ["Melancholic"]}
+{"text": "definitely moody, maybe brooding", "labels": ["Brooding"]}
+{"text": "definitely we made it, maybe triumphant", "labels": ["Triumphant"]}
+{"text": "definitely hopeful, maybe fresh start", "labels": ["Hopeful"]}
+{"text": "strictly cloudlike, ideally hazy", "labels": ["Dreamy"]}
+{"text": "strictly go hard, ideally heavy", "labels": ["Aggressive"]}
+{"text": "definitely spacey textures, maybe mesmerizing", "labels": ["Hypnotic"]}
+{"text": "brooding, stormy, keep it consistent", "labels": ["Brooding"]}
+{"text": "strictly euphoric, ideally club drop", "labels": ["Euphoric"]}
+{"text": "definitely chill, maybe lo-fi", "labels": ["Chill"]}
+{"text": "mellow, smooth, keep it consistent", "labels": ["Mellow"]}
+{"text": "strictly rainy night, ideally bleak", "labels": ["Somber"]}
+{"text": "strictly late night drive, ideally late night", "labels": ["Nostalgic"]}
+{"text": "definitely aggressive, maybe mosh", "labels": ["Aggressive"]}
+{"text": "strictly ethereal, ideally glacial", "labels": ["Ethereal"]}
+{"text": "strictly atmospheric, ideally cinematic", "labels": ["Atmospheric"]}
+{"text": "strictly smooth, ideally smooth", "labels": ["Mellow"]}
+{"text": "strictly ethereal, ideally angelic", "labels": ["Ethereal"]}
+{"text": "strictly rolling, ideally trancey", "labels": ["Hypnotic"]}
+{"text": "smoldering, moody, keep it consistent", "labels": ["Brooding"]}
+{"text": "strictly under the weather, ideally need comfort music", "labels": ["Calm"]}
+{"text": "definitely steamy, maybe make out", "labels": ["Sensual"]}
+{"text": "strictly run, ideally running", "labels": ["Energetic"]}
+{"text": "definitely cheeky, maybe whimsical", "labels": ["Playful"]}
+{"text": "strictly bouncy, ideally playful", "labels": ["Playful"]}
+{"text": "definitely bedroom, maybe sensual", "labels": ["Sensual"]}
+{"text": "heavy, heavy, keep it consistent", "labels": ["Aggressive"]}
+{"text": "strictly gentle, ideally mellow", "labels": ["Mellow"]}
+{"text": "strictly bubbly, ideally shiny", "labels": ["Bright"]}
+{"text": "definitely sweet sorrow, maybe wistful", "labels": ["Bittersweet"]}
+{"text": "strictly tense, ideally edgy", "labels": ["Tense"]}
+{"text": "whimsical, quirky, keep it consistent", "labels": ["Playful"]}
+{"text": "bittersweet, sweet sorrow, keep it consistent", "labels": ["Bittersweet"]}
+{"text": "strictly optimistic, ideally fresh start", "labels": ["Hopeful"]}
+{"text": "definitely cardio, maybe pump", "labels": ["Energetic"]}
+{"text": "strictly smoldering, ideally smoldering", "labels": ["Brooding"]}
+{"text": "strictly intimate, ideally sensual", "labels": ["Sensual"]}
+{"text": "focus, focus mode, keep it consistent", "labels": ["Focus"]}
+{"text": "definitely glimmer, maybe dreamy", "labels": ["Dreamy"]}
+{"text": "definitely unwind, maybe decompress", "labels": ["Calm"]}
+{"text": "definitely brooding, maybe brooding", "labels": ["Brooding"]}
+{"text": "strictly bubbly, ideally sunny", "labels": ["Bright"]}
+{"text": "definitely epic, maybe boss battle", "labels": ["Epic"]}
+{"text": "coffee shop, chill, keep it consistent", "labels": ["Chill"]}
+{"text": "definitely sweet sorrow, maybe wistful", "labels": ["Bittersweet"]}
+{"text": "definitely bright, maybe bright", "labels": ["Bright"]}
+{"text": "dark, dark, keep it consistent", "labels": ["Dark"]}
+{"text": "strictly festival high, ideally massive festival drop", "labels": ["Euphoric"]}
+{"text": "strictly love songs, ideally romantic", "labels": ["Romantic"]}
+{"text": "strictly dramatic, ideally intense buildup", "labels": ["Dramatic"]}
+{"text": "definitely bleak, maybe somber", "labels": ["Somber"]}
+{"text": "definitely energetic, maybe hyped", "labels": ["Energetic"]}
+{"text": "strut, strut, keep it consistent", "labels": ["Groovy"]}
+{"text": "strictly not feeling well, ideally serene", "labels": ["Calm"]}
+{"text": "strictly post rock, ideally soundscape", "labels": ["Atmospheric"]}
+{"text": "definitely bedroom, maybe intimate", "labels": ["Sensual"]}
+{"text": "coffee shop, lo-fi, keep it consistent", "labels": ["Chill"]}
+{"text": "confident, beast mode, keep it consistent", "labels": ["Confident"]}
+{"text": "head nod, strut, keep it consistent", "labels": ["Groovy"]}
+{"text": "airy, airy, keep it consistent", "labels": ["Dreamy"]}
+{"text": "strictly final boss, ideally final boss", "labels": ["Epic"]}
+{"text": "strictly stormy, ideally stormy", "labels": ["Brooding"]}
+{"text": "strictly funeral, ideally rainy day", "labels": ["Somber"]}
+{"text": "strictly win day, ideally victorious", "labels": ["Triumphant"]}
+{"text": "definitely hard hitting, maybe rage", "labels": ["Aggressive"]}
+{"text": "strictly intimate, ideally bedroom", "labels": ["Sensual"]}
+{"text": "dirty, crunchy, keep it consistent", "labels": ["Gritty"]}
+{"text": "definitely whimsical, maybe cheeky", "labels": ["Playful"]}
+{"text": "strictly anxious energy, ideally on edge", "labels": ["Tense"]}
+{"text": "strictly brooding, ideally stormy", "labels": ["Brooding"]}
+{"text": "strictly overcast, ideally funeral", "labels": ["Somber"]}
+{"text": "strictly moody, ideally moody", "labels": ["Brooding"]}
+{"text": "aggressive, rage, keep it consistent", "labels": ["Aggressive"]}
+{"text": "strictly warm vibes, ideally mellow", "labels": ["Mellow"]}
+{"text": "strictly unwind, ideally sick", "labels": ["Calm"]}
+{"text": "definitely moody, maybe stormy", "labels": ["Brooding"]}
+{"text": "strictly reflective, ideally reflective", "labels": ["Introspective"]}
+{"text": "definitely mosh, maybe go hard", "labels": ["Aggressive"]}
+{"text": "strictly good mood, ideally feelgood", "labels": ["Uplifting"]}
+{"text": "strictly gritty, ideally raw", "labels": ["Gritty"]}
+{"text": "strictly edgy, ideally edgy", "labels": ["Tense"]}
+{"text": "headache, sick, keep it consistent", "labels": ["Calm"]}
+{"text": "strictly otherworldly, ideally ethereal", "labels": ["Ethereal"]}
+{"text": "definitely sweet sorrow, maybe moving on", "labels": ["Bittersweet"]}
+{"text": "shiny, bright, keep it consistent", "labels": ["Bright"]}
+{"text": "definitely chill, maybe chill", "labels": ["Chill"]}
+{"text": "strictly inward, ideally inward", "labels": ["Introspective"]}
+{"text": "definitely atmospheric, maybe soundscape", "labels": ["Atmospheric"]}
+{"text": "strictly journaling, ideally reflective", "labels": ["Introspective"]}
+{"text": "strictly aggressive, ideally go hard", "labels": ["Aggressive"]}
+{"text": "definitely wistful, maybe moving on", "labels": ["Bittersweet"]}
+{"text": "strictly sparkly, ideally sunny", "labels": ["Bright"]}
+{"text": "strictly intense buildup, ideally slow burn", "labels": ["Dramatic"]}
+{"text": "downtempo, gentle, keep it consistent", "labels": ["Mellow"]}
+{"text": "angelic, angelic, keep it consistent", "labels": ["Ethereal"]}
+{"text": "strictly bouncy, ideally bouncy", "labels": ["Playful"]}
+{"text": "strictly pomodoro, ideally study music", "labels": ["Focus"]}
+{"text": "marathon, win day, keep it consistent", "labels": ["Triumphant"]}
+{"text": "hyped, hype, keep it consistent", "labels": ["Energetic"]}
+{"text": "cliffhanger, slow burn, keep it consistent", "labels": ["Dramatic"]}
+{"text": "strictly mesmerizing, ideally locked groove", "labels": ["Hypnotic"]}
+{"text": "strictly to study, ideally pomodoro", "labels": ["Focus"]}
+{"text": "optimistic, fresh start, keep it consistent", "labels": ["Hopeful"]}
+{"text": "strictly coming of age, ideally old memories", "labels": ["Nostalgic"]}
+{"text": "definitely boss mode, maybe power playlist", "labels": ["Confident"]}
+{"text": "focus, bgm, keep it consistent", "labels": ["Focus"]}
+{"text": "strictly soft beats, ideally laid back", "labels": ["Chill"]}
+{"text": "strictly noir, ideally goth", "labels": ["Dark"]}
+{"text": "definitely track day, maybe hyped", "labels": ["Energetic"]}
+{"text": "late night thoughts, journaling, keep it consistent", "labels": ["Introspective"]}
+{"text": "swagger, boss mode, keep it consistent", "labels": ["Confident"]}
+{"text": "definitely make out, maybe steamy", "labels": ["Sensual"]}
+{"text": "inward, introspective, keep it consistent", "labels": ["Introspective"]}
+{"text": "plot twist, theatrical, keep it consistent", "labels": ["Dramatic"]}
+{"text": "run, sprint, keep it consistent", "labels": ["Energetic"]}
+{"text": "definitely sweet sorrow, maybe sweet sorrow", "labels": ["Bittersweet"]}
+{"text": "strictly otherworldly, ideally glacial", "labels": ["Ethereal"]}
+{"text": "introspective, inward, keep it consistent", "labels": ["Introspective"]}
+{"text": "strictly crying in the club, ideally lonely", "labels": ["Melancholic"]}
+{"text": "definitely soft beats, maybe soft beats", "labels": ["Chill"]}
+{"text": "strictly groovy, ideally head nod", "labels": ["Groovy"]}
+{"text": "definitely trailer music, maybe epic", "labels": ["Epic"]}
+{"text": "definitely dramatic, maybe cliffhanger", "labels": ["Dramatic"]}
+{"text": "groovy, groovy, keep it consistent", "labels": ["Groovy"]}
+{"text": "definitely cheeky, maybe bouncy", "labels": ["Playful"]}
+{"text": "rush, euphoric, keep it consistent", "labels": ["Euphoric"]}
+{"text": "strictly brooding, ideally moody", "labels": ["Brooding"]}
+{"text": "strictly blanket, ideally comforting", "labels": ["Warm"]}
+{"text": "definitely trailer music, maybe boss battle", "labels": ["Epic"]}
+{"text": "post rock, wide open, keep it consistent", "labels": ["Atmospheric"]}
+{"text": "gritty, garage, keep it consistent", "labels": ["Gritty"]}
+{"text": "definitely feel good, maybe feel good", "labels": ["Uplifting"]}
+{"text": "definitely crying in the club, maybe crying in the club", "labels": ["Melancholic"]}
+{"text": "strictly breathwork, ideally serene", "labels": ["Calm"]}
+{"text": "strictly peaceful, ideally sick", "labels": ["Calm"]}
+{"text": "slow dance, slow dance, keep it consistent", "labels": ["Romantic"]}
+{"text": "sweet sorrow, wistful, keep it consistent", "labels": ["Bittersweet"]}
+{"text": "cinematic rise, theatrical, keep it consistent", "labels": ["Dramatic"]}
+{"text": "plot twist, plot twist, keep it consistent", "labels": ["Dramatic"]}
+{"text": "strictly deep work, ideally pomodoro", "labels": ["Focus"]}
+{"text": "cinematic, wide open, keep it consistent", "labels": ["Atmospheric"]}
+{"text": "rainy night, rainy night, keep it consistent", "labels": ["Somber"]}
+{"text": "strictly slow burn, ideally dramatic", "labels": ["Dramatic"]}
+{"text": "strictly moody, ideally smoldering", "labels": ["Brooding"]}
+{"text": "definitely anthemic, maybe boss battle", "labels": ["Epic"]}
+{"text": "glimmer, hazy, keep it consistent", "labels": ["Dreamy"]}
+{"text": "late night, nostalgic, keep it consistent", "labels": ["Nostalgic"]}
+{"text": "strictly final boss, ideally final boss", "labels": ["Epic"]}
+{"text": "definitely pick me up, maybe feel good", "labels": ["Uplifting"]}
+{"text": "strictly raw, ideally raw", "labels": ["Gritty"]}
+{"text": "definitely bedroom, maybe sensual", "labels": ["Sensual"]}
+{"text": "strictly easy listening, ideally laid back", "labels": ["Chill"]}
+{"text": "locked groove, spacey textures, keep it consistent", "labels": ["Hypnotic"]}
+{"text": "definitely soft, maybe soft", "labels": ["Mellow"]}
+{"text": "definitely candlelight, maybe love songs", "labels": ["Romantic"]}
+{"text": "strictly coming of age, ideally night drive", "labels": ["Nostalgic"]}
+{"text": "strictly glacial, ideally weightless", "labels": ["Ethereal"]}
+{"text": "tearful, blue, keep it consistent", "labels": ["Melancholic"]}
+{"text": "strictly angelic, ideally weightless", "labels": ["Ethereal"]}
+{"text": "definitely soundscape, maybe wide open", "labels": ["Atmospheric"]}
+{"text": "strictly love songs, ideally slow dance", "labels": ["Romantic"]}
+{"text": "feelgood, feelgood, keep it consistent", "labels": ["Uplifting"]}
+{"text": "fireplace, fireplace, keep it consistent", "labels": ["Warm"]}
+{"text": "definitely fresh start, maybe new beginnings", "labels": ["Hopeful"]}
+{"text": "funky, head nod, keep it consistent", "labels": ["Groovy"]}
+{"text": "strictly intimate, ideally steamy", "labels": ["Sensual"]}
+{"text": "strictly remember when, ideally night drive", "labels": ["Nostalgic"]}
+{"text": "strictly dark, ideally haunting ambience", "labels": ["Dark"]}
+{"text": "strictly intimate, ideally intimate", "labels": ["Sensual"]}
+{"text": "definitely optimistic, maybe fresh start", "labels": ["Hopeful"]}
+{"text": "strictly festival high, ideally festival high", "labels": ["Euphoric"]}
+{"text": "strictly slow dance, ideally candlelight", "labels": ["Romantic"]}
+{"text": "strictly optimistic, ideally new beginnings", "labels": ["Hopeful"]}
+{"text": "definitely soundscape, maybe atmospheric", "labels": ["Atmospheric"]}
+{"text": "aggressive, aggressive, keep it consistent", "labels": ["Aggressive"]}
+{"text": "strictly bouncy, ideally bouncy", "labels": ["Playful"]}
+{"text": "definitely slow dance, maybe slow dance", "labels": ["Romantic"]}
+{"text": "definitely fireplace, maybe warm", "labels": ["Warm"]}
+{"text": "definitely weightless, maybe ethereal", "labels": ["Ethereal"]}
+{"text": "strut, in the pocket, keep it consistent", "labels": ["Groovy"]}
+{"text": "definitely heartbroken, maybe sad", "labels": ["Melancholic"]}
+{"text": "dreamy, glimmer, keep it consistent", "labels": ["Dreamy"]}
+{"text": "strictly romantic, ideally slow dance", "labels": ["Romantic"]}
+{"text": "strictly date night, ideally romantic", "labels": ["Romantic"]}
+{"text": "strictly funky, ideally groovy", "labels": ["Groovy"]}
+{"text": "definitely dreamy, maybe dreamy", "labels": ["Dreamy"]}
+{"text": "love songs, candlelight, keep it consistent", "labels": ["Romantic"]}
+{"text": "strictly feel good, ideally good mood", "labels": ["Uplifting"]}
+{"text": "slow dance, love songs, keep it consistent", "labels": ["Romantic"]}
+{"text": "strictly somber, ideally overcast", "labels": ["Somber"]}
+{"text": "definitely remember when, maybe retro vibes", "labels": ["Nostalgic"]}
+{"text": "shiny, shiny, keep it consistent", "labels": ["Bright"]}
+{"text": "definitely brooding, maybe stormy", "labels": ["Brooding"]}
+{"text": "definitely introspective, maybe inward", "labels": ["Introspective"]}
+{"text": "strictly feel good, ideally positive vibes", "labels": ["Uplifting"]}
+{"text": "definitely moody, maybe moody", "labels": ["Brooding"]}
+{"text": "strictly focus, ideally concentrate", "labels": ["Focus"]}
+{"text": "definitely moving on, maybe moving on", "labels": ["Bittersweet"]}
+{"text": "bubbly, bright, keep it consistent", "labels": ["Bright"]}
+{"text": "crunchy, crunchy, keep it consistent", "labels": ["Gritty"]}
+{"text": "preworkout, sprint, keep it consistent", "labels": ["Energetic"]}
+{"text": "definitely date night, maybe candlelight", "labels": ["Romantic"]}
+{"text": "definitely new beginnings, maybe hopeful", "labels": ["Hopeful"]}
+{"text": "pump, preworkout, keep it consistent", "labels": ["Energetic"]}
+{"text": "strictly anthemic, ideally epic", "labels": ["Epic"]}
+{"text": "run, sprint, keep it consistent", "labels": ["Energetic"]}
+{"text": "definitely sparkly, maybe sparkly", "labels": ["Bright"]}
+{"text": "date night, love songs, keep it consistent", "labels": ["Romantic"]}
+{"text": "preworkout, hype, keep it consistent", "labels": ["Energetic"]}
+{"text": "club drop, club drop, keep it consistent", "labels": ["Euphoric"]}
+{"text": "definitely beast mode, maybe confident", "labels": ["Confident"]}
+{"text": "we made it, win day, keep it consistent", "labels": ["Triumphant"]}
+{"text": "definitely glacial, maybe glacial", "labels": ["Ethereal"]}
+{"text": "definitely looped, maybe trancey", "labels": ["Hypnotic"]}
+{"text": "definitely feelgood, maybe feelgood", "labels": ["Uplifting"]}
+{"text": "theatrical, theatrical, keep it consistent", "labels": ["Dramatic"]}
+{"text": "definitely comfort music, maybe warm", "labels": ["Warm"]}
+{"text": "epic, anthemic, keep it consistent", "labels": ["Epic"]}
+{"text": "definitely brooding, maybe brooding", "labels": ["Brooding"]}
+{"text": "definitely rolling, maybe trancey", "labels": ["Hypnotic"]}
+{"text": "definitely funeral, maybe bleak", "labels": ["Somber"]}
+{"text": "definitely date night, maybe date night", "labels": ["Romantic"]}
+{"text": "sweet sorrow, bittersweet, keep it consistent", "labels": ["Bittersweet"]}
+{"text": "strictly rolling, ideally hypnotic", "labels": ["Hypnotic"]}
+{"text": "definitely goth, maybe ominous", "labels": ["Dark"]}
+{"text": "funky, funky, keep it consistent", "labels": ["Groovy"]}
+{"text": "golden hour, comforting, keep it consistent", "labels": ["Warm"]}
+{"text": "definitely post rock, maybe atmospheric", "labels": ["Atmospheric"]}
+{"text": "definitely ominous, maybe dark", "labels": ["Dark"]}
+{"text": "strictly anthemic, ideally anthemic", "labels": ["Epic"]}
+{"text": "definitely shadowy, maybe dark", "labels": ["Dark"]}
+{"text": "strictly stormy, ideally brooding", "labels": ["Brooding"]}
+{"text": "hazy, floaty, keep it consistent", "labels": ["Dreamy"]}
+{"text": "hazy, floaty, keep it consistent", "labels": ["Dreamy"]}
+{"text": "definitely massive festival drop, maybe drop ready", "labels": ["Euphoric"]}
+{"text": "definitely candlelight, maybe date night", "labels": ["Romantic"]}
+{"text": "strictly haunting ambience, ideally dark", "labels": ["Dark"]}
+{"text": "strictly rush, ideally club drop", "labels": ["Euphoric"]}
+{"text": "mellow, gentle, keep it consistent", "labels": ["Mellow"]}
+{"text": "strictly unwind, ideally decompress", "labels": ["Calm"]}
+{"text": "strictly glacial, ideally weightless", "labels": ["Ethereal"]}
+{"text": "strictly mosh, ideally rage", "labels": ["Aggressive"]}
+{"text": "strictly race day, ideally race day", "labels": ["Triumphant"]}
+{"text": "definitely hard hitting, maybe mosh", "labels": ["Aggressive"]}
+{"text": "smoldering, moody, keep it consistent", "labels": ["Brooding"]}
+{"text": "definitely bright, maybe shiny", "labels": ["Bright"]}
+{"text": "definitely bittersweet, maybe moving on", "labels": ["Bittersweet"]}
+{"text": "workout, hiit, keep it consistent", "labels": ["Energetic"]}
+{"text": "night drive, remember when, keep it consistent", "labels": ["Nostalgic"]}
+{"text": "definitely sunny, maybe bubbly", "labels": ["Bright"]}
+{"text": "definitely crying in the club, maybe down bad", "labels": ["Melancholic"]}
+{"text": "heavy, heavy, keep it consistent", "labels": ["Aggressive"]}
+{"text": "definitely positive vibes, maybe feelgood", "labels": ["Uplifting"]}
+{"text": "definitely rage, maybe go hard", "labels": ["Aggressive"]}
+{"text": "anthemic, final boss, keep it consistent", "labels": ["Epic"]}
+{"text": "gritty, raw, keep it consistent", "labels": ["Gritty"]}
+{"text": "no lyrics, instrumental only, keep it consistent", "labels": ["Focus"]}
+{"text": "strictly win day, ideally win day", "labels": ["Triumphant"]}
+{"text": "definitely groovy, maybe head nod", "labels": ["Groovy"]}
+{"text": "definitely race day, maybe race day", "labels": ["Triumphant"]}
+{"text": "definitely gentle, maybe mellow", "labels": ["Mellow"]}
+{"text": "strictly optimistic, ideally new beginnings", "labels": ["Hopeful"]}
+{"text": "brooding, brooding, keep it consistent", "labels": ["Brooding"]}
+{"text": "strictly romantic, ideally romantic", "labels": ["Romantic"]}
+{"text": "shiny, sparkly, keep it consistent", "labels": ["Bright"]}
+{"text": "strictly power walk, ideally swagger", "labels": ["Confident"]}
+{"text": "definitely nervy, maybe on edge", "labels": ["Tense"]}
+{"text": "strictly steamy, ideally sensual", "labels": ["Sensual"]}
+{"text": "definitely journaling, maybe journaling", "labels": ["Introspective"]}
+{"text": "strictly downtempo, ideally warm vibes", "labels": ["Mellow"]}
+{"text": "definitely cinematic, maybe post rock", "labels": ["Atmospheric"]}
+{"text": "fresh start, new beginnings, keep it consistent", "labels": ["Hopeful"]}
+{"text": "rainy night, bleak, keep it consistent", "labels": ["Somber"]}
+{"text": "morning run, sprint, keep it consistent", "labels": ["Energetic"]}
+{"text": "mellow, soft, keep it consistent", "labels": ["Mellow"]}
+{"text": "strictly heartbroken, ideally tearful", "labels": ["Melancholic"]}
+{"text": "blanket, comfort music, keep it consistent", "labels": ["Warm"]}
+{"text": "definitely head nod, maybe head nod", "labels": ["Groovy"]}
+{"text": "bright, bright, keep it consistent", "labels": ["Bright"]}
+{"text": "definitely soft, maybe downtempo", "labels": ["Mellow"]}
+{"text": "cinematic, ambient, keep it consistent", "labels": ["Atmospheric"]}
+{"text": "strictly ethereal, ideally ethereal", "labels": ["Ethereal"]}
+{"text": "strictly nervy, ideally on edge", "labels": ["Tense"]}
+{"text": "strictly final boss, ideally boss battle", "labels": ["Epic"]}
+{"text": "strictly new beginnings, ideally optimistic", "labels": ["Hopeful"]}
+{"text": "slow dance, date night, keep it consistent", "labels": ["Romantic"]}
+{"text": "definitely easy listening, maybe soft beats", "labels": ["Chill"]}
+{"text": "strictly new beginnings, ideally fresh start", "labels": ["Hopeful"]}
+{"text": "definitely aggressive, maybe mosh", "labels": ["Aggressive"]}
+{"text": "strictly playful, ideally whimsical", "labels": ["Playful"]}
+{"text": "definitely feel good, maybe feel good", "labels": ["Uplifting"]}
+{"text": "strictly somber, ideally rainy day", "labels": ["Somber"]}
+{"text": "definitely final boss, maybe final boss", "labels": ["Epic"]}
+{"text": "new beginnings, hopeful, keep it consistent", "labels": ["Hopeful"]}
+{"text": "definitely smoldering, maybe brooding", "labels": ["Brooding"]}
+{"text": "definitely hazy, maybe hazy", "labels": ["Dreamy"]}
+{"text": "dreary, dreary, keep it consistent", "labels": ["Somber"]}
+{"text": "definitely new beginnings, maybe hopeful", "labels": ["Hopeful"]}
+{"text": "definitely festival high, maybe festival high", "labels": ["Euphoric"]}
+{"text": "sunny, sunny, keep it consistent", "labels": ["Bright"]}
+{"text": "intimate, make out, keep it consistent", "labels": ["Sensual"]}
+{"text": "strictly optimistic, ideally new beginnings", "labels": ["Hopeful"]}
+{"text": "pump up, high octane, keep it consistent", "labels": ["Energetic"]}
+{"text": "spacey textures, locked groove, keep it consistent", "labels": ["Hypnotic"]}
+{"text": "definitely overcast, maybe dreary", "labels": ["Somber"]}
+{"text": "strictly spacey textures, ideally spacey textures", "labels": ["Hypnotic"]}
+{"text": "definitely somber, maybe somber", "labels": ["Somber"]}
+{"text": "definitely dark, maybe shadowy", "labels": ["Dark"]}
+{"text": "boss battle, trailer music, keep it consistent", "labels": ["Epic"]}
+{"text": "definitely smooth, maybe soft", "labels": ["Mellow"]}
+{"text": "focus, study beats, keep it consistent", "labels": ["Focus"]}
+{"text": "warm vibes, mellow, keep it consistent", "labels": ["Mellow"]}
+{"text": "smoldering, smoldering, keep it consistent", "labels": ["Brooding"]}
+{"text": "strictly slow dance, ideally love songs", "labels": ["Romantic"]}
+{"text": "definitely post rock, maybe spacey", "labels": ["Atmospheric"]}
+{"text": "strictly sad, ideally tearful", "labels": ["Melancholic"]}
+{"text": "whimsical, quirky, keep it consistent", "labels": ["Playful"]}
+{"text": "strictly weightless, ideally otherworldly", "labels": ["Ethereal"]}
+{"text": "definitely sensual, maybe bedroom", "labels": ["Sensual"]}
+{"text": "definitely smoldering, maybe smoldering", "labels": ["Brooding"]}
+{"text": "definitely wistful, maybe moving on", "labels": ["Bittersweet"]}
+{"text": "definitely massive festival drop, maybe massive festival drop", "labels": ["Euphoric"]}
+{"text": "definitely remember when, maybe remember when", "labels": ["Nostalgic"]}
+{"text": "rainy day, bleak, keep it consistent", "labels": ["Somber"]}
+{"text": "hypnotic, rolling, keep it consistent", "labels": ["Hypnotic"]}
+{"text": "somber, dreary, keep it consistent", "labels": ["Somber"]}
+{"text": "definitely rainy day, maybe somber", "labels": ["Somber"]}
+{"text": "strictly new beginnings, ideally optimistic", "labels": ["Hopeful"]}
+{"text": "plot twist, plot twist, keep it consistent", "labels": ["Dramatic"]}
+{"text": "strictly sweet sorrow, ideally moving on", "labels": ["Bittersweet"]}
+{"text": "definitely soft, maybe smooth", "labels": ["Mellow"]}
+{"text": "fireplace, warm, keep it consistent", "labels": ["Warm"]}
+{"text": "soft, gentle, keep it consistent", "labels": ["Mellow"]}
+{"text": "strictly glacial, ideally glacial", "labels": ["Ethereal"]}
+{"text": "definitely night drive, maybe retro vibes", "labels": ["Nostalgic"]}
+{"text": "strictly in the pocket, ideally head nod", "labels": ["Groovy"]}
+{"text": "definitely dark, maybe shadowy", "labels": ["Dark"]}
+{"text": "definitely gritty, maybe crunchy", "labels": ["Gritty"]}
+{"text": "somber, bleak, keep it consistent", "labels": ["Somber"]}
+{"text": "strictly angelic, ideally otherworldly", "labels": ["Ethereal"]}
+{"text": "noir, dark, keep it consistent", "labels": ["Dark"]}
+{"text": "definitely boss battle, maybe trailer music", "labels": ["Epic"]}
+{"text": "definitely hopeful, maybe hopeful", "labels": ["Hopeful"]}
+{"text": "definitely cozy, maybe cozy", "labels": ["Warm"]}
+{"text": "strictly slow dance, ideally candlelight", "labels": ["Romantic"]}
+{"text": "strictly blanket, ideally comfort music", "labels": ["Warm"]}
+{"text": "strictly gentle, ideally downtempo", "labels": ["Mellow"]}
+{"text": "make out, bedroom, keep it consistent", "labels": ["Sensual"]}
+{"text": "definitely steamy, maybe sensual", "labels": ["Sensual"]}
+{"text": "definitely ambient, maybe post rock", "labels": ["Atmospheric"]}
+{"text": "on edge, on edge, keep it consistent", "labels": ["Tense"]}
+{"text": "definitely vintage feel, maybe remember when", "labels": ["Nostalgic"]}

@@ -1,0 +1,1879 @@
+{"text": "set the mood: coming of age", "labels": ["Nostalgic"]}
+{"text": "perfect for serene", "labels": ["Calm"]}
+{"text": "music to coming of age", "labels": ["Nostalgic"]}
+{"text": "give me something mosh", "labels": ["Aggressive"]}
+{"text": "triumphant playlist", "labels": ["Triumphant"]}
+{"text": "coming of age but also run", "labels": ["Nostalgic", "Energetic"]}
+{"text": "nervy playlist", "labels": ["Tense"]}
+{"text": "night drive vibes", "labels": ["Nostalgic"]}
+{"text": "perfect for gym", "labels": ["Energetic"]}
+{"text": "music to go hard", "labels": ["Aggressive"]}
+{"text": "upbeat", "labels": ["Bright"]}
+{"text": "give me something instrumental only", "labels": ["Focus"]}
+{"text": "i need smooth", "labels": ["Mellow"]}
+{"text": "music to angelic", "labels": ["Ethereal"]}
+{"text": "between power walk and groovy", "labels": ["Confident", "Groovy"]}
+{"text": "i need heavy", "labels": ["Aggressive"]}
+{"text": "i need chill", "labels": ["Chill"]}
+{"text": "date night but also sensual", "labels": ["Romantic", "Sensual"]}
+{"text": "set the mood: wind down", "labels": ["Calm"]}
+{"text": "i need run", "labels": ["Energetic"]}
+{"text": "give me something crunchy", "labels": ["Gritty"]}
+{"text": "perfect for comforting", "labels": ["Warm"]}
+{"text": "sweet sorrow vibes", "labels": ["Bittersweet"]}
+{"text": "music to uplifting", "labels": ["Uplifting"]}
+{"text": "focus mode vibes", "labels": ["Focus"]}
+{"text": "heavy but also unwind", "labels": ["Aggressive", "Calm"]}
+{"text": "i need we made it", "labels": ["Triumphant"]}
+{"text": "looking for angelic songs", "labels": ["Ethereal"]}
+{"text": "bright", "labels": ["Bright"]}
+{"text": "crying in the club vibes", "labels": ["Melancholic"]}
+{"text": "concentrate vibes", "labels": ["Focus"]}
+{"text": "music to sad", "labels": ["Melancholic"]}
+{"text": "need decompress background", "labels": ["Calm"]}
+{"text": "subdued", "labels": ["Somber"]}
+{"text": "serene vibes", "labels": ["Calm"]}
+{"text": "need looped background", "labels": ["Hypnotic"]}
+{"text": "love songs playlist", "labels": ["Romantic"]}
+{"text": "between sweet sorrow and dreamy", "labels": ["Bittersweet", "Dreamy"]}
+{"text": "i need groovy", "labels": ["Groovy"]}
+{"text": "laid back", "labels": ["Chill"]}
+{"text": "groovy", "labels": ["Groovy"]}
+{"text": "music to bittersweet", "labels": ["Bittersweet"]}
+{"text": "set the mood: slow burn", "labels": ["Dramatic"]}
+{"text": "i need soft beats", "labels": ["Chill"]}
+{"text": "good mood with a touch of strut", "labels": ["Uplifting", "Groovy"]}
+{"text": "looking for dreamy songs", "labels": ["Dreamy"]}
+{"text": "i need not feeling well", "labels": ["Calm"]}
+{"text": "new beginnings", "labels": ["Hopeful"]}
+{"text": "sunny but also wistful", "labels": ["Bright", "Bittersweet"]}
+{"text": "need slow burn background", "labels": ["Dramatic"]}
+{"text": "power playlist playlist", "labels": ["Confident"]}
+{"text": "need marathon background", "labels": ["Triumphant"]}
+{"text": "set the mood: peaceful", "labels": ["Calm"]}
+{"text": "music to funky", "labels": ["Groovy"]}
+{"text": "i need bubbly", "labels": ["Bright"]}
+{"text": "unwind", "labels": ["Calm"]}
+{"text": "rush vibes", "labels": ["Euphoric"]}
+{"text": "glacial with a touch of funky", "labels": ["Ethereal", "Groovy"]}
+{"text": "inward only", "labels": ["Introspective"]}
+{"text": "euphoric", "labels": ["Euphoric"]}
+{"text": "need throwback background", "labels": ["Nostalgic"]}
+{"text": "give me something remember when", "labels": ["Nostalgic"]}
+{"text": "set the mood: chill", "labels": ["Chill"]}
+{"text": "tender", "labels": ["Romantic"]}
+{"text": "i need plot twist", "labels": ["Dramatic"]}
+{"text": "need funky background", "labels": ["Groovy"]}
+{"text": "euphoric vibes", "labels": ["Euphoric"]}
+{"text": "give me something club drop", "labels": ["Euphoric"]}
+{"text": "gritty / inward mix", "labels": ["Gritty", "Introspective"]}
+{"text": "set the mood: blue", "labels": ["Melancholic"]}
+{"text": "looking for dirty songs", "labels": ["Gritty"]}
+{"text": "set the mood: rainy night", "labels": ["Somber"]}
+{"text": "stormy", "labels": ["Brooding"]}
+{"text": "tense but also bleak", "labels": ["Tense", "Somber"]}
+{"text": "perfect for anxious energy", "labels": ["Tense"]}
+{"text": "perfect for anthemic", "labels": ["Epic"]}
+{"text": "bgm playlist", "labels": ["Focus"]}
+{"text": "locked groove with a touch of concentration", "labels": ["Hypnotic", "Focus"]}
+{"text": "between wide open and rolling", "labels": ["Atmospheric", "Hypnotic"]}
+{"text": "funky only", "labels": ["Groovy"]}
+{"text": "perfect for bubbly", "labels": ["Bright"]}
+{"text": "between smoldering and in the pocket", "labels": ["Brooding", "Groovy"]}
+{"text": "i need romantic", "labels": ["Romantic"]}
+{"text": "music to club drop", "labels": ["Euphoric"]}
+{"text": "sunny", "labels": ["Bright"]}
+{"text": "decompress", "labels": ["Calm"]}
+{"text": "bittersweet", "labels": ["Bittersweet"]}
+{"text": "candlelight only", "labels": ["Romantic"]}
+{"text": "bouncy playlist", "labels": ["Playful"]}
+{"text": "set the mood: concentrate", "labels": ["Focus"]}
+{"text": "sprint only", "labels": ["Energetic"]}
+{"text": "looking for sweet sorrow songs", "labels": ["Bittersweet"]}
+{"text": "marathon playlist", "labels": ["Triumphant"]}
+{"text": "i need tense", "labels": ["Tense"]}
+{"text": "i need wind down", "labels": ["Calm"]}
+{"text": "post rock / sensual mix", "labels": ["Atmospheric", "Sensual"]}
+{"text": "music to run", "labels": ["Energetic"]}
+{"text": "set the mood: cinematic rise", "labels": ["Dramatic"]}
+{"text": "raw / inward mix", "labels": ["Gritty", "Introspective"]}
+{"text": "strut", "labels": ["Groovy"]}
+{"text": "to study playlist", "labels": ["Focus"]}
+{"text": "set the mood: laid back", "labels": ["Chill"]}
+{"text": "cinematic rise only", "labels": ["Dramatic"]}
+{"text": "bleak but also tearful", "labels": ["Somber", "Melancholic"]}
+{"text": "perfect for chill", "labels": ["Chill"]}
+{"text": "need ominous background", "labels": ["Dark"]}
+{"text": "power playlist vibes", "labels": ["Confident"]}
+{"text": "hands in the air", "labels": ["Euphoric"]}
+{"text": "beast mode / whimsical mix", "labels": ["Confident", "Playful"]}
+{"text": "beast mode only", "labels": ["Confident"]}
+{"text": "perfect for journaling", "labels": ["Introspective"]}
+{"text": "weightless", "labels": ["Ethereal"]}
+{"text": "set the mood: throwback", "labels": ["Nostalgic"]}
+{"text": "sensual yet still triumphant", "labels": ["Sensual", "Triumphant"]}
+{"text": "i need study beats", "labels": ["Focus"]}
+{"text": "perfect for groovy", "labels": ["Groovy"]}
+{"text": "give me something decompress", "labels": ["Calm"]}
+{"text": "give me something spacey textures", "labels": ["Hypnotic"]}
+{"text": "looking for anthemic songs", "labels": ["Epic"]}
+{"text": "shoegaze with a touch of ethereal", "labels": ["Dreamy", "Ethereal"]}
+{"text": "pick me up vibes", "labels": ["Uplifting"]}
+{"text": "between remember when and pr day", "labels": ["Nostalgic", "Energetic"]}
+{"text": "soft beats only", "labels": ["Chill"]}
+{"text": "need smoldering background", "labels": ["Brooding"]}
+{"text": "i need lo-fi", "labels": ["Chill"]}
+{"text": "i need breathwork", "labels": ["Calm"]}
+{"text": "intimate vibes", "labels": ["Sensual"]}
+{"text": "i need gentle", "labels": ["Mellow"]}
+{"text": "looking for glacial songs", "labels": ["Ethereal"]}
+{"text": "need blanket background", "labels": ["Warm"]}
+{"text": "set the mood: looped", "labels": ["Hypnotic"]}
+{"text": "make out only", "labels": ["Sensual"]}
+{"text": "shadowy vibes", "labels": ["Dark"]}
+{"text": "smooth only", "labels": ["Mellow"]}
+{"text": "smoldering only", "labels": ["Brooding"]}
+{"text": "need shoegaze background", "labels": ["Dreamy"]}
+{"text": "set the mood: aggressive", "labels": ["Aggressive"]}
+{"text": "optimistic only", "labels": ["Hopeful"]}
+{"text": "make out / victorious mix", "labels": ["Sensual", "Triumphant"]}
+{"text": "give me something spacey", "labels": ["Atmospheric"]}
+{"text": "need journaling background", "labels": ["Introspective"]}
+{"text": "between intense buildup and rainy night", "labels": ["Dramatic", "Somber"]}
+{"text": "breathwork vibes", "labels": ["Calm"]}
+{"text": "between hard hitting and wind down", "labels": ["Aggressive", "Calm"]}
+{"text": "i need boss mode", "labels": ["Confident"]}
+{"text": "music to overcast", "labels": ["Somber"]}
+{"text": "between smooth and looped", "labels": ["Mellow", "Hypnotic"]}
+{"text": "anthemic playlist", "labels": ["Epic"]}
+{"text": "between raw and late night thoughts", "labels": ["Gritty", "Introspective"]}
+{"text": "music to mosh", "labels": ["Aggressive"]}
+{"text": "set the mood: nostalgic", "labels": ["Nostalgic"]}
+{"text": "perfect for swagger", "labels": ["Confident"]}
+{"text": "set the mood: euphoric", "labels": ["Euphoric"]}
+{"text": "set the mood: bedroom", "labels": ["Sensual"]}
+{"text": "i need sad", "labels": ["Melancholic"]}
+{"text": "high octane only", "labels": ["Energetic"]}
+{"text": "to study only", "labels": ["Focus"]}
+{"text": "give me something journaling", "labels": ["Introspective"]}
+{"text": "nostalgic only", "labels": ["Nostalgic"]}
+{"text": "festival high only", "labels": ["Euphoric"]}
+{"text": "looking for whimsical songs", "labels": ["Playful"]}
+{"text": "music to rainy night", "labels": ["Somber"]}
+{"text": "i need garage", "labels": ["Gritty"]}
+{"text": "overcast playlist", "labels": ["Somber"]}
+{"text": "date night", "labels": ["Romantic"]}
+{"text": "music to new beginnings", "labels": ["Hopeful"]}
+{"text": "sick", "labels": ["Calm"]}
+{"text": "sensual playlist", "labels": ["Sensual"]}
+{"text": "i need overcast", "labels": ["Somber"]}
+{"text": "perfect for cozy", "labels": ["Warm"]}
+{"text": "music to drop ready", "labels": ["Euphoric"]}
+{"text": "spacey / steamy mix", "labels": ["Atmospheric", "Sensual"]}
+{"text": "give me something mesmerizing", "labels": ["Hypnotic"]}
+{"text": "raw playlist", "labels": ["Gritty"]}
+{"text": "set the mood: playful", "labels": ["Playful"]}
+{"text": "reflective", "labels": ["Introspective"]}
+{"text": "looking for deep work songs", "labels": ["Focus"]}
+{"text": "euphoric yet still victorious", "labels": ["Euphoric", "Triumphant"]}
+{"text": "music to vintage feel", "labels": ["Nostalgic"]}
+{"text": "cozy playlist", "labels": ["Warm"]}
+{"text": "set the mood: angelic", "labels": ["Ethereal"]}
+{"text": "on edge playlist", "labels": ["Tense"]}
+{"text": "set the mood: go hard", "labels": ["Aggressive"]}
+{"text": "looking for hard hitting songs", "labels": ["Aggressive"]}
+{"text": "need deep work background", "labels": ["Focus"]}
+{"text": "running", "labels": ["Energetic"]}
+{"text": "mesmerizing playlist", "labels": ["Hypnotic"]}
+{"text": "set the mood: nervy", "labels": ["Tense"]}
+{"text": "gentle playlist", "labels": ["Mellow"]}
+{"text": "music to noir", "labels": ["Dark"]}
+{"text": "give me something bittersweet", "labels": ["Bittersweet"]}
+{"text": "anthemic only", "labels": ["Epic"]}
+{"text": "need power walk background", "labels": ["Confident"]}
+{"text": "focus mode", "labels": ["Focus"]}
+{"text": "coming of age", "labels": ["Nostalgic"]}
+{"text": "blanket only", "labels": ["Warm"]}
+{"text": "background vibe vibes", "labels": ["Chill"]}
+{"text": "set the mood: we made it", "labels": ["Triumphant"]}
+{"text": "looking for breathwork songs", "labels": ["Calm"]}
+{"text": "sunny yet still moving on", "labels": ["Bright", "Bittersweet"]}
+{"text": "i need sick", "labels": ["Calm"]}
+{"text": "optimistic with a touch of sensual", "labels": ["Hopeful", "Sensual"]}
+{"text": "goth only", "labels": ["Dark"]}
+{"text": "mosh with a touch of not feeling well", "labels": ["Aggressive", "Calm"]}
+{"text": "give me something swagger", "labels": ["Confident"]}
+{"text": "i need instrumental only", "labels": ["Focus"]}
+{"text": "goth playlist", "labels": ["Dark"]}
+{"text": "give me something energetic", "labels": ["Energetic"]}
+{"text": "set the mood: funky", "labels": ["Groovy"]}
+{"text": "locked groove / study mix", "labels": ["Hypnotic", "Focus"]}
+{"text": "need intimate background", "labels": ["Sensual"]}
+{"text": "trailer music vibes", "labels": ["Epic"]}
+{"text": "need 5am run background", "labels": ["Energetic"]}
+{"text": "music to anxious energy", "labels": ["Tense"]}
+{"text": "late night thoughts yet still feel good", "labels": ["Introspective", "Uplifting"]}
+{"text": "perfect for decompress", "labels": ["Calm"]}
+{"text": "hands-in-the-air", "labels": ["Euphoric"]}
+{"text": "serene playlist", "labels": ["Calm"]}
+{"text": "funeral only", "labels": ["Somber"]}
+{"text": "noir with a touch of serene", "labels": ["Dark", "Calm"]}
+{"text": "i need rage", "labels": ["Aggressive"]}
+{"text": "i need looped", "labels": ["Hypnotic"]}
+{"text": "i need dreary", "labels": ["Somber"]}
+{"text": "win day vibes", "labels": ["Triumphant"]}
+{"text": "music to tense", "labels": ["Tense"]}
+{"text": "music to we made it", "labels": ["Triumphant"]}
+{"text": "i need late night drive", "labels": ["Nostalgic"]}
+{"text": "give me something shoegaze", "labels": ["Dreamy"]}
+{"text": "perfect for moving on", "labels": ["Bittersweet"]}
+{"text": "gentle only", "labels": ["Mellow"]}
+{"text": "need gritty background", "labels": ["Gritty"]}
+{"text": "give me something ambient", "labels": ["Atmospheric"]}
+{"text": "i need power walk", "labels": ["Confident"]}
+{"text": "looking for cliffhanger songs", "labels": ["Dramatic"]}
+{"text": "set the mood: hyped", "labels": ["Energetic"]}
+{"text": "music to spacey", "labels": ["Atmospheric"]}
+{"text": "warm vibes playlist", "labels": ["Mellow"]}
+{"text": "gentle vibes", "labels": ["Mellow"]}
+{"text": "to study vibes", "labels": ["Focus"]}
+{"text": "edgy with a touch of bleak", "labels": ["Tense", "Somber"]}
+{"text": "boss mode only", "labels": ["Confident"]}
+{"text": "give me something intervals", "labels": ["Energetic"]}
+{"text": "set the mood: good mood", "labels": ["Uplifting"]}
+{"text": "gritty yet still journaling", "labels": ["Gritty", "Introspective"]}
+{"text": "i need playful", "labels": ["Playful"]}
+{"text": "music to retro vibes", "labels": ["Nostalgic"]}
+{"text": "set the mood: reflective", "labels": ["Introspective"]}
+{"text": "give me something run", "labels": ["Energetic"]}
+{"text": "plot twist playlist", "labels": ["Dramatic"]}
+{"text": "music to power walk", "labels": ["Confident"]}
+{"text": "set the mood: candlelight", "labels": ["Romantic"]}
+{"text": "i need intervals", "labels": ["Energetic"]}
+{"text": "give me something dreamy", "labels": ["Dreamy"]}
+{"text": "set the mood: pump", "labels": ["Energetic"]}
+{"text": "need tense background", "labels": ["Tense"]}
+{"text": "looking for journaling songs", "labels": ["Introspective"]}
+{"text": "music to moody", "labels": ["Brooding"]}
+{"text": "set the mood: crunchy", "labels": ["Gritty"]}
+{"text": "golden hour vibes", "labels": ["Warm"]}
+{"text": "hopeful playlist", "labels": ["Hopeful"]}
+{"text": "coffee shop only", "labels": ["Chill"]}
+{"text": "relaxed beats", "labels": ["Chill"]}
+{"text": "cheeky yet still intimate", "labels": ["Playful", "Sensual"]}
+{"text": "looking for ambient songs", "labels": ["Atmospheric"]}
+{"text": "gritty but also introspective", "labels": ["Gritty", "Introspective"]}
+{"text": "anthemic yet still win day", "labels": ["Epic", "Triumphant"]}
+{"text": "hopeful / make out mix", "labels": ["Hopeful", "Sensual"]}
+{"text": "set the mood: soft beats", "labels": ["Chill"]}
+{"text": "set the mood: cloudlike", "labels": ["Dreamy"]}
+{"text": "perfect for instrumental only", "labels": ["Focus"]}
+{"text": "mosh vibes", "labels": ["Aggressive"]}
+{"text": "angelic playlist", "labels": ["Ethereal"]}
+{"text": "set the mood: marathon", "labels": ["Triumphant"]}
+{"text": "looking for marathon songs", "labels": ["Triumphant"]}
+{"text": "looking for heavy songs", "labels": ["Aggressive"]}
+{"text": "feel good", "labels": ["Uplifting"]}
+{"text": "give me something coffee shop", "labels": ["Chill"]}
+{"text": "looking for beast mode songs", "labels": ["Confident"]}
+{"text": "triumphant vibes", "labels": ["Triumphant"]}
+{"text": "power walk yet still strut", "labels": ["Confident", "Groovy"]}
+{"text": "sick but also sad", "labels": ["Calm", "Melancholic"]}
+{"text": "rage", "labels": ["Aggressive"]}
+{"text": "looking for airy songs", "labels": ["Dreamy"]}
+{"text": "music to festival high", "labels": ["Euphoric"]}
+{"text": "old memories playlist", "labels": ["Nostalgic"]}
+{"text": "give me something tense", "labels": ["Tense"]}
+{"text": "i need old memories", "labels": ["Nostalgic"]}
+{"text": "i need sensual", "labels": ["Sensual"]}
+{"text": "need good mood background", "labels": ["Uplifting"]}
+{"text": "sad", "labels": ["Melancholic"]}
+{"text": "give me something bgm", "labels": ["Focus"]}
+{"text": "music to candlelight", "labels": ["Romantic"]}
+{"text": "date night only", "labels": ["Romantic"]}
+{"text": "fresh start vibes", "labels": ["Hopeful"]}
+{"text": "give me something need comfort music", "labels": ["Calm"]}
+{"text": "give me something power playlist", "labels": ["Confident"]}
+{"text": "i need wistful", "labels": ["Bittersweet"]}
+{"text": "cozy", "labels": ["Warm"]}
+{"text": "give me something fireplace", "labels": ["Warm"]}
+{"text": "perfect for tearful", "labels": ["Melancholic"]}
+{"text": "good mood", "labels": ["Uplifting"]}
+{"text": "soaring", "labels": ["Epic"]}
+{"text": "glacial vibes", "labels": ["Ethereal"]}
+{"text": "make out vibes", "labels": ["Sensual"]}
+{"text": "haunting ambience playlist", "labels": ["Dark"]}
+{"text": "perfect for dirty", "labels": ["Gritty"]}
+{"text": "i need on edge", "labels": ["Tense"]}
+{"text": "anxious energy playlist", "labels": ["Tense"]}
+{"text": "perfect for massive festival drop", "labels": ["Euphoric"]}
+{"text": "locked groove", "labels": ["Hypnotic"]}
+{"text": "need hazy background", "labels": ["Dreamy"]}
+{"text": "hype", "labels": ["Energetic"]}
+{"text": "danceable", "labels": ["Energetic"]}
+{"text": "perfect for club drop", "labels": ["Euphoric"]}
+{"text": "i need soft", "labels": ["Mellow"]}
+{"text": "wistful only", "labels": ["Bittersweet"]}
+{"text": "fireplace but also mellow", "labels": ["Warm", "Mellow"]}
+{"text": "breathwork playlist", "labels": ["Calm"]}
+{"text": "cinematic rise vibes", "labels": ["Dramatic"]}
+{"text": "looking for golden hour songs", "labels": ["Warm"]}
+{"text": "quirky playlist", "labels": ["Playful"]}
+{"text": "set the mood: hiit", "labels": ["Energetic"]}
+{"text": "lonely but also comforting", "labels": ["Melancholic", "Warm"]}
+{"text": "looped only", "labels": ["Hypnotic"]}
+{"text": "need serene background", "labels": ["Calm"]}
+{"text": "looking for spacey textures songs", "labels": ["Hypnotic"]}
+{"text": "dramatic only", "labels": ["Dramatic"]}
+{"text": "music to locked groove", "labels": ["Hypnotic"]}
+{"text": "set the mood: hypnotic", "labels": ["Hypnotic"]}
+{"text": "head-nod", "labels": ["Groovy"]}
+{"text": "looking for final boss songs", "labels": ["Epic"]}
+{"text": "go hard but also serene", "labels": ["Aggressive", "Calm"]}
+{"text": "moving on vibes", "labels": ["Bittersweet"]}
+{"text": "give me something post rock", "labels": ["Atmospheric"]}
+{"text": "mosh only", "labels": ["Aggressive"]}
+{"text": "whimsical only", "labels": ["Playful"]}
+{"text": "cheeky vibes", "labels": ["Playful"]}
+{"text": "steamy vibes", "labels": ["Sensual"]}
+{"text": "perfect for beast mode", "labels": ["Confident"]}
+{"text": "looking for soft beats songs", "labels": ["Chill"]}
+{"text": "need spacey textures background", "labels": ["Hypnotic"]}
+{"text": "i need drop ready", "labels": ["Euphoric"]}
+{"text": "tense playlist", "labels": ["Tense"]}
+{"text": "looking for funky songs", "labels": ["Groovy"]}
+{"text": "give me something floaty", "labels": ["Dreamy"]}
+{"text": "between coming of age and gym", "labels": ["Nostalgic", "Energetic"]}
+{"text": "looking for sensual songs", "labels": ["Sensual"]}
+{"text": "trance-like", "labels": ["Hypnotic"]}
+{"text": "throwback only", "labels": ["Nostalgic"]}
+{"text": "i need final boss", "labels": ["Epic"]}
+{"text": "minimal vocals", "labels": ["Focus"]}
+{"text": "hands in the air vibes", "labels": ["Euphoric"]}
+{"text": "i need track day", "labels": ["Energetic"]}
+{"text": "perfect for bright", "labels": ["Bright"]}
+{"text": "music to bouncy", "labels": ["Playful"]}
+{"text": "good mood vibes", "labels": ["Uplifting"]}
+{"text": "triumphant but also candlelight", "labels": ["Triumphant", "Romantic"]}
+{"text": "downtempo vibes", "labels": ["Mellow"]}
+{"text": "give me something rolling", "labels": ["Hypnotic"]}
+{"text": "victorious yet still candlelight", "labels": ["Triumphant", "Romantic"]}
+{"text": "music to otherworldly", "labels": ["Ethereal"]}
+{"text": "intimate only", "labels": ["Sensual"]}
+{"text": "set the mood: spacey", "labels": ["Atmospheric"]}
+{"text": "between study beats and race day", "labels": ["Focus", "Triumphant"]}
+{"text": "looking for dreary songs", "labels": ["Somber"]}
+{"text": "looking for introspective songs", "labels": ["Introspective"]}
+{"text": "perfect for smooth", "labels": ["Mellow"]}
+{"text": "i need pr day", "labels": ["Energetic"]}
+{"text": "looking for fresh start songs", "labels": ["Hopeful"]}
+{"text": "hands in the air only", "labels": ["Euphoric"]}
+{"text": "background vibe playlist", "labels": ["Chill"]}
+{"text": "date night but also intimate", "labels": ["Romantic", "Sensual"]}
+{"text": "inward vibes", "labels": ["Introspective"]}
+{"text": "theatrical vibes", "labels": ["Dramatic"]}
+{"text": "perfect for soundscape", "labels": ["Atmospheric"]}
+{"text": "give me something otherworldly", "labels": ["Ethereal"]}
+{"text": "pulsing", "labels": ["Tense"]}
+{"text": "looking for soundscape songs", "labels": ["Atmospheric"]}
+{"text": "give me something gentle", "labels": ["Mellow"]}
+{"text": "looking for victorious songs", "labels": ["Triumphant"]}
+{"text": "ominous only", "labels": ["Dark"]}
+{"text": "give me something we made it", "labels": ["Triumphant"]}
+{"text": "epic vibes", "labels": ["Epic"]}
+{"text": "i need hype", "labels": ["Energetic"]}
+{"text": "give me something bouncy", "labels": ["Playful"]}
+{"text": "retro vibes but also upbeat", "labels": ["Nostalgic", "Energetic"]}
+{"text": "rainy day playlist", "labels": ["Somber"]}
+{"text": "perfect for positive vibes", "labels": ["Uplifting"]}
+{"text": "intense buildup only", "labels": ["Dramatic"]}
+{"text": "tense vibes", "labels": ["Tense"]}
+{"text": "looking for easy listening songs", "labels": ["Chill"]}
+{"text": "post rock playlist", "labels": ["Atmospheric"]}
+{"text": "track day only", "labels": ["Energetic"]}
+{"text": "mesmerizing vibes", "labels": ["Hypnotic"]}
+{"text": "give me something goth", "labels": ["Dark"]}
+{"text": "i need need comfort music", "labels": ["Calm"]}
+{"text": "need warm vibes background", "labels": ["Mellow"]}
+{"text": "give me something soft beats", "labels": ["Chill"]}
+{"text": "looking for to study songs", "labels": ["Focus"]}
+{"text": "trailer music", "labels": ["Epic"]}
+{"text": "need otherworldly background", "labels": ["Ethereal"]}
+{"text": "need sunny background", "labels": ["Bright"]}
+{"text": "looking for date night songs", "labels": ["Romantic"]}
+{"text": "sentimental", "labels": ["Nostalgic"]}
+{"text": "study / marathon mix", "labels": ["Focus", "Triumphant"]}
+{"text": "looking for we made it songs", "labels": ["Triumphant"]}
+{"text": "need fireplace background", "labels": ["Warm"]}
+{"text": "study vibes", "labels": ["Focus"]}
+{"text": "i need down bad", "labels": ["Melancholic"]}
+{"text": "swagger", "labels": ["Confident"]}
+{"text": "music to focus", "labels": ["Focus"]}
+{"text": "perfect for introspective", "labels": ["Introspective"]}
+{"text": "looking for bleak songs", "labels": ["Somber"]}
+{"text": "need floaty background", "labels": ["Dreamy"]}
+{"text": "give me something hard hitting", "labels": ["Aggressive"]}
+{"text": "playful vibes", "labels": ["Playful"]}
+{"text": "set the mood: inward", "labels": ["Introspective"]}
+{"text": "set the mood: dreamy", "labels": ["Dreamy"]}
+{"text": "atmospheric only", "labels": ["Atmospheric"]}
+{"text": "slow dance vibes", "labels": ["Romantic"]}
+{"text": "need whimsical background", "labels": ["Playful"]}
+{"text": "perfect for drop ready", "labels": ["Euphoric"]}
+{"text": "to study", "labels": ["Focus"]}
+{"text": "slow burn", "labels": ["Dramatic"]}
+{"text": "dreamy but also angelic", "labels": ["Dreamy", "Ethereal"]}
+{"text": "give me something theatrical", "labels": ["Dramatic"]}
+{"text": "sad with a touch of cozy", "labels": ["Melancholic", "Warm"]}
+{"text": "looking for study songs", "labels": ["Focus"]}
+{"text": "set the mood: final boss", "labels": ["Epic"]}
+{"text": "i need upbeat", "labels": ["Energetic"]}
+{"text": "gym", "labels": ["Energetic"]}
+{"text": "give me something plot twist", "labels": ["Dramatic"]}
+{"text": "need airy background", "labels": ["Dreamy"]}
+{"text": "plot twist only", "labels": ["Dramatic"]}
+{"text": "music to rush", "labels": ["Euphoric"]}
+{"text": "hype playlist", "labels": ["Energetic"]}
+{"text": "i need 5am run", "labels": ["Energetic"]}
+{"text": "looking for intense buildup songs", "labels": ["Dramatic"]}
+{"text": "wistful playlist", "labels": ["Bittersweet"]}
+{"text": "give me something night drive", "labels": ["Nostalgic"]}
+{"text": "i need power playlist", "labels": ["Confident"]}
+{"text": "set the mood: overcast", "labels": ["Somber"]}
+{"text": "perfect for feel good", "labels": ["Uplifting"]}
+{"text": "bittersweet vibes", "labels": ["Bittersweet"]}
+{"text": "trailer music with a touch of euphoric", "labels": ["Epic", "Euphoric"]}
+{"text": "beast mode playlist", "labels": ["Confident"]}
+{"text": "bouncy / steamy mix", "labels": ["Playful", "Sensual"]}
+{"text": "give me something vintage feel", "labels": ["Nostalgic"]}
+{"text": "give me something sunny", "labels": ["Bright"]}
+{"text": "not feeling well", "labels": ["Calm"]}
+{"text": "glacial playlist", "labels": ["Ethereal"]}
+{"text": "i need new beginnings", "labels": ["Hopeful"]}
+{"text": "morning run", "labels": ["Energetic"]}
+{"text": "need lonely background", "labels": ["Melancholic"]}
+{"text": "music to hyped", "labels": ["Energetic"]}
+{"text": "set the mood: festival high", "labels": ["Euphoric"]}
+{"text": "perfect for reflective", "labels": ["Introspective"]}
+{"text": "set the mood: hopeful", "labels": ["Hopeful"]}
+{"text": "need downtempo background", "labels": ["Mellow"]}
+{"text": "set the mood: instrumental", "labels": ["Focus"]}
+{"text": "headache only", "labels": ["Calm"]}
+{"text": "give me something power walk", "labels": ["Confident"]}
+{"text": "need chill background", "labels": ["Chill"]}
+{"text": "study music", "labels": ["Focus"]}
+{"text": "uplifting only", "labels": ["Uplifting"]}
+{"text": "old memories", "labels": ["Nostalgic"]}
+{"text": "need cliffhanger background", "labels": ["Dramatic"]}
+{"text": "music to make out", "labels": ["Sensual"]}
+{"text": "festival high but also win day", "labels": ["Euphoric", "Triumphant"]}
+{"text": "perfect for wind down", "labels": ["Calm"]}
+{"text": "dark", "labels": ["Dark"]}
+{"text": "give me something sparkly", "labels": ["Bright"]}
+{"text": "reflective playlist", "labels": ["Introspective"]}
+{"text": "set the mood: late night drive", "labels": ["Nostalgic"]}
+{"text": "no lyrics", "labels": ["Focus"]}
+{"text": "study music only", "labels": ["Focus"]}
+{"text": "i need heartbroken", "labels": ["Melancholic"]}
+{"text": "locked groove but also concentration", "labels": ["Hypnotic", "Focus"]}
+{"text": "between boss battle and triumphant", "labels": ["Epic", "Triumphant"]}
+{"text": "between quirky and sensual", "labels": ["Playful", "Sensual"]}
+{"text": "set the mood: bubbly", "labels": ["Bright"]}
+{"text": "big dynamics", "labels": ["Dramatic"]}
+{"text": "power walk vibes", "labels": ["Confident"]}
+{"text": "music to moving on", "labels": ["Bittersweet"]}
+{"text": "final boss vibes", "labels": ["Epic"]}
+{"text": "lo-fi vibes", "labels": ["Chill"]}
+{"text": "need steamy background", "labels": ["Sensual"]}
+{"text": "peaceful vibes", "labels": ["Calm"]}
+{"text": "i need slow burn", "labels": ["Dramatic"]}
+{"text": "quirky", "labels": ["Playful"]}
+{"text": "gentle", "labels": ["Mellow"]}
+{"text": "i need brooding", "labels": ["Brooding"]}
+{"text": "retro vibes", "labels": ["Nostalgic"]}
+{"text": "give me something head nod", "labels": ["Groovy"]}
+{"text": "journaling only", "labels": ["Introspective"]}
+{"text": "i need cloudlike", "labels": ["Dreamy"]}
+{"text": "feelgood only", "labels": ["Uplifting"]}
+{"text": "edgy playlist", "labels": ["Tense"]}
+{"text": "set the mood: downtempo", "labels": ["Mellow"]}
+{"text": "i need no lyrics", "labels": ["Focus"]}
+{"text": "between beast mode and whimsical", "labels": ["Confident", "Playful"]}
+{"text": "shiny vibes", "labels": ["Bright"]}
+{"text": "rainy night but also dreamy", "labels": ["Somber", "Dreamy"]}
+{"text": "need aggressive background", "labels": ["Aggressive"]}
+{"text": "looking for fireplace songs", "labels": ["Warm"]}
+{"text": "give me something overcast", "labels": ["Somber"]}
+{"text": "give me something glacial", "labels": ["Ethereal"]}
+{"text": "music to intense buildup", "labels": ["Dramatic"]}
+{"text": "smoldering playlist", "labels": ["Brooding"]}
+{"text": "final boss but also race day", "labels": ["Epic", "Triumphant"]}
+{"text": "i need shoegaze", "labels": ["Dreamy"]}
+{"text": "looking for shoegaze songs", "labels": ["Dreamy"]}
+{"text": "perfect for shoegaze", "labels": ["Dreamy"]}
+{"text": "music to bgm", "labels": ["Focus"]}
+{"text": "need late night thoughts background", "labels": ["Introspective"]}
+{"text": "perfect for concentrate", "labels": ["Focus"]}
+{"text": "i need rush", "labels": ["Euphoric"]}
+{"text": "perfect for 5am run", "labels": ["Energetic"]}
+{"text": "perfect for quirky", "labels": ["Playful"]}
+{"text": "i need blanket", "labels": ["Warm"]}
+{"text": "looking for otherworldly songs", "labels": ["Ethereal"]}
+{"text": "need feelgood background", "labels": ["Uplifting"]}
+{"text": "give me something uplifting", "labels": ["Uplifting"]}
+{"text": "looking for cinematic rise songs", "labels": ["Dramatic"]}
+{"text": "late night thoughts but also good mood", "labels": ["Introspective", "Uplifting"]}
+{"text": "between dreamy and weightless", "labels": ["Dreamy", "Ethereal"]}
+{"text": "beast mode vibes", "labels": ["Confident"]}
+{"text": "set the mood: boss mode", "labels": ["Confident"]}
+{"text": "looking for slow burn songs", "labels": ["Dramatic"]}
+{"text": "pick me up but also in the pocket", "labels": ["Uplifting", "Groovy"]}
+{"text": "blue", "labels": ["Melancholic"]}
+{"text": "hard hitting playlist", "labels": ["Aggressive"]}
+{"text": "perfect for under the weather", "labels": ["Calm"]}
+{"text": "between soundscape and locked groove", "labels": ["Atmospheric", "Hypnotic"]}
+{"text": "looking for mesmerizing songs", "labels": ["Hypnotic"]}
+{"text": "fresh start with a touch of steamy", "labels": ["Hopeful", "Sensual"]}
+{"text": "drop ready only", "labels": ["Euphoric"]}
+{"text": "floaty playlist", "labels": ["Dreamy"]}
+{"text": "perfect for sparkly", "labels": ["Bright"]}
+{"text": "need focus background", "labels": ["Focus"]}
+{"text": "music to epic", "labels": ["Epic"]}
+{"text": "strut yet still rage", "labels": ["Groovy", "Aggressive"]}
+{"text": "groovy playlist", "labels": ["Groovy"]}
+{"text": "i need cozy", "labels": ["Warm"]}
+{"text": "hyped playlist", "labels": ["Energetic"]}
+{"text": "comforting vibes", "labels": ["Warm"]}
+{"text": "headache", "labels": ["Calm"]}
+{"text": "sparkly", "labels": ["Bright"]}
+{"text": "looking for cardio songs", "labels": ["Energetic"]}
+{"text": "pr day", "labels": ["Energetic"]}
+{"text": "music to remember when", "labels": ["Nostalgic"]}
+{"text": "need no lyrics background", "labels": ["Focus"]}
+{"text": "i need bgm", "labels": ["Focus"]}
+{"text": "sensual", "labels": ["Sensual"]}
+{"text": "romantic vibes", "labels": ["Romantic"]}
+{"text": "music to raw", "labels": ["Gritty"]}
+{"text": "intimate", "labels": ["Romantic"]}
+{"text": "between sensual and victorious", "labels": ["Sensual", "Triumphant"]}
+{"text": "perfect for brooding", "labels": ["Brooding"]}
+{"text": "perfect for slow burn", "labels": ["Dramatic"]}
+{"text": "minor key", "labels": ["Melancholic"]}
+{"text": "give me something hazy", "labels": ["Dreamy"]}
+{"text": "chill vibes", "labels": ["Chill"]}
+{"text": "looking for smooth songs", "labels": ["Mellow"]}
+{"text": "looking for mellow songs", "labels": ["Mellow"]}
+{"text": "give me something festival high", "labels": ["Euphoric"]}
+{"text": "set the mood: smooth", "labels": ["Mellow"]}
+{"text": "need soundscape background", "labels": ["Atmospheric"]}
+{"text": "retro vibes with a touch of bittersweet", "labels": ["Nostalgic", "Bittersweet"]}
+{"text": "perfect for fresh start", "labels": ["Hopeful"]}
+{"text": "nostalgic", "labels": ["Nostalgic"]}
+{"text": "hopeful", "labels": ["Hopeful"]}
+{"text": "give me something looped", "labels": ["Hypnotic"]}
+{"text": "looking for bubbly songs", "labels": ["Bright"]}
+{"text": "quirky vibes", "labels": ["Playful"]}
+{"text": "smooth vibes", "labels": ["Mellow"]}
+{"text": "looking for plot twist songs", "labels": ["Dramatic"]}
+{"text": "bittersweet only", "labels": ["Bittersweet"]}
+{"text": "give me something win day", "labels": ["Triumphant"]}
+{"text": "post rock with a touch of make out", "labels": ["Atmospheric", "Sensual"]}
+{"text": "whimsical / make out mix", "labels": ["Playful", "Sensual"]}
+{"text": "steady tempo", "labels": ["Focus"]}
+{"text": "soft beats but also intense buildup", "labels": ["Chill", "Dramatic"]}
+{"text": "set the mood: comforting", "labels": ["Warm"]}
+{"text": "noir playlist", "labels": ["Dark"]}
+{"text": "i need beast mode", "labels": ["Confident"]}
+{"text": "mosh / decompress mix", "labels": ["Aggressive", "Calm"]}
+{"text": "i need bedroom", "labels": ["Sensual"]}
+{"text": "looking for rainy day songs", "labels": ["Somber"]}
+{"text": "give me something late night", "labels": ["Nostalgic"]}
+{"text": "feel good vibes", "labels": ["Uplifting"]}
+{"text": "cozy only", "labels": ["Warm"]}
+{"text": "need brooding background", "labels": ["Brooding"]}
+{"text": "looking for go hard songs", "labels": ["Aggressive"]}
+{"text": "decompress playlist", "labels": ["Calm"]}
+{"text": "bass-forward", "labels": ["Groovy"]}
+{"text": "between mellow and mesmerizing", "labels": ["Mellow", "Hypnotic"]}
+{"text": "set the mood: locked groove", "labels": ["Hypnotic"]}
+{"text": "need breathwork background", "labels": ["Calm"]}
+{"text": "looking for focus mode songs", "labels": ["Focus"]}
+{"text": "music to throwback", "labels": ["Nostalgic"]}
+{"text": "victorious only", "labels": ["Triumphant"]}
+{"text": "need crying in the club background", "labels": ["Melancholic"]}
+{"text": "perfect for nostalgic", "labels": ["Nostalgic"]}
+{"text": "bittersweet yet still airy", "labels": ["Bittersweet", "Dreamy"]}
+{"text": "perfect for wide open", "labels": ["Atmospheric"]}
+{"text": "down bad playlist", "labels": ["Melancholic"]}
+{"text": "aggressive only", "labels": ["Aggressive"]}
+{"text": "looking for run songs", "labels": ["Energetic"]}
+{"text": "perfect for crying in the club", "labels": ["Melancholic"]}
+{"text": "post rock", "labels": ["Atmospheric"]}
+{"text": "sad playlist", "labels": ["Melancholic"]}
+{"text": "give me something heartbroken", "labels": ["Melancholic"]}
+{"text": "i need smoldering", "labels": ["Brooding"]}
+{"text": "music to brooding", "labels": ["Brooding"]}
+{"text": "give me something edgy", "labels": ["Tense"]}
+{"text": "looking for tranquil songs", "labels": ["Calm"]}
+{"text": "angelic vibes", "labels": ["Ethereal"]}
+{"text": "i need dreamy", "labels": ["Dreamy"]}
+{"text": "pump up playlist", "labels": ["Energetic"]}
+{"text": "music to need comfort music", "labels": ["Calm"]}
+{"text": "confident only", "labels": ["Confident"]}
+{"text": "music to optimistic", "labels": ["Hopeful"]}
+{"text": "intervals", "labels": ["Energetic"]}
+{"text": "deep work / lo-fi mix", "labels": ["Focus", "Chill"]}
+{"text": "perfect for boss mode", "labels": ["Confident"]}
+{"text": "music to hard hitting", "labels": ["Aggressive"]}
+{"text": "looking for funeral songs", "labels": ["Somber"]}
+{"text": "perfect for bouncy", "labels": ["Playful"]}
+{"text": "in the pocket only", "labels": ["Groovy"]}
+{"text": "music to feelgood", "labels": ["Uplifting"]}
+{"text": "throwback vibes", "labels": ["Nostalgic"]}
+{"text": "looking for background vibe songs", "labels": ["Chill"]}
+{"text": "i need funeral", "labels": ["Somber"]}
+{"text": "need epic background", "labels": ["Epic"]}
+{"text": "go hard playlist", "labels": ["Aggressive"]}
+{"text": "between new beginnings and make out", "labels": ["Hopeful", "Sensual"]}
+{"text": "intense builds and drops", "labels": ["Dramatic"]}
+{"text": "garage vibes", "labels": ["Gritty"]}
+{"text": "perfect for hazy", "labels": ["Dreamy"]}
+{"text": "triumphant", "labels": ["Triumphant"]}
+{"text": "comforting playlist", "labels": ["Warm"]}
+{"text": "looking for groovy songs", "labels": ["Groovy"]}
+{"text": "give me something raw", "labels": ["Gritty"]}
+{"text": "perfect for remember when", "labels": ["Nostalgic"]}
+{"text": "euphoric but also win day", "labels": ["Euphoric", "Triumphant"]}
+{"text": "perfect for dreamy", "labels": ["Dreamy"]}
+{"text": "give me something beast mode", "labels": ["Confident"]}
+{"text": "dreamy playlist", "labels": ["Dreamy"]}
+{"text": "angelic yet still in the pocket", "labels": ["Ethereal", "Groovy"]}
+{"text": "in the pocket with a touch of aggressive", "labels": ["Groovy", "Aggressive"]}
+{"text": "haunting ambience yet still tranquil", "labels": ["Dark", "Calm"]}
+{"text": "give me something final boss", "labels": ["Epic"]}
+{"text": "set the mood: hard hitting", "labels": ["Aggressive"]}
+{"text": "looking for optimistic songs", "labels": ["Hopeful"]}
+{"text": "we made it only", "labels": ["Triumphant"]}
+{"text": "need heartbroken background", "labels": ["Melancholic"]}
+{"text": "set the mood: easy listening", "labels": ["Chill"]}
+{"text": "give me something race day", "labels": ["Triumphant"]}
+{"text": "i need sunny", "labels": ["Bright"]}
+{"text": "optimistic", "labels": ["Hopeful"]}
+{"text": "running only", "labels": ["Energetic"]}
+{"text": "perfect for cloudlike", "labels": ["Dreamy"]}
+{"text": "perfect for sprint", "labels": ["Energetic"]}
+{"text": "music to study", "labels": ["Focus"]}
+{"text": "triumphant / romantic mix", "labels": ["Triumphant", "Romantic"]}
+{"text": "perfect for soft beats", "labels": ["Chill"]}
+{"text": "sparkly but also sweet sorrow", "labels": ["Bright", "Bittersweet"]}
+{"text": "music to good mood", "labels": ["Uplifting"]}
+{"text": "massive festival drop vibes", "labels": ["Euphoric"]}
+{"text": "looking for comfort music songs", "labels": ["Warm"]}
+{"text": "atmospheric but also steamy", "labels": ["Atmospheric", "Sensual"]}
+{"text": "looking for new beginnings songs", "labels": ["Hopeful"]}
+{"text": "mellow", "labels": ["Chill"]}
+{"text": "looking for boss mode songs", "labels": ["Confident"]}
+{"text": "music to whimsical", "labels": ["Playful"]}
+{"text": "trailer music only", "labels": ["Epic"]}
+{"text": "low valence", "labels": ["Somber"]}
+{"text": "warm vibes only", "labels": ["Mellow"]}
+{"text": "give me something intense buildup", "labels": ["Dramatic"]}
+{"text": "set the mood: whimsical", "labels": ["Playful"]}
+{"text": "go hard vibes", "labels": ["Aggressive"]}
+{"text": "deep work vibes", "labels": ["Focus"]}
+{"text": "groovy vibes", "labels": ["Groovy"]}
+{"text": "workout playlist", "labels": ["Energetic"]}
+{"text": "bright only", "labels": ["Bright"]}
+{"text": "catchy melodies", "labels": ["Bright"]}
+{"text": "need locked groove background", "labels": ["Hypnotic"]}
+{"text": "set the mood: tranquil", "labels": ["Calm"]}
+{"text": "easy listening", "labels": ["Chill"]}
+{"text": "old memories only", "labels": ["Nostalgic"]}
+{"text": "perfect for garage", "labels": ["Gritty"]}
+{"text": "study but also marathon", "labels": ["Focus", "Triumphant"]}
+{"text": "i need locked groove", "labels": ["Hypnotic"]}
+{"text": "epic playlist", "labels": ["Epic"]}
+{"text": "dirty", "labels": ["Gritty"]}
+{"text": "looking for focus songs", "labels": ["Focus"]}
+{"text": "music to beast mode", "labels": ["Confident"]}
+{"text": "give me something shiny", "labels": ["Bright"]}
+{"text": "looking for atmospheric songs", "labels": ["Atmospheric"]}
+{"text": "give me something groovy", "labels": ["Groovy"]}
+{"text": "slow burn only", "labels": ["Dramatic"]}
+{"text": "give me something romantic", "labels": ["Romantic"]}
+{"text": "looking for goth songs", "labels": ["Dark"]}
+{"text": "romantic playlist", "labels": ["Romantic"]}
+{"text": "give me something brooding", "labels": ["Brooding"]}
+{"text": "stormy but also funky", "labels": ["Brooding", "Groovy"]}
+{"text": "music to cinematic rise", "labels": ["Dramatic"]}
+{"text": "sprint", "labels": ["Energetic"]}
+{"text": "i need instrumental", "labels": ["Focus"]}
+{"text": "looking for overcast songs", "labels": ["Somber"]}
+{"text": "i need unwind", "labels": ["Calm"]}
+{"text": "between candlelight and sensual", "labels": ["Romantic", "Sensual"]}
+{"text": "between old memories and wistful", "labels": ["Nostalgic", "Bittersweet"]}
+{"text": "need massive festival drop background", "labels": ["Euphoric"]}
+{"text": "glimmer vibes", "labels": ["Dreamy"]}
+{"text": "music to instrumental", "labels": ["Focus"]}
+{"text": "power walk only", "labels": ["Confident"]}
+{"text": "looped", "labels": ["Hypnotic"]}
+{"text": "music to warm", "labels": ["Warm"]}
+{"text": "i need candlelight", "labels": ["Romantic"]}
+{"text": "set the mood: make out", "labels": ["Sensual"]}
+{"text": "stormy / strut mix", "labels": ["Brooding", "Groovy"]}
+{"text": "between triumphant and love songs", "labels": ["Triumphant", "Romantic"]}
+{"text": "perfect for cardio", "labels": ["Energetic"]}
+{"text": "perfect for vintage feel", "labels": ["Nostalgic"]}
+{"text": "need somber background", "labels": ["Somber"]}
+{"text": "preworkout", "labels": ["Energetic"]}
+{"text": "perfect for strut", "labels": ["Groovy"]}
+{"text": "set the mood: lonely", "labels": ["Melancholic"]}
+{"text": "goth vibes", "labels": ["Dark"]}
+{"text": "between angelic and in the pocket", "labels": ["Ethereal", "Groovy"]}
+{"text": "spacey vibes", "labels": ["Atmospheric"]}
+{"text": "looking for mosh songs", "labels": ["Aggressive"]}
+{"text": "journaling playlist", "labels": ["Introspective"]}
+{"text": "between win day and romantic", "labels": ["Triumphant", "Romantic"]}
+{"text": "comforting with a touch of smooth", "labels": ["Warm", "Mellow"]}
+{"text": "set the mood: ominous", "labels": ["Dark"]}
+{"text": "instrumental only", "labels": ["Focus"]}
+{"text": "i need goth", "labels": ["Dark"]}
+{"text": "dramatic", "labels": ["Dramatic"]}
+{"text": "looking for playful songs", "labels": ["Playful"]}
+{"text": "i need optimistic", "labels": ["Hopeful"]}
+{"text": "distorted", "labels": ["Gritty"]}
+{"text": "looking for soft songs", "labels": ["Mellow"]}
+{"text": "i need moody", "labels": ["Brooding"]}
+{"text": "need anthemic background", "labels": ["Epic"]}
+{"text": "set the mood: garage", "labels": ["Gritty"]}
+{"text": "between crunchy and reflective", "labels": ["Gritty", "Introspective"]}
+{"text": "i need crunchy", "labels": ["Gritty"]}
+{"text": "i need aggressive", "labels": ["Aggressive"]}
+{"text": "blanket", "labels": ["Warm"]}
+{"text": "epic", "labels": ["Epic"]}
+{"text": "bedroom / win day mix", "labels": ["Sensual", "Triumphant"]}
+{"text": "need hiit background", "labels": ["Energetic"]}
+{"text": "i need angelic", "labels": ["Ethereal"]}
+{"text": "i need crying in the club", "labels": ["Melancholic"]}
+{"text": "i need date night", "labels": ["Romantic"]}
+{"text": "looking for warm vibes songs", "labels": ["Mellow"]}
+{"text": "music to power playlist", "labels": ["Confident"]}
+{"text": "perfect for focus mode", "labels": ["Focus"]}
+{"text": "i need pump", "labels": ["Energetic"]}
+{"text": "i need sweet sorrow", "labels": ["Bittersweet"]}
+{"text": "perfect for glimmer", "labels": ["Dreamy"]}
+{"text": "give me something dark", "labels": ["Dark"]}
+{"text": "set the mood: confident", "labels": ["Confident"]}
+{"text": "playful only", "labels": ["Playful"]}
+{"text": "ominous", "labels": ["Dark"]}
+{"text": "deep work", "labels": ["Focus"]}
+{"text": "music to positive vibes", "labels": ["Uplifting"]}
+{"text": "candlelight playlist", "labels": ["Romantic"]}
+{"text": "looking for late night thoughts songs", "labels": ["Introspective"]}
+{"text": "perfect for soothing", "labels": ["Calm"]}
+{"text": "bright but also wistful", "labels": ["Bright", "Bittersweet"]}
+{"text": "run yet still looped", "labels": ["Energetic", "Hypnotic"]}
+{"text": "perfect for date night", "labels": ["Romantic"]}
+{"text": "set the mood: rainy day", "labels": ["Somber"]}
+{"text": "atmospheric vibes", "labels": ["Atmospheric"]}
+{"text": "looking for steamy songs", "labels": ["Sensual"]}
+{"text": "music to post rock", "labels": ["Atmospheric"]}
+{"text": "between breathwork and tearful", "labels": ["Calm", "Melancholic"]}
+{"text": "go hard only", "labels": ["Aggressive"]}
+{"text": "give me something bright", "labels": ["Bright"]}
+{"text": "i need blue", "labels": ["Melancholic"]}
+{"text": "wistful", "labels": ["Melancholic"]}
+{"text": "looking for down bad songs", "labels": ["Melancholic"]}
+{"text": "i need boss battle", "labels": ["Epic"]}
+{"text": "i need cheeky", "labels": ["Playful"]}
+{"text": "perfect for locked groove", "labels": ["Hypnotic"]}
+{"text": "need soft beats background", "labels": ["Chill"]}
+{"text": "i need nostalgic", "labels": ["Nostalgic"]}
+{"text": "in the pocket / heavy mix", "labels": ["Groovy", "Aggressive"]}
+{"text": "positive vibes playlist", "labels": ["Uplifting"]}
+{"text": "perfect for intense buildup", "labels": ["Dramatic"]}
+{"text": "music to slow dance", "labels": ["Romantic"]}
+{"text": "perfect for peaceful", "labels": ["Calm"]}
+{"text": "funky playlist", "labels": ["Groovy"]}
+{"text": "bgm vibes", "labels": ["Focus"]}
+{"text": "music to goth", "labels": ["Dark"]}
+{"text": "soundscape", "labels": ["Atmospheric"]}
+{"text": "cheeky only", "labels": ["Playful"]}
+{"text": "need go hard background", "labels": ["Aggressive"]}
+{"text": "set the mood: hands in the air", "labels": ["Euphoric"]}
+{"text": "looking for sparkly songs", "labels": ["Bright"]}
+{"text": "set the mood: ambient", "labels": ["Atmospheric"]}
+{"text": "shadowy yet still peaceful", "labels": ["Dark", "Calm"]}
+{"text": "need race day background", "labels": ["Triumphant"]}
+{"text": "dreary vibes", "labels": ["Somber"]}
+{"text": "perfect for rainy night", "labels": ["Somber"]}
+{"text": "bleak", "labels": ["Somber"]}
+{"text": "hard hitting / wind down mix", "labels": ["Aggressive", "Calm"]}
+{"text": "tense only", "labels": ["Tense"]}
+{"text": "give me something positive vibes", "labels": ["Uplifting"]}
+{"text": "haunting ambience only", "labels": ["Dark"]}
+{"text": "boss battle yet still club drop", "labels": ["Epic", "Euphoric"]}
+{"text": "give me something dreary", "labels": ["Somber"]}
+{"text": "give me something make out", "labels": ["Sensual"]}
+{"text": "set the mood: comfort music", "labels": ["Warm"]}
+{"text": "set the mood: steamy", "labels": ["Sensual"]}
+{"text": "i need dirty", "labels": ["Gritty"]}
+{"text": "theatrical playlist", "labels": ["Dramatic"]}
+{"text": "i need inward", "labels": ["Introspective"]}
+{"text": "set the mood: wistful", "labels": ["Bittersweet"]}
+{"text": "set the mood: background vibe", "labels": ["Chill"]}
+{"text": "give me something concentration", "labels": ["Focus"]}
+{"text": "remember when only", "labels": ["Nostalgic"]}
+{"text": "power walk but also strut", "labels": ["Confident", "Groovy"]}
+{"text": "easy listening with a touch of dramatic", "labels": ["Chill", "Dramatic"]}
+{"text": "concentration playlist", "labels": ["Focus"]}
+{"text": "soft vibes", "labels": ["Mellow"]}
+{"text": "give me something epic", "labels": ["Epic"]}
+{"text": "slow to mid tempo", "labels": ["Sensual"]}
+{"text": "bright vibes", "labels": ["Bright"]}
+{"text": "perfect for plot twist", "labels": ["Dramatic"]}
+{"text": "mellow with a touch of locked groove", "labels": ["Mellow", "Hypnotic"]}
+{"text": "looking for floaty songs", "labels": ["Dreamy"]}
+{"text": "comfort music vibes", "labels": ["Warm"]}
+{"text": "wind down vibes", "labels": ["Calm"]}
+{"text": "rage playlist", "labels": ["Aggressive"]}
+{"text": "comforting only", "labels": ["Warm"]}
+{"text": "music to head nod", "labels": ["Groovy"]}
+{"text": "i need go hard", "labels": ["Aggressive"]}
+{"text": "gentle but also spacey textures", "labels": ["Mellow", "Hypnotic"]}
+{"text": "mesmerizing only", "labels": ["Hypnotic"]}
+{"text": "set the mood: haunting ambience", "labels": ["Dark"]}
+{"text": "i need theatrical", "labels": ["Dramatic"]}
+{"text": "perfect for headache", "labels": ["Calm"]}
+{"text": "groovy only", "labels": ["Groovy"]}
+{"text": "need introspective background", "labels": ["Introspective"]}
+{"text": "crunchy vibes", "labels": ["Gritty"]}
+{"text": "retro vibes vibes", "labels": ["Nostalgic"]}
+{"text": "5am run playlist", "labels": ["Energetic"]}
+{"text": "looking for locked groove songs", "labels": ["Hypnotic"]}
+{"text": "i need pick me up", "labels": ["Uplifting"]}
+{"text": "music to romantic", "labels": ["Romantic"]}
+{"text": "give me something strut", "labels": ["Groovy"]}
+{"text": "easy listening only", "labels": ["Chill"]}
+{"text": "looking for throwback songs", "labels": ["Nostalgic"]}
+{"text": "looking for bouncy songs", "labels": ["Playful"]}
+{"text": "drop ready", "labels": ["Euphoric"]}
+{"text": "looking for bittersweet songs", "labels": ["Bittersweet"]}
+{"text": "set the mood: race day", "labels": ["Triumphant"]}
+{"text": "perfect for win day", "labels": ["Triumphant"]}
+{"text": "romantic only", "labels": ["Romantic"]}
+{"text": "spacey textures vibes", "labels": ["Hypnotic"]}
+{"text": "rough edges", "labels": ["Gritty"]}
+{"text": "looking for comforting songs", "labels": ["Warm"]}
+{"text": "give me something easy listening", "labels": ["Chill"]}
+{"text": "concentration vibes", "labels": ["Focus"]}
+{"text": "rolling", "labels": ["Hypnotic"]}
+{"text": "unwind vibes", "labels": ["Calm"]}
+{"text": "looking for morning run songs", "labels": ["Energetic"]}
+{"text": "i need strut", "labels": ["Groovy"]}
+{"text": "race day only", "labels": ["Triumphant"]}
+{"text": "vintage feel", "labels": ["Nostalgic"]}
+{"text": "anxious energy / overcast mix", "labels": ["Tense", "Somber"]}
+{"text": "lo-fi playlist", "labels": ["Chill"]}
+{"text": "looking for festival high songs", "labels": ["Euphoric"]}
+{"text": "i need ominous", "labels": ["Dark"]}
+{"text": "we made it playlist", "labels": ["Triumphant"]}
+{"text": "between soothing and heartbroken", "labels": ["Calm", "Melancholic"]}
+{"text": "bittersweet playlist", "labels": ["Bittersweet"]}
+{"text": "give me something cliffhanger", "labels": ["Dramatic"]}
+{"text": "looking for power playlist songs", "labels": ["Confident"]}
+{"text": "give me something new beginnings", "labels": ["Hopeful"]}
+{"text": "sparse", "labels": ["Somber"]}
+{"text": "music to laid back", "labels": ["Chill"]}
+{"text": "i need tranquil", "labels": ["Calm"]}
+{"text": "blanket with a touch of mellow", "labels": ["Warm", "Mellow"]}
+{"text": "perfect for candlelight", "labels": ["Romantic"]}
+{"text": "drop ready playlist", "labels": ["Euphoric"]}
+{"text": "study only", "labels": ["Focus"]}
+{"text": "need moving on background", "labels": ["Bittersweet"]}
+{"text": "looking for sunny songs", "labels": ["Bright"]}
+{"text": "somber", "labels": ["Somber"]}
+{"text": "need ethereal background", "labels": ["Ethereal"]}
+{"text": "fireplace only", "labels": ["Warm"]}
+{"text": "music to feel good", "labels": ["Uplifting"]}
+{"text": "set the mood: vintage feel", "labels": ["Nostalgic"]}
+{"text": "shoegaze playlist", "labels": ["Dreamy"]}
+{"text": "shoegaze", "labels": ["Dreamy"]}
+{"text": "between pomodoro and background vibe", "labels": ["Focus", "Chill"]}
+{"text": "marathon vibes", "labels": ["Triumphant"]}
+{"text": "i need lofi", "labels": ["Chill"]}
+{"text": "music to soundscape", "labels": ["Atmospheric"]}
+{"text": "give me something to study", "labels": ["Focus"]}
+{"text": "set the mood: goth", "labels": ["Dark"]}
+{"text": "set the mood: optimistic", "labels": ["Hopeful"]}
+{"text": "set the mood: not feeling well", "labels": ["Calm"]}
+{"text": "need moody background", "labels": ["Brooding"]}
+{"text": "hopeful only", "labels": ["Hopeful"]}
+{"text": "steamy playlist", "labels": ["Sensual"]}
+{"text": "need not feeling well background", "labels": ["Calm"]}
+{"text": "looking for vintage feel songs", "labels": ["Nostalgic"]}
+{"text": "need blue background", "labels": ["Melancholic"]}
+{"text": "rainy night", "labels": ["Somber"]}
+{"text": "bubbly", "labels": ["Bright"]}
+{"text": "soothing playlist", "labels": ["Calm"]}
+{"text": "late night drive / sprint mix", "labels": ["Nostalgic", "Energetic"]}
+{"text": "set the mood: brooding", "labels": ["Brooding"]}
+{"text": "heartbroken vibes", "labels": ["Melancholic"]}
+{"text": "i need gritty", "labels": ["Gritty"]}
+{"text": "inward playlist", "labels": ["Introspective"]}
+{"text": "need playful background", "labels": ["Playful"]}
+{"text": "set the mood: decompress", "labels": ["Calm"]}
+{"text": "blue playlist", "labels": ["Melancholic"]}
+{"text": "track day", "labels": ["Energetic"]}
+{"text": "i need win day", "labels": ["Triumphant"]}
+{"text": "need study beats background", "labels": ["Focus"]}
+{"text": "swagger playlist", "labels": ["Confident"]}
+{"text": "between dreary and down bad", "labels": ["Somber", "Melancholic"]}
+{"text": "looking for coffee shop songs", "labels": ["Chill"]}
+{"text": "perfect for smoldering", "labels": ["Brooding"]}
+{"text": "need garage background", "labels": ["Gritty"]}
+{"text": "set the mood: feelgood", "labels": ["Uplifting"]}
+{"text": "i need airy", "labels": ["Dreamy"]}
+{"text": "between tense and bleak", "labels": ["Tense", "Somber"]}
+{"text": "set the mood: journaling", "labels": ["Introspective"]}
+{"text": "happy", "labels": ["Bright"]}
+{"text": "between wide open and bedroom", "labels": ["Atmospheric", "Sensual"]}
+{"text": "anxious energy only", "labels": ["Tense"]}
+{"text": "victorious vibes", "labels": ["Triumphant"]}
+{"text": "perfect for sweet sorrow", "labels": ["Bittersweet"]}
+{"text": "i need club drop", "labels": ["Euphoric"]}
+{"text": "perfect for spacey textures", "labels": ["Hypnotic"]}
+{"text": "between feel good and funky", "labels": ["Uplifting", "Groovy"]}
+{"text": "sensual vibes", "labels": ["Sensual"]}
+{"text": "rainy day", "labels": ["Somber"]}
+{"text": "headache playlist", "labels": ["Calm"]}
+{"text": "somber with a touch of down bad", "labels": ["Somber", "Melancholic"]}
+{"text": "laid back vibes", "labels": ["Chill"]}
+{"text": "final boss", "labels": ["Epic"]}
+{"text": "looking for dark songs", "labels": ["Dark"]}
+{"text": "need quirky background", "labels": ["Playful"]}
+{"text": "perfect for edgy", "labels": ["Tense"]}
+{"text": "perfect for nervy", "labels": ["Tense"]}
+{"text": "set the mood: soft", "labels": ["Mellow"]}
+{"text": "moody playlist", "labels": ["Brooding"]}
+{"text": "set the mood: bouncy", "labels": ["Playful"]}
+{"text": "music to somber", "labels": ["Somber"]}
+{"text": "give me something 5am run", "labels": ["Energetic"]}
+{"text": "brooding playlist", "labels": ["Brooding"]}
+{"text": "perfect for hands in the air", "labels": ["Euphoric"]}
+{"text": "need bubbly background", "labels": ["Bright"]}
+{"text": "perfect for wistful", "labels": ["Bittersweet"]}
+{"text": "hazy", "labels": ["Dreamy"]}
+{"text": "late night", "labels": ["Nostalgic"]}
+{"text": "sad with a touch of golden hour", "labels": ["Melancholic", "Warm"]}
+{"text": "i need golden hour", "labels": ["Warm"]}
+{"text": "head nod yet still rage", "labels": ["Groovy", "Aggressive"]}
+{"text": "need lofi background", "labels": ["Chill"]}
+{"text": "give me something comfort music", "labels": ["Warm"]}
+{"text": "perfect for haunting ambience", "labels": ["Dark"]}
+{"text": "edgy only", "labels": ["Tense"]}
+{"text": "i need triumphant", "labels": ["Triumphant"]}
+{"text": "perfect for pick me up", "labels": ["Uplifting"]}
+{"text": "need comfort music vibes", "labels": ["Calm"]}
+{"text": "need shiny background", "labels": ["Bright"]}
+{"text": "garage feel", "labels": ["Gritty"]}
+{"text": "music to victorious", "labels": ["Triumphant"]}
+{"text": "morning run playlist", "labels": ["Energetic"]}
+{"text": "lofi but also cinematic rise", "labels": ["Chill", "Dramatic"]}
+{"text": "give me something angelic", "labels": ["Ethereal"]}
+{"text": "blue vibes", "labels": ["Melancholic"]}
+{"text": "need post rock background", "labels": ["Atmospheric"]}
+{"text": "peaceful only", "labels": ["Calm"]}
+{"text": "noir", "labels": ["Dark"]}
+{"text": "remember when", "labels": ["Nostalgic"]}
+{"text": "perfect for soft", "labels": ["Mellow"]}
+{"text": "we made it", "labels": ["Triumphant"]}
+{"text": "i need rainy day", "labels": ["Somber"]}
+{"text": "music to on edge", "labels": ["Tense"]}
+{"text": "moving on with a touch of floaty", "labels": ["Bittersweet", "Dreamy"]}
+{"text": "i need mellow", "labels": ["Mellow"]}
+{"text": "festival high", "labels": ["Euphoric"]}
+{"text": "looking for hopeful songs", "labels": ["Hopeful"]}
+{"text": "powerful", "labels": ["Epic"]}
+{"text": "atmospheric playlist", "labels": ["Atmospheric"]}
+{"text": "overcast with a touch of blue", "labels": ["Somber", "Melancholic"]}
+{"text": "looking for hiit songs", "labels": ["Energetic"]}
+{"text": "give me something rage", "labels": ["Aggressive"]}
+{"text": "perfect for queasy", "labels": ["Calm"]}
+{"text": "give me something pick me up", "labels": ["Uplifting"]}
+{"text": "optimistic vibes", "labels": ["Hopeful"]}
+{"text": "dark playlist", "labels": ["Dark"]}
+{"text": "music to strut", "labels": ["Groovy"]}
+{"text": "reflective only", "labels": ["Introspective"]}
+{"text": "perfect for post rock", "labels": ["Atmospheric"]}
+{"text": "i need cinematic rise", "labels": ["Dramatic"]}
+{"text": "i need atmospheric", "labels": ["Atmospheric"]}
+{"text": "nostalgic vibes", "labels": ["Nostalgic"]}
+{"text": "give me something ominous", "labels": ["Dark"]}
+{"text": "overcast vibes", "labels": ["Somber"]}
+{"text": "set the mood: gentle", "labels": ["Mellow"]}
+{"text": "give me something anxious energy", "labels": ["Tense"]}
+{"text": "give me something tearful", "labels": ["Melancholic"]}
+{"text": "music to rolling", "labels": ["Hypnotic"]}
+{"text": "give me something wind down", "labels": ["Calm"]}
+{"text": "between high octane and rush", "labels": ["Energetic", "Euphoric"]}
+{"text": "shiny but also wistful", "labels": ["Bright", "Bittersweet"]}
+{"text": "floaty only", "labels": ["Dreamy"]}
+{"text": "music to instrumental only", "labels": ["Focus"]}
+{"text": "music to night drive", "labels": ["Nostalgic"]}
+{"text": "noir yet still headache", "labels": ["Dark", "Calm"]}
+{"text": "stormy / head nod mix", "labels": ["Brooding", "Groovy"]}
+{"text": "give me something sensual", "labels": ["Sensual"]}
+{"text": "sweet sorrow playlist", "labels": ["Bittersweet"]}
+{"text": "soothing", "labels": ["Calm"]}
+{"text": "give me something drop ready", "labels": ["Euphoric"]}
+{"text": "rainy night vibes", "labels": ["Somber"]}
+{"text": "music to stormy", "labels": ["Brooding"]}
+{"text": "set the mood: power playlist", "labels": ["Confident"]}
+{"text": "power walk / in the pocket mix", "labels": ["Confident", "Groovy"]}
+{"text": "music to crunchy", "labels": ["Gritty"]}
+{"text": "power walk but also playful", "labels": ["Confident", "Playful"]}
+{"text": "set the mood: focus mode", "labels": ["Focus"]}
+{"text": "ambient yet still hypnotic", "labels": ["Atmospheric", "Hypnotic"]}
+{"text": "5am run", "labels": ["Energetic"]}
+{"text": "music to in the pocket", "labels": ["Groovy"]}
+{"text": "set the mood: positive vibes", "labels": ["Uplifting"]}
+{"text": "perfect for mosh", "labels": ["Aggressive"]}
+{"text": "laid back playlist", "labels": ["Chill"]}
+{"text": "i need bouncy", "labels": ["Playful"]}
+{"text": "noir vibes", "labels": ["Dark"]}
+{"text": "set the mood: workout", "labels": ["Energetic"]}
+{"text": "looking for warm songs", "labels": ["Warm"]}
+{"text": "need new beginnings background", "labels": ["Hopeful"]}
+{"text": "throwback yet still wistful", "labels": ["Nostalgic", "Bittersweet"]}
+{"text": "theatrical", "labels": ["Dramatic"]}
+{"text": "looking for ominous songs", "labels": ["Dark"]}
+{"text": "perfect for floaty", "labels": ["Dreamy"]}
+{"text": "lonely", "labels": ["Melancholic"]}
+{"text": "airy playlist", "labels": ["Dreamy"]}
+{"text": "i need shadowy", "labels": ["Dark"]}
+{"text": "downtempo only", "labels": ["Mellow"]}
+{"text": "soundscape with a touch of looped", "labels": ["Atmospheric", "Hypnotic"]}
+{"text": "perfect for cinematic rise", "labels": ["Dramatic"]}
+{"text": "concentration with a touch of win day", "labels": ["Focus", "Triumphant"]}
+{"text": "perfect for noir", "labels": ["Dark"]}
+{"text": "optimistic playlist", "labels": ["Hopeful"]}
+{"text": "looking for feelgood songs", "labels": ["Uplifting"]}
+{"text": "set the mood: spacey textures", "labels": ["Hypnotic"]}
+{"text": "i need victorious", "labels": ["Triumphant"]}
+{"text": "set the mood: noir", "labels": ["Dark"]}
+{"text": "win day", "labels": ["Triumphant"]}
+{"text": "music to quirky", "labels": ["Playful"]}
+{"text": "power walk playlist", "labels": ["Confident"]}
+{"text": "smooth", "labels": ["Mellow"]}
+{"text": "music to bleak", "labels": ["Somber"]}
+{"text": "spacious", "labels": ["Atmospheric"]}
+{"text": "looking for positive vibes songs", "labels": ["Uplifting"]}
+{"text": "under the weather", "labels": ["Calm"]}
+{"text": "music to edgy", "labels": ["Tense"]}
+{"text": "candlelight", "labels": ["Romantic"]}
+{"text": "i need hopeful", "labels": ["Hopeful"]}
+{"text": "need spacey background", "labels": ["Atmospheric"]}
+{"text": "set the mood: deep work", "labels": ["Focus"]}
+{"text": "looking for garage songs", "labels": ["Gritty"]}
+{"text": "warm vibes vibes", "labels": ["Mellow"]}
+{"text": "blanket playlist", "labels": ["Warm"]}
+{"text": "music to spacey textures", "labels": ["Hypnotic"]}
+{"text": "concentration", "labels": ["Focus"]}
+{"text": "spacey textures", "labels": ["Hypnotic"]}
+{"text": "set the mood: lofi", "labels": ["Chill"]}
+{"text": "looking for sad songs", "labels": ["Melancholic"]}
+{"text": "perfect for sad", "labels": ["Melancholic"]}
+{"text": "i need cinematic", "labels": ["Atmospheric"]}
+{"text": "need rolling background", "labels": ["Hypnotic"]}
+{"text": "head nod vibes", "labels": ["Groovy"]}
+{"text": "sprint vibes", "labels": ["Energetic"]}
+{"text": "peaceful", "labels": ["Calm"]}
+{"text": "set the mood: shiny", "labels": ["Bright"]}
+{"text": "music to atmospheric", "labels": ["Atmospheric"]}
+{"text": "goth", "labels": ["Dark"]}
+{"text": "between deep work and easy listening", "labels": ["Focus", "Chill"]}
+{"text": "nervy only", "labels": ["Tense"]}
+{"text": "music to airy", "labels": ["Dreamy"]}
+{"text": "music to heartbroken", "labels": ["Melancholic"]}
+{"text": "looking for aggressive songs", "labels": ["Aggressive"]}
+{"text": "need background vibe background", "labels": ["Chill"]}
+{"text": "between sad and warm", "labels": ["Melancholic", "Warm"]}
+{"text": "late night drive", "labels": ["Nostalgic"]}
+{"text": "music to hazy", "labels": ["Dreamy"]}
+{"text": "i need hazy", "labels": ["Dreamy"]}
+{"text": "perfect for pump up", "labels": ["Energetic"]}
+{"text": "music to gritty", "labels": ["Gritty"]}
+{"text": "cozy yet still warm vibes", "labels": ["Warm", "Mellow"]}
+{"text": "hazy but also ethereal", "labels": ["Dreamy", "Ethereal"]}
+{"text": "hard hitting vibes", "labels": ["Aggressive"]}
+{"text": "steamy only", "labels": ["Sensual"]}
+{"text": "lonely playlist", "labels": ["Melancholic"]}
+{"text": "music to nervy", "labels": ["Tense"]}
+{"text": "festival high playlist", "labels": ["Euphoric"]}
+{"text": "set the mood: wide open", "labels": ["Atmospheric"]}
+{"text": "breathwork only", "labels": ["Calm"]}
+{"text": "give me something steamy", "labels": ["Sensual"]}
+{"text": "looking for haunting ambience songs", "labels": ["Dark"]}
+{"text": "sensual only", "labels": ["Sensual"]}
+{"text": "journaling vibes", "labels": ["Introspective"]}
+{"text": "perfect for weightless", "labels": ["Ethereal"]}
+{"text": "between romantic and bedroom", "labels": ["Romantic", "Sensual"]}
+{"text": "looking for gentle songs", "labels": ["Mellow"]}
+{"text": "give me something hands in the air", "labels": ["Euphoric"]}
+{"text": "looking for track day songs", "labels": ["Energetic"]}
+{"text": "music to study beats", "labels": ["Focus"]}
+{"text": "decompress but also blue", "labels": ["Calm", "Melancholic"]}
+{"text": "perfect for lonely", "labels": ["Melancholic"]}
+{"text": "need shadowy background", "labels": ["Dark"]}
+{"text": "new beginnings playlist", "labels": ["Hopeful"]}
+{"text": "pick me up playlist", "labels": ["Uplifting"]}
+{"text": "music to funeral", "labels": ["Somber"]}
+{"text": "bedroom only", "labels": ["Sensual"]}
+{"text": "looking for moody songs", "labels": ["Brooding"]}
+{"text": "i need epic", "labels": ["Epic"]}
+{"text": "study beats", "labels": ["Focus"]}
+{"text": "i need focus mode", "labels": ["Focus"]}
+{"text": "looking for swagger songs", "labels": ["Confident"]}
+{"text": "need goth background", "labels": ["Dark"]}
+{"text": "weightless playlist", "labels": ["Ethereal"]}
+{"text": "warm playlist", "labels": ["Warm"]}
+{"text": "give me something marathon", "labels": ["Triumphant"]}
+{"text": "set the mood: date night", "labels": ["Romantic"]}
+{"text": "between beast mode and groovy", "labels": ["Confident", "Groovy"]}
+{"text": "sparkly only", "labels": ["Bright"]}
+{"text": "sweet sorrow", "labels": ["Bittersweet"]}
+{"text": "sparkly vibes", "labels": ["Bright"]}
+{"text": "need comfort music playlist", "labels": ["Calm"]}
+{"text": "in the pocket but also go hard", "labels": ["Groovy", "Aggressive"]}
+{"text": "music to gym", "labels": ["Energetic"]}
+{"text": "give me something playful", "labels": ["Playful"]}
+{"text": "crunchy playlist", "labels": ["Gritty"]}
+{"text": "fresh start but also sensual", "labels": ["Hopeful", "Sensual"]}
+{"text": "heartbroken only", "labels": ["Melancholic"]}
+{"text": "stormy playlist", "labels": ["Brooding"]}
+{"text": "looking for hypnotic songs", "labels": ["Hypnotic"]}
+{"text": "music to gentle", "labels": ["Mellow"]}
+{"text": "set the mood: swagger", "labels": ["Confident"]}
+{"text": "perfect for rainy day", "labels": ["Somber"]}
+{"text": "i need bleak", "labels": ["Somber"]}
+{"text": "looking for pump songs", "labels": ["Energetic"]}
+{"text": "comfort music", "labels": ["Warm"]}
+{"text": "i need soundscape", "labels": ["Atmospheric"]}
+{"text": "not feeling well playlist", "labels": ["Calm"]}
+{"text": "smoldering vibes", "labels": ["Brooding"]}
+{"text": "remember when playlist", "labels": ["Nostalgic"]}
+{"text": "soft playlist", "labels": ["Mellow"]}
+{"text": "pump / club drop mix", "labels": ["Energetic", "Euphoric"]}
+{"text": "rainy day only", "labels": ["Somber"]}
+{"text": "sick vibes", "labels": ["Calm"]}
+{"text": "retro vibes with a touch of sweet sorrow", "labels": ["Nostalgic", "Bittersweet"]}
+{"text": "between morning run and spacey textures", "labels": ["Energetic", "Hypnotic"]}
+{"text": "haunting ambience", "labels": ["Dark"]}
+{"text": "lo-fi / intense buildup mix", "labels": ["Chill", "Dramatic"]}
+{"text": "looking for stormy songs", "labels": ["Brooding"]}
+{"text": "between workout and trancey", "labels": ["Energetic", "Hypnotic"]}
+{"text": "music to groovy", "labels": ["Groovy"]}
+{"text": "feelgood", "labels": ["Uplifting"]}
+{"text": "airy", "labels": ["Dreamy"]}
+{"text": "looking for theatrical songs", "labels": ["Dramatic"]}
+{"text": "dark / not feeling well mix", "labels": ["Dark", "Calm"]}
+{"text": "rage only", "labels": ["Aggressive"]}
+{"text": "perfect for night drive", "labels": ["Nostalgic"]}
+{"text": "euphoric playlist", "labels": ["Euphoric"]}
+{"text": "glimmer only", "labels": ["Dreamy"]}
+{"text": "set the mood: queasy", "labels": ["Calm"]}
+{"text": "focus vibes", "labels": ["Focus"]}
+{"text": "positive vibes", "labels": ["Uplifting"]}
+{"text": "aggressive but also sick", "labels": ["Aggressive", "Calm"]}
+{"text": "set the mood: no lyrics", "labels": ["Focus"]}
+{"text": "set the mood: mosh", "labels": ["Aggressive"]}
+{"text": "hiit playlist", "labels": ["Energetic"]}
+{"text": "music to euphoric", "labels": ["Euphoric"]}
+{"text": "swagger only", "labels": ["Confident"]}
+{"text": "need reflective background", "labels": ["Introspective"]}
+{"text": "need mosh background", "labels": ["Aggressive"]}
+{"text": "looking for hype songs", "labels": ["Energetic"]}
+{"text": "light-hearted", "labels": ["Playful"]}
+{"text": "perfect for festival high", "labels": ["Euphoric"]}
+{"text": "set the mood: victorious", "labels": ["Triumphant"]}
+{"text": "rainy night playlist", "labels": ["Somber"]}
+{"text": "looped playlist", "labels": ["Hypnotic"]}
+{"text": "music to blue", "labels": ["Melancholic"]}
+{"text": "between journaling and feel good", "labels": ["Introspective", "Uplifting"]}
+{"text": "i need fresh start", "labels": ["Hopeful"]}
+{"text": "bouncy but also make out", "labels": ["Playful", "Sensual"]}
+{"text": "perfect for bleak", "labels": ["Somber"]}
+{"text": "fireplace", "labels": ["Warm"]}
+{"text": "anthemic", "labels": ["Triumphant"]}
+{"text": "looking for trancey songs", "labels": ["Hypnotic"]}
+{"text": "make out but also win day", "labels": ["Sensual", "Triumphant"]}
+{"text": "concentrate / coffee shop mix", "labels": ["Focus", "Chill"]}
+{"text": "wide open", "labels": ["Atmospheric"]}
+{"text": "need dramatic background", "labels": ["Dramatic"]}
+{"text": "music to intimate", "labels": ["Sensual"]}
+{"text": "need sick background", "labels": ["Calm"]}
+{"text": "spacey only", "labels": ["Atmospheric"]}
+{"text": "race day", "labels": ["Triumphant"]}
+{"text": "remember when vibes", "labels": ["Nostalgic"]}
+{"text": "sunny only", "labels": ["Bright"]}
+{"text": "between quirky and make out", "labels": ["Playful", "Sensual"]}
+{"text": "boss mode vibes", "labels": ["Confident"]}
+{"text": "slow burn vibes", "labels": ["Dramatic"]}
+{"text": "perfect for overcast", "labels": ["Somber"]}
+{"text": "perfect for moody", "labels": ["Brooding"]}
+{"text": "looking for make out songs", "labels": ["Sensual"]}
+{"text": "music to dramatic", "labels": ["Dramatic"]}
+{"text": "set the mood: on edge", "labels": ["Tense"]}
+{"text": "i need downtempo", "labels": ["Mellow"]}
+{"text": "journaling", "labels": ["Introspective"]}
+{"text": "cliffhanger playlist", "labels": ["Dramatic"]}
+{"text": "final boss yet still hands in the air", "labels": ["Epic", "Euphoric"]}
+{"text": "looking for pomodoro songs", "labels": ["Focus"]}
+{"text": "set the mood: sad", "labels": ["Melancholic"]}
+{"text": "power playlist only", "labels": ["Confident"]}
+{"text": "run yet still festival high", "labels": ["Energetic", "Euphoric"]}
+{"text": "music to late night thoughts", "labels": ["Introspective"]}
+{"text": "locked groove vibes", "labels": ["Hypnotic"]}
+{"text": "i need weightless", "labels": ["Ethereal"]}
+{"text": "i need fireplace", "labels": ["Warm"]}
+{"text": "looking for tearful songs", "labels": ["Melancholic"]}
+{"text": "weightless with a touch of head nod", "labels": ["Ethereal", "Groovy"]}
+{"text": "floaty", "labels": ["Dreamy"]}
+{"text": "looking for inward songs", "labels": ["Introspective"]}
+{"text": "i need edgy", "labels": ["Tense"]}
+{"text": "perfect for late night thoughts", "labels": ["Introspective"]}
+{"text": "looking for power walk songs", "labels": ["Confident"]}
+{"text": "shadowy only", "labels": ["Dark"]}
+{"text": "coffee shop vibes", "labels": ["Chill"]}
+{"text": "looking for tense songs", "labels": ["Tense"]}
+{"text": "airy pads", "labels": ["Dreamy"]}
+{"text": "anthemic vibes", "labels": ["Epic"]}
+{"text": "between epic and drop ready", "labels": ["Epic", "Euphoric"]}
+{"text": "energetic", "labels": ["Energetic"]}
+{"text": "need on edge background", "labels": ["Tense"]}
+{"text": "vintage", "labels": ["Nostalgic"]}
+{"text": "give me something hopeful", "labels": ["Hopeful"]}
+{"text": "heartbroken playlist", "labels": ["Melancholic"]}
+{"text": "i need concentrate", "labels": ["Focus"]}
+{"text": "win day / romantic mix", "labels": ["Triumphant", "Romantic"]}
+{"text": "easy listening playlist", "labels": ["Chill"]}
+{"text": "cinematic with a touch of bedroom", "labels": ["Atmospheric", "Sensual"]}
+{"text": "set the mood: smoldering", "labels": ["Brooding"]}
+{"text": "between comforting and smooth", "labels": ["Warm", "Mellow"]}
+{"text": "give me something pomodoro", "labels": ["Focus"]}
+{"text": "set the mood: edgy", "labels": ["Tense"]}
+{"text": "looking for nervy songs", "labels": ["Tense"]}
+{"text": "give me something confident", "labels": ["Confident"]}
+{"text": "brooding / funky mix", "labels": ["Brooding", "Groovy"]}
+{"text": "perfect for tranquil", "labels": ["Calm"]}
+{"text": "looking for remember when songs", "labels": ["Nostalgic"]}
+{"text": "between lofi and plot twist", "labels": ["Chill", "Dramatic"]}
+{"text": "between bleak and lonely", "labels": ["Somber", "Melancholic"]}
+{"text": "repetitive", "labels": ["Hypnotic"]}
+{"text": "give me something on edge", "labels": ["Tense"]}
+{"text": "music to trailer music", "labels": ["Epic"]}
+{"text": "looped vibes", "labels": ["Hypnotic"]}
+{"text": "smooth playlist", "labels": ["Mellow"]}
+{"text": "looking for cloudlike songs", "labels": ["Dreamy"]}
+{"text": "music to mellow", "labels": ["Mellow"]}
+{"text": "sparkly playlist", "labels": ["Bright"]}
+{"text": "spacey but also steamy", "labels": ["Atmospheric", "Sensual"]}
+{"text": "perfect for gentle", "labels": ["Mellow"]}
+{"text": "set the mood: triumphant", "labels": ["Triumphant"]}
+{"text": "between soothing and blue", "labels": ["Calm", "Melancholic"]}
+{"text": "slow dance", "labels": ["Romantic"]}
+{"text": "edgy", "labels": ["Tense"]}
+{"text": "final boss / triumphant mix", "labels": ["Epic", "Triumphant"]}
+{"text": "bittersweet with a touch of airy", "labels": ["Bittersweet", "Dreamy"]}
+{"text": "need overcast background", "labels": ["Somber"]}
+{"text": "need candlelight background", "labels": ["Romantic"]}
+{"text": "trancey but also concentration", "labels": ["Hypnotic", "Focus"]}
+{"text": "down bad", "labels": ["Melancholic"]}
+{"text": "wind down", "labels": ["Calm"]}
+{"text": "need groovy background", "labels": ["Groovy"]}
+{"text": "candlelight with a touch of intimate", "labels": ["Romantic", "Sensual"]}
+{"text": "between cloudlike and otherworldly", "labels": ["Dreamy", "Ethereal"]}
+{"text": "looking for late night drive songs", "labels": ["Nostalgic"]}
+{"text": "looking for cinematic songs", "labels": ["Atmospheric"]}
+{"text": "cozy vibes", "labels": ["Warm"]}
+{"text": "rush", "labels": ["Euphoric"]}
+{"text": "need win day background", "labels": ["Triumphant"]}
+{"text": "music to trancey", "labels": ["Hypnotic"]}
+{"text": "wistful vibes", "labels": ["Bittersweet"]}
+{"text": "i need late night thoughts", "labels": ["Introspective"]}
+{"text": "looking for peaceful songs", "labels": ["Calm"]}
+{"text": "give me something boss mode", "labels": ["Confident"]}
+{"text": "perfect for spacey", "labels": ["Atmospheric"]}
+{"text": "need easy listening background", "labels": ["Chill"]}
+{"text": "give me something introspective", "labels": ["Introspective"]}
+{"text": "final boss playlist", "labels": ["Epic"]}
+{"text": "soothing / sad mix", "labels": ["Calm", "Melancholic"]}
+{"text": "looking for euphoric songs", "labels": ["Euphoric"]}
+{"text": "high octane playlist", "labels": ["Energetic"]}
+{"text": "perfect for crunchy", "labels": ["Gritty"]}
+{"text": "easy listening / plot twist mix", "labels": ["Chill", "Dramatic"]}
+{"text": "looking for lo-fi songs", "labels": ["Chill"]}
+{"text": "between no lyrics and lofi", "labels": ["Focus", "Chill"]}
+{"text": "new beginnings vibes", "labels": ["Hopeful"]}
+{"text": "fresh start only", "labels": ["Hopeful"]}
+{"text": "dirty only", "labels": ["Gritty"]}
+{"text": "overcast / lonely mix", "labels": ["Somber", "Melancholic"]}
+{"text": "need angelic background", "labels": ["Ethereal"]}
+{"text": "retro vibe", "labels": ["Nostalgic"]}
+{"text": "soothing vibes", "labels": ["Calm"]}
+{"text": "massive festival drop playlist", "labels": ["Euphoric"]}
+{"text": "need stormy background", "labels": ["Brooding"]}
+{"text": "need trailer music background", "labels": ["Epic"]}
+{"text": "perfect for make out", "labels": ["Sensual"]}
+{"text": "music to wide open", "labels": ["Atmospheric"]}
+{"text": "looking for triumphant songs", "labels": ["Triumphant"]}
+{"text": "sad vibes", "labels": ["Melancholic"]}
+{"text": "boss battle with a touch of triumphant", "labels": ["Epic", "Triumphant"]}
+{"text": "new beginnings only", "labels": ["Hopeful"]}
+{"text": "gritty playlist", "labels": ["Gritty"]}
+{"text": "perfect for funeral", "labels": ["Somber"]}
+{"text": "soothing only", "labels": ["Calm"]}
+{"text": "boss battle vibes", "labels": ["Epic"]}
+{"text": "give me something moving on", "labels": ["Bittersweet"]}
+{"text": "looking for nostalgic songs", "labels": ["Nostalgic"]}
+{"text": "need mesmerizing background", "labels": ["Hypnotic"]}
+{"text": "strut playlist", "labels": ["Groovy"]}
+{"text": "i need anxious energy", "labels": ["Tense"]}
+{"text": "playful playlist", "labels": ["Playful"]}
+{"text": "funky vibes", "labels": ["Groovy"]}
+{"text": "music to downtempo", "labels": ["Mellow"]}
+{"text": "race day / love songs mix", "labels": ["Triumphant", "Romantic"]}
+{"text": "looking for lofi songs", "labels": ["Chill"]}
+{"text": "marathon", "labels": ["Triumphant"]}
+{"text": "music to nostalgic", "labels": ["Nostalgic"]}
+{"text": "shiny only", "labels": ["Bright"]}
+{"text": "chill", "labels": ["Chill"]}
+{"text": "need cloudlike background", "labels": ["Dreamy"]}
+{"text": "looking for strut songs", "labels": ["Groovy"]}
+{"text": "crunchy only", "labels": ["Gritty"]}
+{"text": "comforting", "labels": ["Warm"]}
+{"text": "chill playlist", "labels": ["Chill"]}
+{"text": "set the mood: airy", "labels": ["Dreamy"]}
+{"text": "need in the pocket background", "labels": ["Groovy"]}
+{"text": "old memories yet still sweet sorrow", "labels": ["Nostalgic", "Bittersweet"]}
+{"text": "post rock vibes", "labels": ["Atmospheric"]}
+{"text": "need boss battle background", "labels": ["Epic"]}
+{"text": "music to marathon", "labels": ["Triumphant"]}
+{"text": "need comfort music with a touch of down bad", "labels": ["Calm", "Melancholic"]}
+{"text": "give me something trailer music", "labels": ["Epic"]}
+{"text": "need wistful background", "labels": ["Bittersweet"]}
+{"text": "music to wind down", "labels": ["Calm"]}
+{"text": "stormy vibes", "labels": ["Brooding"]}
+{"text": "need wind down background", "labels": ["Calm"]}
+{"text": "soft", "labels": ["Mellow"]}
+{"text": "head nod yet still heavy", "labels": ["Groovy", "Aggressive"]}
+{"text": "whimsical playlist", "labels": ["Playful"]}
+{"text": "i need hiit", "labels": ["Energetic"]}
+{"text": "need vintage feel background", "labels": ["Nostalgic"]}
+{"text": "between romantic and intimate", "labels": ["Romantic", "Sensual"]}
+{"text": "need hype background", "labels": ["Energetic"]}
+{"text": "give me something cinematic rise", "labels": ["Dramatic"]}
+{"text": "perfect for ambient", "labels": ["Atmospheric"]}
+{"text": "set the mood: pick me up", "labels": ["Uplifting"]}
+{"text": "sunny playlist", "labels": ["Bright"]}
+{"text": "night drive", "labels": ["Nostalgic"]}
+{"text": "give me something sweet sorrow", "labels": ["Bittersweet"]}
+{"text": "i need positive vibes", "labels": ["Uplifting"]}
+{"text": "give me something boss battle", "labels": ["Epic"]}
+{"text": "pocket", "labels": ["Groovy"]}
+{"text": "looking for headache songs", "labels": ["Calm"]}
+{"text": "bittersweet but also shoegaze", "labels": ["Bittersweet", "Dreamy"]}
+{"text": "perfect for love songs", "labels": ["Romantic"]}
+{"text": "music to background vibe", "labels": ["Chill"]}
+{"text": "i need late night", "labels": ["Nostalgic"]}
+{"text": "set the mood: introspective", "labels": ["Introspective"]}
+{"text": "concentrate", "labels": ["Focus"]}
+{"text": "perfect for we made it", "labels": ["Triumphant"]}
+{"text": "perfect for victorious", "labels": ["Triumphant"]}
+{"text": "give me something soothing", "labels": ["Calm"]}
+{"text": "give me something haunting ambience", "labels": ["Dark"]}
+{"text": "i need uplifting", "labels": ["Uplifting"]}
+{"text": "looking for retro vibes songs", "labels": ["Nostalgic"]}
+{"text": "music to journaling", "labels": ["Introspective"]}
+{"text": "between cinematic rise and somber", "labels": ["Dramatic", "Somber"]}
+{"text": "looking for queasy songs", "labels": ["Calm"]}
+{"text": "give me something reflective", "labels": ["Introspective"]}
+{"text": "moving on", "labels": ["Bittersweet"]}
+{"text": "i need headache", "labels": ["Calm"]}
+{"text": "romantic but also make out", "labels": ["Romantic", "Sensual"]}
+{"text": "focus mode only", "labels": ["Focus"]}
+{"text": "give me something moody", "labels": ["Brooding"]}
+{"text": "between study and coffee shop", "labels": ["Focus", "Chill"]}
+{"text": "need rainy night background", "labels": ["Somber"]}
+{"text": "perfect for blue", "labels": ["Melancholic"]}
+{"text": "bedroom playlist", "labels": ["Sensual"]}
+{"text": "pump yet still hands in the air", "labels": ["Energetic", "Euphoric"]}
+{"text": "perfect for trancey", "labels": ["Hypnotic"]}
+{"text": "anthemic yet still hands in the air", "labels": ["Epic", "Euphoric"]}
+{"text": "give me something smoldering", "labels": ["Brooding"]}
+{"text": "set the mood: bright", "labels": ["Bright"]}
+{"text": "i need trancey", "labels": ["Hypnotic"]}
+{"text": "music to peaceful", "labels": ["Calm"]}
+{"text": "lonely / cozy mix", "labels": ["Melancholic", "Warm"]}
+{"text": "cinematic playlist", "labels": ["Atmospheric"]}
+{"text": "groovy but also rage", "labels": ["Groovy", "Aggressive"]}
+{"text": "give me something shadowy", "labels": ["Dark"]}
+{"text": "between unwind and blue", "labels": ["Calm", "Melancholic"]}
+{"text": "looking for confident songs", "labels": ["Confident"]}
+{"text": "give me something love songs", "labels": ["Romantic"]}
+{"text": "study / we made it mix", "labels": ["Focus", "Triumphant"]}
+{"text": "hypnotic", "labels": ["Hypnotic"]}
+{"text": "give me something golden hour", "labels": ["Warm"]}
+{"text": "music to final boss", "labels": ["Epic"]}
+{"text": "set the mood: funeral", "labels": ["Somber"]}
+{"text": "need fresh start background", "labels": ["Hopeful"]}
+{"text": "track day playlist", "labels": ["Energetic"]}
+{"text": "uplifting", "labels": ["Uplifting"]}
+{"text": "head nod", "labels": ["Groovy"]}
+{"text": "looking for smoldering songs", "labels": ["Brooding"]}
+{"text": "in the pocket playlist", "labels": ["Groovy"]}
+{"text": "set the mood: unwind", "labels": ["Calm"]}
+{"text": "give me something soundscape", "labels": ["Atmospheric"]}
+{"text": "i need rainy night", "labels": ["Somber"]}
+{"text": "need coming of age background", "labels": ["Nostalgic"]}
+{"text": "comfort music playlist", "labels": ["Warm"]}
+{"text": "confident vibes", "labels": ["Confident"]}
+{"text": "set the mood: love songs", "labels": ["Romantic"]}
+{"text": "hazy vibes", "labels": ["Dreamy"]}
+{"text": "victorious", "labels": ["Triumphant"]}
+{"text": "study music playlist", "labels": ["Focus"]}
+{"text": "set the mood: energetic", "labels": ["Energetic"]}
+{"text": "inward with a touch of good mood", "labels": ["Introspective", "Uplifting"]}
+{"text": "music to pick me up", "labels": ["Uplifting"]}
+{"text": "bubbly only", "labels": ["Bright"]}
+{"text": "need intense buildup background", "labels": ["Dramatic"]}
+{"text": "set the mood: blanket", "labels": ["Warm"]}
+{"text": "gritty only", "labels": ["Gritty"]}
+{"text": "glimmer playlist", "labels": ["Dreamy"]}
+{"text": "give me something triumphant", "labels": ["Triumphant"]}
+{"text": "reflective vibes", "labels": ["Introspective"]}
+{"text": "looking for crunchy songs", "labels": ["Gritty"]}
+{"text": "i need throwback", "labels": ["Nostalgic"]}
+{"text": "spacey", "labels": ["Atmospheric"]}
+{"text": "loop-driven", "labels": ["Hypnotic"]}
+{"text": "give me something dirty", "labels": ["Gritty"]}
+{"text": "need bittersweet background", "labels": ["Bittersweet"]}
+{"text": "perfect for power playlist", "labels": ["Confident"]}
+{"text": "coffee shop", "labels": ["Chill"]}
+{"text": "in the pocket but also aggressive", "labels": ["Groovy", "Aggressive"]}
+{"text": "i need tearful", "labels": ["Melancholic"]}
+{"text": "intense buildup", "labels": ["Dramatic"]}
+{"text": "need raw background", "labels": ["Gritty"]}
+{"text": "intervals / club drop mix", "labels": ["Energetic", "Euphoric"]}
+{"text": "moody", "labels": ["Brooding"]}
+{"text": "good mood only", "labels": ["Uplifting"]}
+{"text": "looking for race day songs", "labels": ["Triumphant"]}
+{"text": "looking for shadowy songs", "labels": ["Dark"]}
+{"text": "looking for high octane songs", "labels": ["Energetic"]}
+{"text": "need noir background", "labels": ["Dark"]}
+{"text": "music to shadowy", "labels": ["Dark"]}
+{"text": "set the mood: romantic", "labels": ["Romantic"]}
+{"text": "give me something deep work", "labels": ["Focus"]}
+{"text": "give me something glimmer", "labels": ["Dreamy"]}
+{"text": "pump up only", "labels": ["Energetic"]}
+{"text": "festival high vibes", "labels": ["Euphoric"]}
+{"text": "lonely only", "labels": ["Melancholic"]}
+{"text": "looking for rainy night songs", "labels": ["Somber"]}
+{"text": "perfect for uplifting", "labels": ["Uplifting"]}
+{"text": "between mosh and not feeling well", "labels": ["Aggressive", "Calm"]}
+{"text": "perfect for golden hour", "labels": ["Warm"]}
+{"text": "need bright background", "labels": ["Bright"]}
+{"text": "intense buildup vibes", "labels": ["Dramatic"]}
+{"text": "rush only", "labels": ["Euphoric"]}
+{"text": "need dreamy background", "labels": ["Dreamy"]}
+{"text": "need lo-fi background", "labels": ["Chill"]}
+{"text": "i need swagger", "labels": ["Confident"]}
+{"text": "between boss battle and race day", "labels": ["Epic", "Triumphant"]}
+{"text": "bleak playlist", "labels": ["Somber"]}
+{"text": "serene", "labels": ["Calm"]}
+{"text": "i need confident", "labels": ["Confident"]}
+{"text": "need positive vibes background", "labels": ["Uplifting"]}
+{"text": "atmospheric", "labels": ["Atmospheric"]}
+{"text": "give me something cloudlike", "labels": ["Dreamy"]}
+{"text": "reverb-heavy", "labels": ["Dreamy"]}
+{"text": "music to wistful", "labels": ["Bittersweet"]}
+{"text": "perfect for rage", "labels": ["Aggressive"]}
+{"text": "fireplace / soft mix", "labels": ["Warm", "Mellow"]}
+{"text": "give me something downtempo", "labels": ["Mellow"]}
+{"text": "set the mood: ethereal", "labels": ["Ethereal"]}
+{"text": "between blanket and gentle", "labels": ["Warm", "Mellow"]}
+{"text": "need high octane background", "labels": ["Energetic"]}
+{"text": "breathwork", "labels": ["Calm"]}
+{"text": "wide open vibes", "labels": ["Atmospheric"]}
+{"text": "i need spacey textures", "labels": ["Hypnotic"]}
+{"text": "set the mood: feel good", "labels": ["Uplifting"]}
+{"text": "nervy", "labels": ["Tense"]}
+{"text": "perfect for optimistic", "labels": ["Hopeful"]}
+{"text": "looking for moving on songs", "labels": ["Bittersweet"]}
+{"text": "boss mode playlist", "labels": ["Confident"]}
+{"text": "boss battle only", "labels": ["Epic"]}
+{"text": "give me something go hard", "labels": ["Aggressive"]}
+{"text": "looking for reflective songs", "labels": ["Introspective"]}
+{"text": "looking for wistful songs", "labels": ["Bittersweet"]}
+{"text": "need sensual background", "labels": ["Sensual"]}
+{"text": "in the pocket vibes", "labels": ["Groovy"]}
+{"text": "set the mood: run", "labels": ["Energetic"]}
+{"text": "looking for candlelight songs", "labels": ["Romantic"]}
+{"text": "set the mood: dreary", "labels": ["Somber"]}
+{"text": "shadowy playlist", "labels": ["Dark"]}
+{"text": "perfect for hyped", "labels": ["Energetic"]}
+{"text": "night drive yet still bittersweet", "labels": ["Nostalgic", "Bittersweet"]}
+{"text": "perfect for sensual", "labels": ["Sensual"]}
+{"text": "looking for drop ready songs", "labels": ["Euphoric"]}
+{"text": "between warm vibes and locked groove", "labels": ["Mellow", "Hypnotic"]}
+{"text": "on edge but also funeral", "labels": ["Tense", "Somber"]}
+{"text": "mellow only", "labels": ["Mellow"]}
+{"text": "need romantic background", "labels": ["Romantic"]}
+{"text": "introspective", "labels": ["Introspective"]}
+{"text": "i need wide open", "labels": ["Atmospheric"]}
+{"text": "late night thoughts vibes", "labels": ["Introspective"]}
+{"text": "feelgood yet still groovy", "labels": ["Uplifting", "Groovy"]}
+{"text": "epic only", "labels": ["Epic"]}
+{"text": "mellow playlist", "labels": ["Mellow"]}
+{"text": "need atmospheric background", "labels": ["Atmospheric"]}
+{"text": "music to bedroom", "labels": ["Sensual"]}
+{"text": "between old memories and intervals", "labels": ["Nostalgic", "Energetic"]}
+{"text": "looking for looped songs", "labels": ["Hypnotic"]}
+{"text": "sad / comforting mix", "labels": ["Melancholic", "Warm"]}
+{"text": "need old memories background", "labels": ["Nostalgic"]}
+{"text": "perfect for playful", "labels": ["Playful"]}
+{"text": "perfect for romantic", "labels": ["Romantic"]}
+{"text": "between ambient and looped", "labels": ["Atmospheric", "Hypnotic"]}
+{"text": "i need intense buildup", "labels": ["Dramatic"]}
+{"text": "noir only", "labels": ["Dark"]}
+{"text": "driving rhythm", "labels": ["Energetic"]}
+{"text": "boss mode / bouncy mix", "labels": ["Confident", "Playful"]}
+{"text": "give me something stormy", "labels": ["Brooding"]}
+{"text": "music to down bad", "labels": ["Melancholic"]}
+{"text": "i need anthemic", "labels": ["Epic"]}
+{"text": "study music / win day mix", "labels": ["Focus", "Triumphant"]}
+{"text": "golden hour only", "labels": ["Warm"]}
+{"text": "give me something in the pocket", "labels": ["Groovy"]}
+{"text": "need anxious energy background", "labels": ["Tense"]}
+{"text": "looking for gritty songs", "labels": ["Gritty"]}
+{"text": "introspective vibes", "labels": ["Introspective"]}
+{"text": "i need introspective", "labels": ["Introspective"]}
+{"text": "hypnotic playlist", "labels": ["Hypnotic"]}
+{"text": "between glimmer and angelic", "labels": ["Dreamy", "Ethereal"]}
+{"text": "need comfort music only", "labels": ["Calm"]}
+{"text": "give me something late night drive", "labels": ["Nostalgic"]}
+{"text": "funeral", "labels": ["Somber"]}
+{"text": "instrumental only vibes", "labels": ["Focus"]}
+{"text": "swagger vibes", "labels": ["Confident"]}
+{"text": "perfect for slow dance", "labels": ["Romantic"]}
+{"text": "coming of age playlist", "labels": ["Nostalgic"]}
+{"text": "overcast only", "labels": ["Somber"]}
+{"text": "music to coffee shop", "labels": ["Chill"]}
+{"text": "perfect for cinematic", "labels": ["Atmospheric"]}
+{"text": "give me something intimate", "labels": ["Sensual"]}
+{"text": "pick me up", "labels": ["Uplifting"]}
+{"text": "retro vibes playlist", "labels": ["Nostalgic"]}
+{"text": "i need background vibe", "labels": ["Chill"]}
+{"text": "need gentle background", "labels": ["Mellow"]}
+{"text": "dreary", "labels": ["Somber"]}
+{"text": "morning run / trancey mix", "labels": ["Energetic", "Hypnotic"]}
+{"text": "cheeky", "labels": ["Playful"]}
+{"text": "downtempo", "labels": ["Mellow"]}
+{"text": "triumphant only", "labels": ["Triumphant"]}
+{"text": "overcast but also dreamy", "labels": ["Somber", "Dreamy"]}
+{"text": "music to mesmerizing", "labels": ["Hypnotic"]}
+{"text": "i need race day", "labels": ["Triumphant"]}
+{"text": "give me something crying in the club", "labels": ["Melancholic"]}
+{"text": "need comfort music", "labels": ["Calm"]}
+{"text": "otherworldly playlist", "labels": ["Ethereal"]}
+{"text": "easy listening vibes", "labels": ["Chill"]}
+{"text": "uplifting playlist", "labels": ["Uplifting"]}
+{"text": "ambient vibes", "labels": ["Atmospheric"]}
+{"text": "ambient only", "labels": ["Atmospheric"]}
+{"text": "warm only", "labels": ["Warm"]}
+{"text": "looking for blue songs", "labels": ["Melancholic"]}
+{"text": "need tranquil background", "labels": ["Calm"]}
+{"text": "set the mood: uplifting", "labels": ["Uplifting"]}
+{"text": "dirty playlist", "labels": ["Gritty"]}
+{"text": "final boss only", "labels": ["Epic"]}
+{"text": "give me something euphoric", "labels": ["Euphoric"]}
+{"text": "need cinematic background", "labels": ["Atmospheric"]}
+{"text": "looking for hazy songs", "labels": ["Dreamy"]}
+{"text": "set the mood: plot twist", "labels": ["Dramatic"]}
+{"text": "need head nod background", "labels": ["Groovy"]}
+{"text": "airy but also weightless", "labels": ["Dreamy", "Ethereal"]}
+{"text": "perfect for trailer music", "labels": ["Epic"]}
+{"text": "perfect for workout", "labels": ["Energetic"]}
+{"text": "suspenseful", "labels": ["Tense"]}
+{"text": "vintage feel vibes", "labels": ["Nostalgic"]}
+{"text": "win day with a touch of slow dance", "labels": ["Triumphant", "Romantic"]}
+{"text": "give me something nervy", "labels": ["Tense"]}
+{"text": "dramatic playlist", "labels": ["Dramatic"]}
+{"text": "i need euphoric", "labels": ["Euphoric"]}
+{"text": "upbeat vibes", "labels": ["Energetic"]}
+{"text": "set the mood: golden hour", "labels": ["Warm"]}
+{"text": "between sprint and hypnotic", "labels": ["Energetic", "Hypnotic"]}
+{"text": "introspective playlist", "labels": ["Introspective"]}
+{"text": "rainy day vibes", "labels": ["Somber"]}
+{"text": "perfect for intervals", "labels": ["Energetic"]}
+{"text": "i need night drive", "labels": ["Nostalgic"]}
+{"text": "whimsical vibes", "labels": ["Playful"]}
+{"text": "perfect for steamy", "labels": ["Sensual"]}
+{"text": "perfect for in the pocket", "labels": ["Groovy"]}
+{"text": "i need deep work", "labels": ["Focus"]}
+{"text": "set the mood: intimate", "labels": ["Sensual"]}
+{"text": "perfect for sick", "labels": ["Calm"]}
+{"text": "i need hard hitting", "labels": ["Aggressive"]}
+{"text": "between trancey and to study", "labels": ["Hypnotic", "Focus"]}
+{"text": "introspective only", "labels": ["Introspective"]}
+{"text": "weightless vibes", "labels": ["Ethereal"]}
+{"text": "give me something bleak", "labels": ["Somber"]}
+{"text": "between pump and euphoric", "labels": ["Energetic", "Euphoric"]}
+{"text": "i need head nod", "labels": ["Groovy"]}
+{"text": "give me something lofi", "labels": ["Chill"]}
+{"text": "between comfort music and gentle", "labels": ["Warm", "Mellow"]}
+{"text": "music to confident", "labels": ["Confident"]}
+{"text": "set the mood: dark", "labels": ["Dark"]}
+{"text": "funeral playlist", "labels": ["Somber"]}
+{"text": "study music vibes", "labels": ["Focus"]}
+{"text": "dreary only", "labels": ["Somber"]}
+{"text": "between plot twist and overcast", "labels": ["Dramatic", "Somber"]}
+{"text": "give me something study music", "labels": ["Focus"]}
+{"text": "music to cardio", "labels": ["Energetic"]}
+{"text": "i need post rock", "labels": ["Atmospheric"]}
+{"text": "looking for head nod songs", "labels": ["Groovy"]}
+{"text": "mesmerizing", "labels": ["Hypnotic"]}
+{"text": "ambient", "labels": ["Atmospheric"]}
+{"text": "otherworldly", "labels": ["Ethereal"]}
+{"text": "anxious energy vibes", "labels": ["Tense"]}
+{"text": "coming of age only", "labels": ["Nostalgic"]}
+{"text": "looking for uplifting songs", "labels": ["Uplifting"]}
+{"text": "need remember when background", "labels": ["Nostalgic"]}
+{"text": "date night / steamy mix", "labels": ["Romantic", "Sensual"]}
+{"text": "set the mood: glacial", "labels": ["Ethereal"]}
+{"text": "fireplace vibes", "labels": ["Warm"]}
+{"text": "cheeky playlist", "labels": ["Playful"]}
+{"text": "looking for serene songs", "labels": ["Calm"]}
+{"text": "music to aggressive", "labels": ["Aggressive"]}
+{"text": "late night vibes", "labels": ["Nostalgic"]}
+{"text": "warm textures", "labels": ["Chill"]}
+{"text": "tearful playlist", "labels": ["Melancholic"]}
+{"text": "need optimistic background", "labels": ["Hopeful"]}
+{"text": "set the mood: bittersweet", "labels": ["Bittersweet"]}
+{"text": "give me something garage", "labels": ["Gritty"]}
+{"text": "perfect for rush", "labels": ["Euphoric"]}
+{"text": "between bgm and soft beats", "labels": ["Focus", "Chill"]}
+{"text": "cloudlike playlist", "labels": ["Dreamy"]}
+{"text": "shiny playlist", "labels": ["Bright"]}
+{"text": "i need dramatic", "labels": ["Dramatic"]}
+{"text": "aggressive playlist", "labels": ["Aggressive"]}
+{"text": "need inward background", "labels": ["Introspective"]}
+{"text": "give me something wide open", "labels": ["Atmospheric"]}
+{"text": "i need massive festival drop", "labels": ["Euphoric"]}
+{"text": "i need glacial", "labels": ["Ethereal"]}
+{"text": "music to comfort music", "labels": ["Warm"]}
+{"text": "set the mood: bleak", "labels": ["Somber"]}
+{"text": "give me something locked groove", "labels": ["Hypnotic"]}
+{"text": "cinematic vibes", "labels": ["Atmospheric"]}
+{"text": "i need journaling", "labels": ["Introspective"]}
+{"text": "perfect for old memories", "labels": ["Nostalgic"]}
+{"text": "sweet sorrow only", "labels": ["Bittersweet"]}
+{"text": "need study music background", "labels": ["Focus"]}
+{"text": "perfect for dramatic", "labels": ["Dramatic"]}
+{"text": "give me something hype", "labels": ["Energetic"]}
+{"text": "laid back / plot twist mix", "labels": ["Chill", "Dramatic"]}
+{"text": "bright playlist", "labels": ["Bright"]}
+{"text": "give me something heavy", "labels": ["Aggressive"]}
+{"text": "give me something lo-fi", "labels": ["Chill"]}
+{"text": "give me something bubbly", "labels": ["Bright"]}
+{"text": "need edgy background", "labels": ["Tense"]}
+{"text": "need bgm background", "labels": ["Focus"]}
+{"text": "looking for pr day songs", "labels": ["Energetic"]}
+{"text": "need preworkout background", "labels": ["Energetic"]}
+{"text": "rainy night yet still down bad", "labels": ["Somber", "Melancholic"]}
+{"text": "music to not feeling well", "labels": ["Calm"]}
+{"text": "pump up", "labels": ["Energetic"]}
+{"text": "looking for good mood songs", "labels": ["Uplifting"]}
+{"text": "anthemic with a touch of marathon", "labels": ["Epic", "Triumphant"]}
+{"text": "slow dance playlist", "labels": ["Romantic"]}
+{"text": "ethereal only", "labels": ["Ethereal"]}
+{"text": "music to date night", "labels": ["Romantic"]}
+{"text": "perfect for hard hitting", "labels": ["Aggressive"]}
+{"text": "perfect for shiny", "labels": ["Bright"]}
+{"text": "need hypnotic background", "labels": ["Hypnotic"]}
+{"text": "i need in the pocket", "labels": ["Groovy"]}
+{"text": "i need intimate", "labels": ["Sensual"]}
+{"text": "hyped", "labels": ["Energetic"]}
+{"text": "dramatic vibes", "labels": ["Dramatic"]}
+{"text": "playful", "labels": ["Playful"]}
+{"text": "perfect for looped", "labels": ["Hypnotic"]}
+{"text": "perfect for goth", "labels": ["Dark"]}
+{"text": "i need nervy", "labels": ["Tense"]}
+{"text": "give me something cheeky", "labels": ["Playful"]}
+{"text": "i need bittersweet", "labels": ["Bittersweet"]}
+{"text": "perfect for lo-fi", "labels": ["Chill"]}
+{"text": "crunchy / journaling mix", "labels": ["Gritty", "Introspective"]}
+{"text": "warm vibes / locked groove mix", "labels": ["Mellow", "Hypnotic"]}
+{"text": "music to late night", "labels": ["Nostalgic"]}
+{"text": "i need coming of age", "labels": ["Nostalgic"]}
+{"text": "shadowy", "labels": ["Dark"]}
+{"text": "set the mood: cardio", "labels": ["Energetic"]}
+{"text": "rolling only", "labels": ["Hypnotic"]}
+{"text": "looking for lonely songs", "labels": ["Melancholic"]}
+{"text": "give me something not feeling well", "labels": ["Calm"]}
+{"text": "plot twist / rainy day mix", "labels": ["Dramatic", "Somber"]}
+{"text": "raw only", "labels": ["Gritty"]}
+{"text": "boss mode / groovy mix", "labels": ["Confident", "Groovy"]}
+{"text": "music to dreamy", "labels": ["Dreamy"]}
+{"text": "give me something cinematic", "labels": ["Atmospheric"]}
+{"text": "set the mood: post rock", "labels": ["Atmospheric"]}
+{"text": "music to cheeky", "labels": ["Playful"]}
+{"text": "give me something focus", "labels": ["Focus"]}
+{"text": "heavy only", "labels": ["Aggressive"]}
+{"text": "pump", "labels": ["Energetic"]}
+{"text": "music to deep work", "labels": ["Focus"]}
+{"text": "need cheeky background", "labels": ["Playful"]}
+{"text": "lofi", "labels": ["Chill"]}
+{"text": "club drop", "labels": ["Euphoric"]}
+{"text": "sunny vibes", "labels": ["Bright"]}
+{"text": "looking for laid back songs", "labels": ["Chill"]}
+{"text": "R&B feel", "labels": ["Sensual"]}
+{"text": "i need love songs", "labels": ["Romantic"]}
+{"text": "perfect for down bad", "labels": ["Melancholic"]}
+{"text": "soft beats vibes", "labels": ["Chill"]}
+{"text": "to study yet still win day", "labels": ["Focus", "Triumphant"]}
+{"text": "looking for rage songs", "labels": ["Aggressive"]}
+{"text": "night drive but also moving on", "labels": ["Nostalgic", "Bittersweet"]}
+{"text": "i need mesmerizing", "labels": ["Hypnotic"]}
+{"text": "between confident and cheeky", "labels": ["Confident", "Playful"]}
+{"text": "unwind only", "labels": ["Calm"]}
+{"text": "perfect for background vibe", "labels": ["Chill"]}
+{"text": "decompress vibes", "labels": ["Calm"]}
+{"text": "perfect for euphoric", "labels": ["Euphoric"]}
+{"text": "i need warm", "labels": ["Warm"]}
+{"text": "crunchy", "labels": ["Gritty"]}
+{"text": "set the mood: night drive", "labels": ["Nostalgic"]}
+{"text": "need pump up background", "labels": ["Energetic"]}
+{"text": "overcast", "labels": ["Somber"]}
+{"text": "music to steamy", "labels": ["Sensual"]}
+{"text": "looking for shiny songs", "labels": ["Bright"]}
+{"text": "hard hitting", "labels": ["Aggressive"]}
+{"text": "morning run / spacey textures mix", "labels": ["Energetic", "Hypnotic"]}
+{"text": "need down bad background", "labels": ["Melancholic"]}
+{"text": "ominous vibes", "labels": ["Dark"]}
+{"text": "5am run but also mesmerizing", "labels": ["Energetic", "Hypnotic"]}
+{"text": "boss battle", "labels": ["Epic"]}
+{"text": "i need comfort music", "labels": ["Warm"]}
+{"text": "feel good but also in the pocket", "labels": ["Uplifting", "Groovy"]}
+{"text": "need soft background", "labels": ["Mellow"]}
+{"text": "ethereal", "labels": ["Dreamy"]}
+{"text": "music to race day", "labels": ["Triumphant"]}
+{"text": "fresh start", "labels": ["Hopeful"]}
+{"text": "soundscapes", "labels": ["Atmospheric"]}
+{"text": "intervals only", "labels": ["Energetic"]}
+{"text": "sick playlist", "labels": ["Calm"]}
+{"text": "perfect for breathwork", "labels": ["Calm"]}
+{"text": "nervy yet still funeral", "labels": ["Tense", "Somber"]}
+{"text": "perfect for study", "labels": ["Focus"]}
+{"text": "throwback feel", "labels": ["Nostalgic"]}
+{"text": "i need focus", "labels": ["Focus"]}
+{"text": "looking for blanket songs", "labels": ["Warm"]}
+{"text": "between pump up and mesmerizing", "labels": ["Energetic", "Hypnotic"]}
+{"text": "music to rainy day", "labels": ["Somber"]}
+{"text": "music to sunny", "labels": ["Bright"]}
+{"text": "set the mood: gritty", "labels": ["Gritty"]}
+{"text": "power playlist", "labels": ["Confident"]}
+{"text": "moving on playlist", "labels": ["Bittersweet"]}
+{"text": "warm vibes", "labels": ["Mellow"]}
+{"text": "give me something fresh start", "labels": ["Hopeful"]}
+{"text": "between laid back and theatrical", "labels": ["Chill", "Dramatic"]}
+{"text": "ethereal playlist", "labels": ["Ethereal"]}
+{"text": "need bouncy background", "labels": ["Playful"]}
+{"text": "music to smooth", "labels": ["Mellow"]}
+{"text": "club drop vibes", "labels": ["Euphoric"]}
+{"text": "rage vibes", "labels": ["Aggressive"]}
+{"text": "in the pocket", "labels": ["Groovy"]}
+{"text": "music to swagger", "labels": ["Confident"]}
+{"text": "energetic only", "labels": ["Energetic"]}
+{"text": "perfect for raw", "labels": ["Gritty"]}
+{"text": "locked groove / study music mix", "labels": ["Hypnotic", "Focus"]}
+{"text": "club drop only", "labels": ["Euphoric"]}
+{"text": "late night drive only", "labels": ["Nostalgic"]}
+{"text": "floaty vibes", "labels": ["Dreamy"]}
+{"text": "perfect for heavy", "labels": ["Aggressive"]}
+{"text": "golden hour playlist", "labels": ["Warm"]}
+{"text": "soundscape / spacey textures mix", "labels": ["Atmospheric", "Hypnotic"]}
+{"text": "set the mood: quirky", "labels": ["Playful"]}
+{"text": "make out", "labels": ["Sensual"]}
+{"text": "i need easy listening", "labels": ["Chill"]}
+{"text": "between anthemic and drop ready", "labels": ["Epic", "Euphoric"]}
+{"text": "music to garage", "labels": ["Gritty"]}
+{"text": "i need otherworldly", "labels": ["Ethereal"]}
+{"text": "otherworldly only", "labels": ["Ethereal"]}
+{"text": "set the mood: bgm", "labels": ["Focus"]}
+{"text": "give me something aggressive", "labels": ["Aggressive"]}
+{"text": "music to win day", "labels": ["Triumphant"]}
+{"text": "low speechiness", "labels": ["Focus"]}
+{"text": "set the mood: retro vibes", "labels": ["Nostalgic"]}
+{"text": "slow burn playlist", "labels": ["Dramatic"]}
+{"text": "bleak vibes", "labels": ["Somber"]}
+{"text": "music to concentrate", "labels": ["Focus"]}
+{"text": "need strut background", "labels": ["Groovy"]}
+{"text": "give me something rush", "labels": ["Euphoric"]}
+{"text": "perfect for coming of age", "labels": ["Nostalgic"]}
+{"text": "confident", "labels": ["Confident"]}
+{"text": "music to dirty", "labels": ["Gritty"]}
+{"text": "date night playlist", "labels": ["Romantic"]}
+{"text": "focus", "labels": ["Focus"]}
+{"text": "perfect for blanket", "labels": ["Warm"]}
+{"text": "trancey", "labels": ["Hypnotic"]}
+{"text": "bedroom vibes", "labels": ["Sensual"]}
+{"text": "angelic only", "labels": ["Ethereal"]}
+{"text": "smoldering yet still groovy", "labels": ["Brooding", "Groovy"]}
+{"text": "music to boss battle", "labels": ["Epic"]}
+{"text": "hiit", "labels": ["Energetic"]}
+{"text": "glacial only", "labels": ["Ethereal"]}
+{"text": "give me something weightless", "labels": ["Ethereal"]}
+{"text": "i need steamy", "labels": ["Sensual"]}
+{"text": "i need sparkly", "labels": ["Bright"]}
+{"text": "looking for intimate songs", "labels": ["Sensual"]}
+{"text": "moody only", "labels": ["Brooding"]}
+{"text": "festival high but also we made it", "labels": ["Euphoric", "Triumphant"]}
+{"text": "music to ethereal", "labels": ["Ethereal"]}
+{"text": "i need marathon", "labels": ["Triumphant"]}
+{"text": "good mood playlist", "labels": ["Uplifting"]}
+{"text": "give me something preworkout", "labels": ["Energetic"]}
+{"text": "hands in the air playlist", "labels": ["Euphoric"]}
+{"text": "gritty", "labels": ["Gritty"]}
+{"text": "i need coffee shop", "labels": ["Chill"]}
+{"text": "smoldering", "labels": ["Brooding"]}
+{"text": "set the mood: cozy", "labels": ["Warm"]}
+{"text": "boss battle but also massive festival drop", "labels": ["Epic", "Euphoric"]}
+{"text": "otherworldly vibes", "labels": ["Ethereal"]}
+{"text": "need glimmer background", "labels": ["Dreamy"]}
+{"text": "head nod playlist", "labels": ["Groovy"]}
+{"text": "queasy", "labels": ["Calm"]}
+{"text": "set the mood: fireplace", "labels": ["Warm"]}
+{"text": "bubbly / wistful mix", "labels": ["Bright", "Bittersweet"]}
+{"text": "give me something atmospheric", "labels": ["Atmospheric"]}
+{"text": "tense", "labels": ["Dark"]}
+{"text": "inward", "labels": ["Introspective"]}
+{"text": "give me something candlelight", "labels": ["Romantic"]}
+{"text": "overcast but also blue", "labels": ["Somber", "Melancholic"]}
+{"text": "set the mood: moody", "labels": ["Brooding"]}
+{"text": "give me something ethereal", "labels": ["Ethereal"]}
+{"text": "give me something sad", "labels": ["Melancholic"]}
+{"text": "i need cliffhanger", "labels": ["Dramatic"]}
+{"text": "set the mood: cheeky", "labels": ["Playful"]}
+{"text": "perfect for ominous", "labels": ["Dark"]}
+{"text": "set the mood: sparkly", "labels": ["Bright"]}
+{"text": "morning run vibes", "labels": ["Energetic"]}
+{"text": "set the mood: late night thoughts", "labels": ["Introspective"]}
+{"text": "feelgood vibes", "labels": ["Uplifting"]}
+{"text": "not feeling well vibes", "labels": ["Calm"]}
+{"text": "lo-fi", "labels": ["Chill"]}
+{"text": "between boss battle and euphoric", "labels": ["Epic", "Euphoric"]}
+{"text": "haunting ambience vibes", "labels": ["Dark"]}
+{"text": "late night drive playlist", "labels": ["Nostalgic"]}
+{"text": "intimate but also triumphant", "labels": ["Sensual", "Triumphant"]}

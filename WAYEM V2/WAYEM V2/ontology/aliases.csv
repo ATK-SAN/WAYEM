@@ -1,0 +1,282 @@
+alias,canonical
+serene,Calm
+peaceful,Calm
+tranquil,Calm
+soothing,Calm
+unwind,Calm
+breathwork,Calm
+wind down,Calm
+decompress,Calm
+
+chill,Chill
+laid back,Chill
+lofi,Chill
+lo-fi,Chill
+coffee shop,Chill
+background vibe,Chill
+easy listening,Chill
+soft beats,Chill
+
+mellow,Mellow
+smooth,Mellow
+soft,Mellow
+gentle,Mellow
+warm vibes,Mellow
+downtempo,Mellow
+
+dreamy,Dreamy
+floaty,Dreamy
+airy,Dreamy
+hazy,Dreamy
+cloudlike,Dreamy
+shoegaze,Dreamy
+glimmer,Dreamy
+
+atmospheric,Atmospheric
+cinematic,Atmospheric
+soundscape,Atmospheric
+ambient,Atmospheric
+spacey,Atmospheric
+wide open,Atmospheric
+post rock,Atmospheric
+
+hypnotic,Hypnotic
+mesmerizing,Hypnotic
+trancey,Hypnotic
+looped,Hypnotic
+rolling,Hypnotic
+locked groove,Hypnotic
+
+focus,Focus
+study,Focus
+deep work,Focus
+concentrate,Focus
+no lyrics,Focus
+instrumental only,Focus
+pomodoro,Focus
+
+introspective,Introspective
+inward,Introspective
+reflective,Introspective
+journaling,Introspective
+late night thoughts,Introspective
+
+sad,Melancholic
+heartbroken,Melancholic
+blue,Melancholic
+tearful,Melancholic
+lonely,Melancholic
+crying in the club,Melancholic
+down bad,Melancholic
+
+somber,Somber
+bleak,Somber
+funeral,Somber
+dreary,Somber
+overcast,Somber
+rainy day,Somber
+
+brooding,Brooding
+moody,Brooding
+stormy,Brooding
+smoldering,Brooding
+
+dark,Dark
+shadowy,Dark
+goth,Dark
+noir,Dark
+ominous,Dark
+
+warm,Warm
+cozy,Warm
+fireplace,Warm
+blanket,Warm
+golden hour,Warm
+
+bright,Bright
+bubbly,Bright
+sparkly,Bright
+sunny,Bright
+shiny,Bright
+
+uplifting,Uplifting
+feel good,Uplifting
+feelgood,Uplifting
+positive vibes,Uplifting
+good mood,Uplifting
+pick me up,Uplifting
+
+euphoric,Euphoric
+rush,Euphoric
+hands in the air,Euphoric
+festival high,Euphoric
+drop ready,Euphoric
+
+playful,Playful
+whimsical,Playful
+cheeky,Playful
+bouncy,Playful
+quirky,Playful
+
+romantic,Romantic
+date night,Romantic
+love songs,Romantic
+candlelight,Romantic
+slow dance,Romantic
+
+sensual,Sensual
+intimate,Sensual
+steamy,Sensual
+bedroom,Sensual
+make out,Sensual
+
+bittersweet,Bittersweet
+sweet sorrow,Bittersweet
+wistful,Bittersweet
+moving on,Bittersweet
+
+nostalgic,Nostalgic
+throwback,Nostalgic
+retro vibes,Nostalgic
+remember when,Nostalgic
+coming of age,Nostalgic
+
+hopeful,Hopeful
+optimistic,Hopeful
+new beginnings,Hopeful
+fresh start,Hopeful
+
+triumphant,Triumphant
+victorious,Triumphant
+we made it,Triumphant
+win day,Triumphant
+
+epic,Epic
+anthemic,Epic
+boss battle,Epic
+final boss,Epic
+trailer music,Epic
+
+energetic,Energetic
+hyped,Energetic
+pump up,Energetic
+high octane,Energetic
+upbeat,Energetic
+
+aggressive,Aggressive
+heavy,Aggressive
+hard hitting,Aggressive
+rage,Aggressive
+mosh,Aggressive
+go hard,Aggressive
+
+gritty,Gritty
+raw,Gritty
+dirty,Gritty
+crunchy,Gritty
+garage,Gritty
+
+groovy,Groovy
+funky,Groovy
+in the pocket,Groovy
+strut,Groovy
+head nod,Groovy
+
+confident,Confident
+boss mode,Confident
+swagger,Confident
+power walk,Confident
+
+tense,Tense
+edgy,Tense
+nervy,Tense
+anxious energy,Tense
+on edge,Tense
+
+dramatic,Dramatic
+theatrical,Dramatic
+cliffhanger,Dramatic
+plot twist,Dramatic
+slow burn,Dramatic
+
+ethereal,Ethereal
+otherworldly,Ethereal
+angelic,Ethereal
+glacial,Ethereal
+weightless,Ethereal
+
+to study,Focus
+instrumental,Focus
+study beats,Focus
+bgm,Focus
+run,Energetic
+running,Energetic
+5am run,Energetic
+morning run,Energetic
+workout,Energetic
+cardio,Energetic
+hiit,Energetic
+rainy night,Somber
+late night drive,Nostalgic
+
+sprint,Energetic
+pr day,Energetic
+pump,Energetic
+hype,Energetic
+final boss,Epic
+boss mode,Confident
+power playlist,Confident
+study music,Focus
+
+# running / hype
+sprint,Energetic
+race day,Triumphant
+marathon,Triumphant
+intervals,Energetic
+track day,Energetic
+gym,Energetic
+preworkout,Energetic
+beast mode,Confident
+power playlist,Confident
+power walk,Confident
+hype,Energetic
+
+# focus phrasing variants
+study music,Focus
+concentration,Focus
+focus mode,Focus
+
+# rainy / late night
+late night,Nostalgic
+night drive,Nostalgic
+
+sprint,Energetic
+gym,Energetic
+hype,Energetic
+beast mode,Confident
+power walk,Confident
+race day,Triumphant
+study music,Focus
+concentration,Focus
+focus mode,Focus
+late night,Nostalgic
+night drive,Nostalgic
+
+intense buildup,Dramatic
+cinematic rise,Dramatic
+club drop,Euphoric
+massive festival drop,Euphoric
+old memories,Nostalgic
+vintage feel,Nostalgic
+spacey textures,Hypnotic
+haunting ambience,Dark
+
+sick,Calm
+not feeling well,Calm
+under the weather,Calm
+need comfort music,Calm
+headache,Calm
+queasy,Calm
+comforting,Warm
+comfort music,Warm
+

@@ -1,0 +1,32 @@
+Calm: { target_energy: 0.25, target_valence: 0.45, target_acousticness: 0.6, target_instrumentalness: 0.5 }
+Chill: { target_energy: 0.35, target_valence: 0.55, target_danceability: 0.5, target_acousticness: 0.55 }
+Mellow: { target_energy: 0.4, target_valence: 0.5, target_danceability: 0.45, target_acousticness: 0.5 }
+Dreamy: { target_energy: 0.35, target_valence: 0.5, target_acousticness: 0.5, target_instrumentalness: 0.4 }
+Atmospheric: { target_energy: 0.4, target_valence: 0.4, target_acousticness: 0.4, target_instrumentalness: 0.6 }
+Hypnotic: { target_energy: 0.45, target_valence: 0.45, target_instrumentalness: 0.6, target_danceability: 0.6 }
+Focus: { target_energy: 0.3, target_valence: 0.45, target_instrumentalness: 0.7, target_speechiness: 0.05 }
+Introspective: { target_energy: 0.3, target_valence: 0.3, target_acousticness: 0.45 }
+Melancholic: { target_energy: 0.25, target_valence: 0.2, target_acousticness: 0.45 }
+Somber: { target_energy: 0.2, target_valence: 0.15, target_acousticness: 0.5 }
+Brooding: { target_energy: 0.35, target_valence: 0.25, target_acousticness: 0.35 }
+Dark: { target_energy: 0.4, target_valence: 0.2, target_acousticness: 0.3 }
+Warm: { target_energy: 0.45, target_valence: 0.7, target_acousticness: 0.55 }
+Bright: { target_energy: 0.65, target_valence: 0.85, target_danceability: 0.65 }
+Uplifting: { target_energy: 0.65, target_valence: 0.8, target_danceability: 0.7 }
+Euphoric: { target_energy: 0.8, target_valence: 0.8, target_danceability: 0.75 }
+Playful: { target_energy: 0.7, target_valence: 0.75, target_danceability: 0.8 }
+Romantic: { target_energy: 0.4, target_valence: 0.65, target_acousticness: 0.5 }
+Sensual: { target_energy: 0.45, target_valence: 0.6, target_danceability: 0.65 }
+Bittersweet: { target_energy: 0.35, target_valence: 0.4, target_acousticness: 0.5 }
+Nostalgic: { target_energy: 0.45, target_valence: 0.5, target_acousticness: 0.45 }
+Hopeful: { target_energy: 0.55, target_valence: 0.75, target_danceability: 0.55 }
+Triumphant: { target_energy: 0.75, target_valence: 0.8, target_danceability: 0.7 }
+Epic: { target_energy: 0.8, target_valence: 0.6, target_danceability: 0.6 }
+Energetic: { target_energy: 0.9, target_valence: 0.7, target_danceability: 0.8 }
+Aggressive: { target_energy: 0.95, target_valence: 0.4, target_danceability: 0.6 }
+Gritty: { target_energy: 0.75, target_valence: 0.45, target_acousticness: 0.3 }
+Groovy: { target_energy: 0.7, target_valence: 0.7, target_danceability: 0.9 }
+Confident: { target_energy: 0.8, target_valence: 0.7, target_danceability: 0.75 }
+Tense: { target_energy: 0.6, target_valence: 0.3, target_tempo: 0.7 }
+Dramatic: { target_energy: 0.55, target_valence: 0.35, target_acousticness: 0.4 }
+Ethereal: { target_energy: 0.35, target_valence: 0.5, target_instrumentalness: 0.55, target_acousticness: 0.5 }
