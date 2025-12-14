@@ -13,85 +13,176 @@
   --accent-2:#10b981;
   --muted:#6b7280;
 }
+
 html,body{margin:0;height:100%}
+
 body{
   font-family: Inter,system-ui;
   background:linear-gradient(180deg,var(--bg-calm),#eef6ff);
-  display:flex;align-items:center;justify-content:center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
   padding:24px;
 }
+
 .card{
-  max-width:900px;width:100%;
+  max-width:900px;
+  width:100%;
   background:#fff;
   border-radius:18px;
   padding:28px;
   box-shadow:0 20px 40px rgba(0,0,0,.08);
 }
-header{display:flex;justify-content:space-between;align-items:center}
-.brand{display:flex;gap:14px;align-items:center}
-#appLogo{width:56px;height:56px;border-radius:50%;padding:6px;background:#fff}
 
-.controls{display:flex;gap:10px;margin-top:16px}
-.controls input{flex:1;padding:10px;border-radius:12px;border:1px solid #ddd}
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.brand{
+  display:flex;
+  gap:14px;
+  align-items:center;
+}
+
+#appLogo{
+  width:56px;
+  height:56px;
+  border-radius:50%;
+  padding:6px;
+  background:#fff;
+}
+
+.controls{
+  display:flex;
+  gap:10px;
+  margin-top:16px;
+}
+
+.controls input{
+  flex:1;
+  padding:10px;
+  border-radius:12px;
+  border:1px solid #ddd;
+}
 
 .btn-primary{
   background:linear-gradient(90deg,var(--accent),#0891b2);
-  color:white;border:none;border-radius:12px;
-  padding:10px 16px;font-weight:600;cursor:pointer
+  color:white;
+  border:none;
+  border-radius:12px;
+  padding:10px 16px;
+  font-weight:600;
+  cursor:pointer;
 }
+
 .btn-ghost{
-  border:1px solid #ddd;background:none;
-  padding:10px 14px;border-radius:12px;cursor:pointer
+  border:1px solid #ddd;
+  background:none;
+  padding:10px 14px;
+  border-radius:12px;
+  cursor:pointer;
 }
 
-.grid{display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:20px}
-@media(max-width:850px){.grid{grid-template-columns:1fr}}
+.grid{
+  display:grid;
+  grid-template-columns:1fr 320px;
+  gap:18px;
+  margin-top:20px;
+}
 
-.info{background:#f8fafc;padding:14px;border-radius:12px;font-size:.9rem}
+@media(max-width:850px){
+  .grid{grid-template-columns:1fr}
+}
+
+.info{
+  background:#f8fafc;
+  padding:14px;
+  border-radius:12px;
+  font-size:.9rem;
+}
 
 .track-card{
-  display:flex;gap:12px;padding:12px;background:#fff;
-  border-radius:12px;margin-top:10px;
-  box-shadow:0 6px 18px rgba(0,0,0,.04)
+  display:flex;
+  gap:12px;
+  padding:12px;
+  background:#fff;
+  border-radius:12px;
+  margin-top:10px;
+  box-shadow:0 6px 18px rgba(0,0,0,.04);
 }
+
 .track-thumb{
-  width:56px;height:56px;border-radius:8px;
+  width:56px;
+  height:56px;
+  border-radius:8px;
   background:#eef2f7;
-  display:flex;align-items:center;justify-content:center;
-  font-weight:700
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:700;
+}
+
+.track-actions button,
+.track-actions a{
+  margin-left:6px;
 }
 
 .small{font-size:.85rem;color:var(--muted)}
 .muted{color:var(--muted)}
 
 #toast{
-  position:fixed;top:20px;right:20px;
-  background:#0369a1;color:#fff;
-  padding:10px 14px;border-radius:10px;
-  opacity:0;transition:.2s;z-index:99
+  position:fixed;
+  top:20px;
+  right:20px;
+  background:#0369a1;
+  color:#fff;
+  padding:10px 14px;
+  border-radius:10px;
+  opacity:0;
+  transition:.2s;
+  z-index:99;
 }
 #toast.show{opacity:1}
 
 /* ---------- APP SIM ---------- */
 #appSim{
-  margin-top:20px;padding:14px;
-  border:1px solid #e5e7eb;border-radius:14px;
+  margin-top:20px;
+  padding:14px;
+  border:1px solid #e5e7eb;
+  border-radius:14px;
 }
-.appRow{display:flex;gap:20px;margin-top:12px}
-.appBox{text-align:center;cursor:pointer}
-.usageBar{width:120px;height:8px;background:#eee;border-radius:999px;margin-top:6px}
-.usageFill{height:100%;width:0%;background:linear-gradient(90deg,#06b6d4,#10b981)}
 
-/* ---------- ECHO MODE ---------- */
-#echoToggle{
-  display:flex;align-items:center;gap:10px;
-  margin-top:14px;
+.appRow{
+  display:flex;
+  gap:20px;
+  margin-top:12px;
 }
-#echoToggle img{width:26px;height:26px}
+
+.appBox{
+  text-align:center;
+  cursor:pointer;
+}
+
+.usageBar{
+  width:120px;
+  height:8px;
+  background:#eee;
+  border-radius:999px;
+  margin-top:6px;
+}
+
+.usageFill{
+  height:100%;
+  width:0%;
+  background:linear-gradient(90deg,#06b6d4,#10b981);
+}
 </style>
 </head>
 
 <body>
+
 <div class="card">
 
 <header>
@@ -102,6 +193,7 @@ header{display:flex;justify-content:space-between;align-items:center}
       <div class="small">Text + App Simulation based music suggestions</div>
     </div>
   </div>
+
   <div>
     <button id="login" class="btn-ghost">Connect</button>
     <button id="getSong" class="btn-primary">Recommend</button>
@@ -110,15 +202,6 @@ header{display:flex;justify-content:space-between;align-items:center}
 
 <div class="controls">
   <input id="moodInput" placeholder="e.g. I need focus or want to relax"/>
-</div>
-
-<div id="echoToggle">
-  <img src="echo.png" alt="Echo Mode Icon"/>
-  <label>
-    <input type="checkbox" id="echoMode"/>
-    <b>Echo Mode</b>
-    <span class="small muted">(Smart Volume)</span>
-  </label>
 </div>
 
 <div class="grid">
@@ -133,12 +216,16 @@ header{display:flex;justify-content:space-between;align-items:center}
   <div class="appRow">
     <div class="appBox" onclick="activateApp('instagram')">
       <img src="instagram.png" width="40"/><br/>Instagram
-      <div class="usageBar"><div id="igFill" class="usageFill"></div></div>
+      <div class="usageBar">
+        <div id="igFill" class="usageFill"></div>
+      </div>
     </div>
 
     <div class="appBox" onclick="activateApp('youtube')">
       <img src="youtube.png" width="40"/><br/>YouTube
-      <div class="usageBar"><div id="ytFill" class="usageFill"></div></div>
+      <div class="usageBar">
+        <div id="ytFill" class="usageFill"></div>
+      </div>
     </div>
   </div>
 </div>
@@ -148,10 +235,10 @@ header{display:flex;justify-content:space-between;align-items:center}
 </section>
 
 <aside class="info">
-<strong>How it works</strong>
-<p class="small">• Type mood OR simulate app usage</p>
-<p class="small">• Threshold triggers a break suggestion</p>
-<p class="small">• Echo Mode adapts playback volume</p>
+  <strong>How it works</strong>
+  <p class="small">• Type mood OR simulate app usage</p>
+  <p class="small">• Threshold triggers a break suggestion</p>
+  <p class="small">• Music is recommended using same ML pipeline</p>
 </aside>
 </div>
 </div>
@@ -159,156 +246,134 @@ header{display:flex;justify-content:space-between;align-items:center}
 <div id="toast"></div>
 
 <script>
-const API="http://127.0.0.1:8001";
-let spotifyState=localStorage.getItem("spotify_state");
-let echoMode=false;
-let currentMood="Uplifting";
-let activeAudio=null;
+const API = "http://127.0.0.1:8001";
+let spotifyState = localStorage.getItem("spotify_state");
 
-/* ---------- EXTENDED ECHO PROFILES ---------- */
-const echoProfiles={
-  Calm:{volume:0.35,genre:"Ambient / Chill"},
-  Focus:{volume:0.45,genre:"Lo-fi / Instrumental"},
-  Uplifting:{volume:0.65,genre:"Pop / Indie"},
-  Energetic:{volume:0.8,genre:"EDM / Workout"},
-  Aggressive:{volume:0.85,genre:"Rock / Metal"},
-  Sad:{volume:0.3,genre:"Acoustic / Soft"}
-};
-
-function normalizeMood(label){
-  const m=label.toLowerCase();
-  if(m.includes("stress")||m.includes("tired")) return "Calm";
-  if(m.includes("focus")||m.includes("study")) return "Focus";
-  if(m.includes("angry")||m.includes("rage")) return "Aggressive";
-  if(m.includes("sad")||m.includes("down")) return "Sad";
-  if(m.includes("happy")||m.includes("excited")) return "Uplifting";
-  return label;
-}
-
+/* Toast */
 function showToast(msg){
-  const t=document.getElementById("toast");
-  t.textContent=msg;
+  const t = document.getElementById("toast");
+  t.textContent = msg;
   t.classList.add("show");
   setTimeout(()=>t.classList.remove("show"),2600);
 }
 
-document.getElementById("echoMode").onchange=e=>{
-  echoMode=e.target.checked;
-  showToast(`Echo Mode ${echoMode?"ON":"OFF"}`);
+/* Spotify */
+document.getElementById("login").onclick = () => {
+  location.href = `${API}/login`;
 };
 
-document.getElementById("login").onclick=()=>location.href=`${API}/login`;
-document.getElementById("getSong").onclick=()=>{
+document.getElementById("getSong").onclick = () => {
   if(!spotifyState) return alert("Connect Spotify first");
-  const txt=document.getElementById("moodInput").value.trim();
+  const txt = document.getElementById("moodInput").value.trim();
   if(!txt) return alert("Enter mood");
   analyze(txt);
 };
 
+/* NLP call */
 async function analyze(text){
   showToast("Finding music…");
-  const r=await fetch(`${API}/analyze?spotify_state=${spotifyState}`,{
+  const r = await fetch(`${API}/analyze?spotify_state=${spotifyState}`,{
     method:"POST",
     headers:{"Content-Type":"application/json"},
     body:JSON.stringify({text,limit:3})
   });
-  const d=await r.json();
-  currentMood=normalizeMood(d.moods?.[0]?.label||"Uplifting");
-  render(d.tracks||[]);
+  const d = await r.json();
+  render(d.tracks || []);
 }
 
+/* Render tracks */
 function render(tracks){
-  const res=document.getElementById("results");
-  res.innerHTML="";
+  const res = document.getElementById("results");
+  res.innerHTML = "";
   tracks.forEach(t=>{
-    res.innerHTML+=`
-    <div class="track-card">
-      <div class="track-thumb">${t.name[0]}</div>
-      <div style="flex:1">
-        <b>${t.name}</b>
-        <div class="small">${t.artist}</div>
+    res.innerHTML += `
+      <div class="track-card">
+        <div class="track-thumb">${t.name[0]}</div>
+        <div style="flex:1">
+          <b>${t.name}</b>
+          <div class="small">${t.artist}</div>
+        </div>
+        <div class="track-actions">
+          ${t.preview_url ? `<button onclick="new Audio('${t.preview_url}').play()">Preview</button>` : ""}
+          <a href="${t.spotify_url}" target="_blank">Spotify</a>
+        </div>
       </div>
-      <div>
-        ${t.preview_url?`<button onclick="playPreview('${t.preview_url}')">Preview</button>`:""}
-        <a href="${t.spotify_url}" target="_blank">Spotify</a>
-      </div>
-    </div>`;
+    `;
   });
 }
 
-function playPreview(url){
-  if(activeAudio) activeAudio.pause();
-  activeAudio=new Audio(url);
-
-  if(echoMode){
-    const p=echoProfiles[currentMood]||echoProfiles.Uplifting;
-    activeAudio.volume=p.volume;
-    showToast(`Echo Mode: ${currentMood} · ${p.genre} (${Math.round(p.volume*100)}%)`);
-  }else{
-    activeAudio.volume=1.0;
-  }
-  activeAudio.play();
-}
-
 /* ---------- APP SIM ENGINE ---------- */
-const SIM={time:0,active:null,usage:{instagram:0,youtube:0},threshold:120,popup:false};
-
-document.getElementById("toggleSim").onclick=()=>{
-  const s=document.getElementById("appSim");
-  s.style.display=s.style.display==="none"?"block":"none";
+const SIM = {
+  time:0,
+  active:null,
+  usage:{instagram:0,youtube:0},
+  threshold:120,
+  popup:false
 };
 
-function activateApp(app){SIM.active=app;SIM.popup=false;}
+document.getElementById("toggleSim").onclick = () => {
+  const s = document.getElementById("appSim");
+  s.style.display = s.style.display==="none" ? "block" : "none";
+};
+
+function activateApp(app){
+  SIM.active = app;
+  SIM.popup = false;
+}
 
 setInterval(()=>{
-  SIM.time+=5;if(SIM.time>=1440)SIM.time=0;
-  document.getElementById("simTime").textContent=
+  SIM.time += 5;
+  if(SIM.time >= 1440) SIM.time = 0;
+
+  document.getElementById("simTime").textContent =
     `Time: ${String(Math.floor(SIM.time/60)).padStart(2,'0')}:${String(SIM.time%60).padStart(2,'0')}`;
 
   if(SIM.active){
-    SIM.usage[SIM.active]+=5;
+    SIM.usage[SIM.active] += 5;
     updateBars();
     checkThreshold();
   }
 },1000);
 
 function updateBars(){
-  igFill.style.width=Math.min(SIM.usage.instagram/SIM.threshold*100,100)+"%";
-  ytFill.style.width=Math.min(SIM.usage.youtube/SIM.threshold*100,100)+"%";
+  igFill.style.width = Math.min(SIM.usage.instagram/SIM.threshold*100,100)+"%";
+  ytFill.style.width = Math.min(SIM.usage.youtube/SIM.threshold*100,100)+"%";
 }
 
 function checkThreshold(){
-  if(SIM.popup||SIM.usage[SIM.active]<SIM.threshold) return;
-  SIM.popup=true;
+  if(SIM.popup || SIM.usage[SIM.active] < SIM.threshold) return;
+  SIM.popup = true;
   if(confirm("You've been using this app for a while. Take a break?")){
     triggerMusic(SIM.active);
-    SIM.usage[SIM.active]=0;
-    SIM.active=null;
+    SIM.usage[SIM.active] = 0;
+    SIM.active = null;
   }
 }
 
 function triggerMusic(app){
-  const inferredMood=app==="instagram"?"Focus":"Calm";
-  if(echoMode){
-    const p=echoProfiles[inferredMood];
-    showToast(`Echo Mode: ${inferredMood} · ${p.genre} (${Math.round(p.volume*100)}%)`);
-  }
-  analyze(app==="instagram"
-    ?"I am distracted and need focus"
-    :"I feel tired and want calm music"
+  document.body.style.background =
+    app==="instagram"
+      ? "linear-gradient(#f0fdfa,#ccfbf1)"
+      : "linear-gradient(#f7fbff,#eef6ff)";
+
+  analyze(
+    app==="instagram"
+      ? "I am distracted and need focus"
+      : "I feel tired and want calm music"
   );
 }
 
 /* Persist Spotify */
 (function(){
-  const p=new URLSearchParams(location.search);
+  const p = new URLSearchParams(location.search);
   if(p.get("spotify_state")){
-    spotifyState=p.get("spotify_state");
+    spotifyState = p.get("spotify_state");
     localStorage.setItem("spotify_state",spotifyState);
     history.replaceState({},'',location.pathname);
     showToast("Spotify connected");
   }
 })();
 </script>
+
 </body>
 </html>
