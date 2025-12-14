@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Emotion Music Recommender</title>
+<title>WAYEM</title>
 
 <style>
 :root{
@@ -98,7 +98,7 @@ header{display:flex;justify-content:space-between;align-items:center}
   <div class="brand">
     <img id="appLogo" src="logo.png"/>
     <div>
-      <h2>Emotion Music Recommender</h2>
+      <h2>WAYEM</h2>
       <div class="small">Text + App Simulation based music suggestions</div>
     </div>
   </div>
@@ -112,7 +112,6 @@ header{display:flex;justify-content:space-between;align-items:center}
   <input id="moodInput" placeholder="e.g. I need focus or want to relax"/>
 </div>
 
-<!-- ECHO MODE -->
 <div id="echoToggle">
   <img src="echo.png" alt="Echo Mode Icon"/>
   <label>
@@ -174,7 +173,6 @@ const echoProfiles={
   Energetic:0.8
 };
 
-/* Toast */
 function showToast(msg){
   const t=document.getElementById("toast");
   t.textContent=msg;
@@ -182,33 +180,19 @@ function showToast(msg){
   setTimeout(()=>t.classList.remove("show"),2600);
 }
 
-/* Echo toggle */
 document.getElementById("echoMode").onchange=e=>{
   echoMode=e.target.checked;
   showToast(`Echo Mode ${echoMode?"ON":"OFF"}`);
 };
 
-/* Spotify */
 document.getElementById("login").onclick=()=>location.href=`${API}/login`;
 document.getElementById("getSong").onclick=()=>{
   if(!spotifyState) return alert("Connect Spotify first");
   let txt=document.getElementById("moodInput").value.trim();
   if(!txt) return alert("Enter mood");
-
-  txt=normalizeMoodText(txt);
   analyze(txt);
 };
 
-/* Frontend-only normalizer */
-function normalizeMoodText(text){
-  const t=text.toLowerCase();
-  if(t.includes("stressed")) return "I feel stressed and need calm focus";
-  if(t.includes("relax")) return "I want calm peaceful music";
-  if(t.includes("calm")) return "I feel calm and relaxed";
-  return text;
-}
-
-/* NLP call */
 async function analyze(text){
   showToast("Finding music…");
   const r=await fetch(`${API}/analyze?spotify_state=${spotifyState}`,{
@@ -221,7 +205,6 @@ async function analyze(text){
   render(d.tracks||[]);
 }
 
-/* Render tracks */
 function render(tracks){
   const res=document.getElementById("results");
   res.innerHTML="";
@@ -242,7 +225,6 @@ function render(tracks){
   });
 }
 
-/* Echo-aware playback */
 function playPreview(url){
   if(activeAudio) activeAudio.pause();
   activeAudio=new Audio(url);
@@ -252,7 +234,7 @@ function playPreview(url){
   showToast(`Volume ${Math.round(vol*100)}% (${currentMood})`);
 }
 
-/* ---------- APP SIM ENGINE (UNCHANGED) ---------- */
+/* ---------- APP SIM ENGINE ---------- */
 const SIM={time:0,active:null,usage:{instagram:0,youtube:0},threshold:120,popup:false};
 
 document.getElementById("toggleSim").onclick=()=>{
@@ -290,6 +272,11 @@ function checkThreshold(){
 }
 
 function triggerMusic(app){
+  const inferredMood = app==="instagram"?"Focus":"Calm";
+  if(echoMode){
+    const vol=Math.round((echoProfiles[inferredMood]||0.6)*100);
+    showToast(`Echo Mode: ${inferredMood} profile applied (${vol}% volume)`);
+  }
   analyze(app==="instagram"
     ?"I am distracted and need focus"
     :"I feel tired and want calm music"
