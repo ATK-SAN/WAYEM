@@ -165,13 +165,25 @@ let echoMode=false;
 let currentMood="Uplifting";
 let activeAudio=null;
 
-/* ---------- ECHO PROFILES ---------- */
+/* ---------- EXTENDED ECHO PROFILES ---------- */
 const echoProfiles={
-  Calm:0.35,
-  Focus:0.45,
-  Uplifting:0.6,
-  Energetic:0.8
+  Calm:{volume:0.35,genre:"Ambient / Chill"},
+  Focus:{volume:0.45,genre:"Lo-fi / Instrumental"},
+  Uplifting:{volume:0.65,genre:"Pop / Indie"},
+  Energetic:{volume:0.8,genre:"EDM / Workout"},
+  Aggressive:{volume:0.85,genre:"Rock / Metal"},
+  Sad:{volume:0.3,genre:"Acoustic / Soft"}
 };
+
+function normalizeMood(label){
+  const m=label.toLowerCase();
+  if(m.includes("stress")||m.includes("tired")) return "Calm";
+  if(m.includes("focus")||m.includes("study")) return "Focus";
+  if(m.includes("angry")||m.includes("rage")) return "Aggressive";
+  if(m.includes("sad")||m.includes("down")) return "Sad";
+  if(m.includes("happy")||m.includes("excited")) return "Uplifting";
+  return label;
+}
 
 function showToast(msg){
   const t=document.getElementById("toast");
@@ -188,7 +200,7 @@ document.getElementById("echoMode").onchange=e=>{
 document.getElementById("login").onclick=()=>location.href=`${API}/login`;
 document.getElementById("getSong").onclick=()=>{
   if(!spotifyState) return alert("Connect Spotify first");
-  let txt=document.getElementById("moodInput").value.trim();
+  const txt=document.getElementById("moodInput").value.trim();
   if(!txt) return alert("Enter mood");
   analyze(txt);
 };
@@ -201,7 +213,7 @@ async function analyze(text){
     body:JSON.stringify({text,limit:3})
   });
   const d=await r.json();
-  currentMood=d.moods?.[0]?.label||"Uplifting";
+  currentMood=normalizeMood(d.moods?.[0]?.label||"Uplifting");
   render(d.tracks||[]);
 }
 
@@ -217,8 +229,7 @@ function render(tracks){
         <div class="small">${t.artist}</div>
       </div>
       <div>
-        ${t.preview_url?
-        `<button onclick="playPreview('${t.preview_url}')">Preview</button>`:""}
+        ${t.preview_url?`<button onclick="playPreview('${t.preview_url}')">Preview</button>`:""}
         <a href="${t.spotify_url}" target="_blank">Spotify</a>
       </div>
     </div>`;
@@ -228,10 +239,15 @@ function render(tracks){
 function playPreview(url){
   if(activeAudio) activeAudio.pause();
   activeAudio=new Audio(url);
-  const vol=echoMode?(echoProfiles[currentMood]||0.6):1.0;
-  activeAudio.volume=vol;
+
+  if(echoMode){
+    const p=echoProfiles[currentMood]||echoProfiles.Uplifting;
+    activeAudio.volume=p.volume;
+    showToast(`Echo Mode: ${currentMood} · ${p.genre} (${Math.round(p.volume*100)}%)`);
+  }else{
+    activeAudio.volume=1.0;
+  }
   activeAudio.play();
-  showToast(`Volume ${Math.round(vol*100)}% (${currentMood})`);
 }
 
 /* ---------- APP SIM ENGINE ---------- */
@@ -272,10 +288,10 @@ function checkThreshold(){
 }
 
 function triggerMusic(app){
-  const inferredMood = app==="instagram"?"Focus":"Calm";
+  const inferredMood=app==="instagram"?"Focus":"Calm";
   if(echoMode){
-    const vol=Math.round((echoProfiles[inferredMood]||0.6)*100);
-    showToast(`Echo Mode: ${inferredMood} profile applied (${vol}% volume)`);
+    const p=echoProfiles[inferredMood];
+    showToast(`Echo Mode: ${inferredMood} · ${p.genre} (${Math.round(p.volume*100)}%)`);
   }
   analyze(app==="instagram"
     ?"I am distracted and need focus"
