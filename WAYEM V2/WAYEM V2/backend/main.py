@@ -6,7 +6,7 @@ import base64
 import secrets
 import time
 import logging
-from typing import Optional, Dict, Any, List, Tuple
+from typing import Optional, Dict, Any, List
 
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
@@ -17,7 +17,7 @@ import requests
 from dotenv import load_dotenv
 
 # ------------------ Path setup ------------------
-ROOT = pathlib.Path(__file__).resolve().parents[1]  # repo root
+ROOT = pathlib.Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
@@ -27,8 +27,6 @@ logger = logging.getLogger("music-backend")
 
 # ------------------ Load environment ------------------
 ENV_PATH = ROOT / "backend" / "API_V.env"
-if not ENV_PATH.exists():
-    logger.warning("API_V.env file not found at %s", ENV_PATH)
 load_dotenv(dotenv_path=ENV_PATH)
 
 SPOTIFY_CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID")
@@ -41,7 +39,8 @@ if not SPOTIFY_CLIENT_ID or not SPOTIFY_CLIENT_SECRET:
     raise RuntimeError("Spotify credentials missing in environment")
 
 # ------------------ FastAPI setup ------------------
-app = FastAPI()
+app = FastAPI(title="WAYEM Music Backend")
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  # dev only
@@ -54,9 +53,6 @@ BASE_DIR = pathlib.Path(__file__).resolve().parent
 FRONTEND_DIR = BASE_DIR.parent / "frontend"
 if FRONTEND_DIR.exists():
     app.mount("/static", StaticFiles(directory=str(FRONTEND_DIR), html=True), name="frontend")
-    logger.info("Mounted frontend: %s", FRONTEND_DIR)
-else:
-    logger.warning("Frontend directory not found: %s", FRONTEND_DIR)
 
 # ------------------ Models ------------------
 class UserText(BaseModel):
@@ -64,15 +60,15 @@ class UserText(BaseModel):
     k: int = 3
     limit: int = 3
 
-class TrackOut(BaseModel):
-    name: Optional[str] = None
-    artist: Optional[str] = None
-    preview_url: Optional[str] = None
-    spotify_url: Optional[str] = None
-
 class MoodScore(BaseModel):
     label: str
     score: float
+
+class TrackOut(BaseModel):
+    name: Optional[str]
+    artist: Optional[str]
+    preview_url: Optional[str]
+    spotify_url: Optional[str]
 
 class AnalyzeOut(BaseModel):
     moods: List[MoodScore]
@@ -85,41 +81,45 @@ from backend.ml.classify import MoodClassifier
 from backend.ml.supervised import SupervisedMoodClassifier
 
 def classify_mood_local(text: str) -> str:
-    t = (text or "").lower()
-    if any(w in t for w in ["calm", "peace", "relax"]):
+    t = text.lower()
+    if any(w in t for w in ["calm", "relax", "peace"]):
         return "Calm"
-    if any(w in t for w in ["energy", "active", "excited", "run", "workout"]):
+    if any(w in t for w in ["energy", "workout", "active"]):
         return "Energetic"
-    if any(w in t for w in ["focus", "study", "concentrate"]):
+    if any(w in t for w in ["focus", "study"]):
         return "Focus"
     return "Uplifting"
 
 def classify_mood_github_gpt(text: str) -> str:
     if not GITHUB_TOKEN:
         return classify_mood_local(text)
+
     url = "https://models.github.ai/inference/chat/completions"
-    headers = {"Authorization": f"Bearer {GITHUB_TOKEN}", "Content-Type": "application/json"}
-    prompt = f'Classify mood into one of: Calm, Energetic, Focus, Uplifting. User input: "{text}"'
-    payload = {"model": "openai/gpt-4o", "messages": [{"role": "user", "content": prompt}], "temperature": 0, "max_tokens": 5}
+    headers = {
+        "Authorization": f"Bearer {GITHUB_TOKEN}",
+        "Content-Type": "application/json",
+    }
+    payload = {
+        "model": "openai/gpt-4o",
+        "messages": [{
+            "role": "user",
+            "content": f'Classify mood into: Calm, Energetic, Focus, Uplifting. Text: "{text}"'
+        }],
+        "temperature": 0,
+        "max_tokens": 5
+    }
+
     try:
-        r = requests.post(url, json=payload, headers=headers, timeout=12)
+        r = requests.post(url, json=payload, headers=headers, timeout=10)
         r.raise_for_status()
-        out = (r.json().get("choices") or [{}])[0].get("message", {}).get("content", "").strip().splitlines()[0].capitalize()
-        if out in {"Calm", "Energetic", "Focus", "Uplifting"}:
-            return out
-        return classify_mood_local(text)
-    except Exception as e:
-        logger.error("GitHub GPT error: %s", e)
+        out = r.json()["choices"][0]["message"]["content"].strip()
+        return out if out in {"Calm", "Energetic", "Focus", "Uplifting"} else classify_mood_local(text)
+    except Exception:
         return classify_mood_local(text)
 
-def choose_classifier(mode: str):
-    mode = (mode or CLASSIFIER_MODE).lower()
-    if mode == "supervised":
-        return SupervisedMoodClassifier()
-    if mode == "zero_shot":
+def choose_classifier():
+    if CLASSIFIER_MODE == "zero_shot":
         return MoodClassifier()
-    if mode == "github":
-        return None
     return SupervisedMoodClassifier()
 
 # ------------------ Spotify helpers ------------------
@@ -130,55 +130,88 @@ def _basic_auth():
 def exchange_code_for_tokens(code: str):
     r = requests.post(
         "https://accounts.spotify.com/api/token",
-        data={"grant_type": "authorization_code", "code": code, "redirect_uri": SPOTIFY_REDIRECT_URI},
-        headers=_basic_auth()
+        data={
+            "grant_type": "authorization_code",
+            "code": code,
+            "redirect_uri": SPOTIFY_REDIRECT_URI,
+        },
+        headers=_basic_auth(),
     )
-    if r.status_code != 200:
-        raise HTTPException(400, f"Token exchange failed: {r.text}")
+    r.raise_for_status()
     return r.json()
 
 def refresh_access_token(refresh: str):
     r = requests.post(
         "https://accounts.spotify.com/api/token",
         data={"grant_type": "refresh_token", "refresh_token": refresh},
-        headers=_basic_auth()
+        headers=_basic_auth(),
     )
-    if r.status_code != 200:
-        raise HTTPException(400, f"Refresh failed: {r.text}")
+    r.raise_for_status()
     return r.json()
 
 def store_tokens(state: str, t: Dict[str, Any]):
     TOKENS[state] = {
         "access_token": t["access_token"],
         "refresh_token": t.get("refresh_token"),
-        "expires_at": time.time() + t.get("expires_in", 3600)
+        "expires_at": time.time() + t.get("expires_in", 3600),
     }
-    logger.info("Stored tokens for state %s", state)
 
 def get_valid_token(state: str) -> Optional[str]:
     obj = TOKENS.get(state)
     if not obj:
         return None
-    if time.time() >= obj.get("expires_at", 0) - 20:
+
+    if time.time() > obj["expires_at"] - 20:
         if not obj.get("refresh_token"):
             return None
         new = refresh_access_token(obj["refresh_token"])
         obj["access_token"] = new["access_token"]
         obj["expires_at"] = time.time() + new.get("expires_in", 3600)
-        if new.get("refresh_token"):
-            obj["refresh_token"] = new.get("refresh_token")
-    return obj.get("access_token")
+
+    return obj["access_token"]
+
+def get_spotify_tracks(mood: str, token: str, limit: int) -> List[TrackOut]:
+    headers = {"Authorization": f"Bearer {token}"}
+    q = {
+        "Calm": "chill",
+        "Energetic": "workout",
+        "Focus": "focus",
+        "Uplifting": "happy"
+    }.get(mood, "music")
+
+    r = requests.get(
+        "https://api.spotify.com/v1/search",
+        headers=headers,
+        params={"q": q, "type": "track", "limit": limit},
+        timeout=10,
+    )
+
+    if r.status_code != 200:
+        return []
+
+    tracks = []
+    for t in r.json()["tracks"]["items"]:
+        tracks.append(TrackOut(
+            name=t["name"],
+            artist=", ".join(a["name"] for a in t["artists"]),
+            preview_url=t["preview_url"],
+            spotify_url=t["external_urls"]["spotify"],
+        ))
+    return tracks
 
 # ------------------ OAuth routes ------------------
 @app.get("/login")
 def login():
     state = secrets.token_urlsafe(16)
     TOKENS[state] = {}
-    scope = "user-read-private user-read-email streaming user-read-playback-state user-modify-playback-state"
+    scope = "user-read-email streaming"
     url = (
-        f"https://accounts.spotify.com/authorize"
-        f"?client_id={SPOTIFY_CLIENT_ID}&response_type=code"
-        f"&redirect_uri={SPOTIFY_REDIRECT_URI}&scope={scope}&state={state}"
+        "https://accounts.spotify.com/authorize"
+        f"?client_id={SPOTIFY_CLIENT_ID}"
+        "&response_type=code"
+        f"&redirect_uri={SPOTIFY_REDIRECT_URI}"
+        f"&scope={scope}"
+        f"&state={state}"
     )
     return RedirectResponse(url)
 
@@ -186,30 +219,38 @@ def login():
 def callback(code: str, state: str):
     if state not in TOKENS:
         raise HTTPException(400, "Invalid state")
-    token_info = exchange_code_for_tokens(code)
-    store_tokens(state, token_info)
+    tokens = exchange_code_for_tokens(code)
+    store_tokens(state, tokens)
     return RedirectResponse(f"/static/index.html?spotify_state={state}")
 
-# ------------------ Routes ------------------
+# ------------------ API routes ------------------
 @app.post("/predict", response_model=List[MoodScore])
-def predict(data: UserText, source: Optional[str] = Query(None)):
-    if (source or CLASSIFIER_MODE).lower() == "github":
-        mood = classify_mood_github_gpt(data.text)
-        return [MoodScore(label=mood, score=1.0)]
-    clf = choose_classifier(source)
+def predict(data: UserText):
+    clf = choose_classifier()
     preds = clf.predict(data.text, k=data.k)
-    s = sum(p["score"] for p in preds) or 1.0
-    return [MoodScore(label=p["label"], score=float(p["score"] / s)) for p in preds]
+    total = sum(p["score"] for p in preds) or 1.0
+    return [MoodScore(label=p["label"], score=p["score"] / total) for p in preds]
+
+@app.post("/analyze", response_model=AnalyzeOut)
+def analyze(data: UserText, spotify_state: str = Query(...)):
+    token = get_valid_token(spotify_state)
+    if not token:
+        raise HTTPException(401, "Spotify session expired")
+
+    clf = choose_classifier()
+    preds = clf.predict(data.text, k=data.k)
+    total = sum(p["score"] for p in preds) or 1.0
+    moods = [MoodScore(label=p["label"], score=p["score"] / total) for p in preds]
+
+    top_mood = moods[0].label
+    tracks = get_spotify_tracks(top_mood, token, data.limit)
+
+    return AnalyzeOut(moods=moods, tracks=tracks)
 
 @app.get("/health")
 def health():
     return {"ok": True}
 
 @app.get("/debug/tokens")
-def dbg():
+def debug_tokens():
     return TOKENS
-
-# ------------------ Run ------------------
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
