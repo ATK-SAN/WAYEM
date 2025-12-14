@@ -30,8 +30,10 @@ body{
 header{display:flex;justify-content:space-between;align-items:center}
 .brand{display:flex;gap:14px;align-items:center}
 #appLogo{width:56px;height:56px;border-radius:50%;padding:6px;background:#fff}
+
 .controls{display:flex;gap:10px;margin-top:16px}
 .controls input{flex:1;padding:10px;border-radius:12px;border:1px solid #ddd}
+
 .btn-primary{
   background:linear-gradient(90deg,var(--accent),#0891b2);
   color:white;border:none;border-radius:12px;
@@ -41,16 +43,23 @@ header{display:flex;justify-content:space-between;align-items:center}
   border:1px solid #ddd;background:none;
   padding:10px 14px;border-radius:12px;cursor:pointer
 }
+
 .grid{display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:20px}
 @media(max-width:850px){.grid{grid-template-columns:1fr}}
 
 .info{background:#f8fafc;padding:14px;border-radius:12px;font-size:.9rem}
 
-.track-card{display:flex;gap:12px;padding:12px;background:#fff;
-  border-radius:12px;margin-top:10px;box-shadow:0 6px 18px rgba(0,0,0,.04)}
-.track-thumb{width:56px;height:56px;border-radius:8px;background:#eef2f7;
-  display:flex;align-items:center;justify-content:center;font-weight:700}
-.track-actions button,a{margin-left:6px}
+.track-card{
+  display:flex;gap:12px;padding:12px;background:#fff;
+  border-radius:12px;margin-top:10px;
+  box-shadow:0 6px 18px rgba(0,0,0,.04)
+}
+.track-thumb{
+  width:56px;height:56px;border-radius:8px;
+  background:#eef2f7;
+  display:flex;align-items:center;justify-content:center;
+  font-weight:700
+}
 
 .small{font-size:.85rem;color:var(--muted)}
 .muted{color:var(--muted)}
@@ -72,11 +81,21 @@ header{display:flex;justify-content:space-between;align-items:center}
 .appBox{text-align:center;cursor:pointer}
 .usageBar{width:120px;height:8px;background:#eee;border-radius:999px;margin-top:6px}
 .usageFill{height:100%;width:0%;background:linear-gradient(90deg,#06b6d4,#10b981)}
+
+/* ---------- ECHO MODE ---------- */
+#echoToggle{
+  display:flex;align-items:center;gap:10px;
+  margin-top:14px;
+}
+#echoToggle img{
+  width:26px;height:26px;
+}
 </style>
 </head>
 
 <body>
 <div class="card">
+
 <header>
   <div class="brand">
     <img id="appLogo" src="logo.png"/>
@@ -95,10 +114,19 @@ header{display:flex;justify-content:space-between;align-items:center}
   <input id="moodInput" placeholder="e.g. I need focus or want to relax"/>
 </div>
 
+<!-- ECHO MODE -->
+<div id="echoToggle">
+  <img src="echo.png" alt="Echo Mode Icon"/>
+  <label>
+    <input type="checkbox" id="echoMode"/>
+    <b>Echo Mode</b>
+    <span class="small muted">(Smart Volume)</span>
+  </label>
+</div>
+
 <div class="grid">
 <section>
 
-<!-- APP SIM -->
 <button id="toggleSim" class="btn-ghost">Open App Simulation</button>
 
 <div id="appSim" style="display:none">
@@ -118,7 +146,6 @@ header{display:flex;justify-content:space-between;align-items:center}
   </div>
 </div>
 
-<!-- RESULTS -->
 <div id="results"></div>
 
 </section>
@@ -127,7 +154,7 @@ header{display:flex;justify-content:space-between;align-items:center}
 <strong>How it works</strong>
 <p class="small">• Type mood OR simulate app usage</p>
 <p class="small">• Threshold triggers a break suggestion</p>
-<p class="small">• Music is recommended using same ML pipeline</p>
+<p class="small">• Echo Mode adapts playback volume</p>
 </aside>
 </div>
 </div>
@@ -137,6 +164,16 @@ header{display:flex;justify-content:space-between;align-items:center}
 <script>
 const API="http://127.0.0.1:8000";
 let spotifyState=localStorage.getItem("spotify_state");
+let echoMode=false;
+let currentMood="Uplifting";
+
+/* ---------- ECHO PROFILES ---------- */
+const echoProfiles={
+  Calm:0.35,
+  Focus:0.45,
+  Uplifting:0.6,
+  Energetic:0.75
+};
 
 /* Toast */
 function showToast(msg){
@@ -144,6 +181,12 @@ function showToast(msg){
   t.textContent=msg;t.classList.add("show");
   setTimeout(()=>t.classList.remove("show"),2600);
 }
+
+/* Echo toggle */
+document.getElementById("echoMode").onchange=e=>{
+  echoMode=e.target.checked;
+  showToast(echoMode?"Echo Mode ON":"Echo Mode OFF");
+};
 
 /* Spotify */
 document.getElementById("login").onclick=()=>location.href=`${API}/login`;
@@ -163,10 +206,11 @@ async function analyze(text){
     body:JSON.stringify({text,limit:3})
   });
   const d=await r.json();
+  currentMood=d.moods?.[0]?.label||"Uplifting";
   render(d.tracks||[]);
 }
 
-/* Render tracks */
+/* Render tracks with Echo Mode volume */
 function render(tracks){
   const res=document.getElementById("results");
   res.innerHTML="";
@@ -178,29 +222,35 @@ function render(tracks){
         <b>${t.name}</b>
         <div class="small">${t.artist}</div>
       </div>
-      <div class="track-actions">
-        ${t.preview_url?`<button onclick="new Audio('${t.preview_url}').play()">Preview</button>`:""}
+      <div>
+        ${t.preview_url?`
+        <button onclick="playPreview('${t.preview_url}')">
+          Preview
+        </button>`:""}
         <a href="${t.spotify_url}" target="_blank">Spotify</a>
       </div>
     </div>`;
   });
 }
 
+/* Echo-aware playback */
+function playPreview(url){
+  const audio=new Audio(url);
+  audio.volume=echoMode
+    ?(echoProfiles[currentMood]||0.6)
+    :0.65;
+  audio.play();
+}
+
 /* ---------- APP SIM ENGINE ---------- */
-const SIM={
-  time:0,active:null,
-  usage:{instagram:0,youtube:0},
-  threshold:120,popup:false
-};
+const SIM={time:0,active:null,usage:{instagram:0,youtube:0},threshold:120,popup:false};
 
 document.getElementById("toggleSim").onclick=()=>{
   const s=document.getElementById("appSim");
   s.style.display=s.style.display==="none"?"block":"none";
 };
 
-function activateApp(app){
-  SIM.active=app;SIM.popup=false;
-}
+function activateApp(app){SIM.active=app;SIM.popup=false;}
 
 setInterval(()=>{
   SIM.time+=5;if(SIM.time>=1440)SIM.time=0;
@@ -215,10 +265,8 @@ setInterval(()=>{
 },1000);
 
 function updateBars(){
-  document.getElementById("igFill").style.width=
-    Math.min(SIM.usage.instagram/SIM.threshold*100,100)+"%";
-  document.getElementById("ytFill").style.width=
-    Math.min(SIM.usage.youtube/SIM.threshold*100,100)+"%";
+  igFill.style.width=Math.min(SIM.usage.instagram/SIM.threshold*100,100)+"%";
+  ytFill.style.width=Math.min(SIM.usage.youtube/SIM.threshold*100,100)+"%";
 }
 
 function checkThreshold(){
@@ -232,12 +280,9 @@ function checkThreshold(){
 }
 
 function triggerMusic(app){
-  document.body.style.background=
-    app==="instagram"?"linear-gradient(#f0fdfa,#ccfbf1)":"linear-gradient(#f7fbff,#eef6ff)";
-  analyze(
-    app==="instagram"
-      ?"I am distracted and need focus"
-      :"I feel tired and want calm music"
+  analyze(app==="instagram"
+    ?"I am distracted and need focus"
+    :"I feel tired and want calm music"
   );
 }
 
