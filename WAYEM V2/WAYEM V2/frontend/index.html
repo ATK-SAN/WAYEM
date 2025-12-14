@@ -7,6 +7,7 @@
 
 <style>
 :root{
+  --bg-focus:#f0fdfa;
   --bg-calm:#f7fbff;
   --accent:#06b6d4;
   --accent-2:#10b981;
@@ -14,20 +15,21 @@
 }
 html,body{margin:0;height:100%}
 body{
-  font-family:Inter,system-ui;
+  font-family: Inter,system-ui;
   background:linear-gradient(180deg,var(--bg-calm),#eef6ff);
   display:flex;align-items:center;justify-content:center;
   padding:24px;
 }
 .card{
   max-width:900px;width:100%;
-  background:#fff;border-radius:18px;
+  background:#fff;
+  border-radius:18px;
   padding:28px;
   box-shadow:0 20px 40px rgba(0,0,0,.08);
 }
 header{display:flex;justify-content:space-between;align-items:center}
 .brand{display:flex;gap:14px;align-items:center}
-#appLogo{width:56px;height:56px;border-radius:50%;padding:6px}
+#appLogo{width:56px;height:56px;border-radius:50%;padding:6px;background:#fff}
 
 .controls{display:flex;gap:10px;margin-top:16px}
 .controls input{flex:1;padding:10px;border-radius:12px;border:1px solid #ddd}
@@ -45,20 +47,22 @@ header{display:flex;justify-content:space-between;align-items:center}
 .grid{display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:20px}
 @media(max-width:850px){.grid{grid-template-columns:1fr}}
 
+.info{background:#f8fafc;padding:14px;border-radius:12px;font-size:.9rem}
+
 .track-card{
-  display:flex;gap:12px;padding:12px;
-  background:#fff;border-radius:12px;
-  margin-top:10px;
+  display:flex;gap:12px;padding:12px;background:#fff;
+  border-radius:12px;margin-top:10px;
   box-shadow:0 6px 18px rgba(0,0,0,.04)
 }
 .track-thumb{
   width:56px;height:56px;border-radius:8px;
-  background:#eef2f7;display:flex;
-  align-items:center;justify-content:center;
+  background:#eef2f7;
+  display:flex;align-items:center;justify-content:center;
   font-weight:700
 }
 
 .small{font-size:.85rem;color:var(--muted)}
+.muted{color:var(--muted)}
 
 #toast{
   position:fixed;top:20px;right:20px;
@@ -68,10 +72,20 @@ header{display:flex;justify-content:space-between;align-items:center}
 }
 #toast.show{opacity:1}
 
-/* Echo Mode */
+/* ---------- APP SIM ---------- */
+#appSim{
+  margin-top:20px;padding:14px;
+  border:1px solid #e5e7eb;border-radius:14px;
+}
+.appRow{display:flex;gap:20px;margin-top:12px}
+.appBox{text-align:center;cursor:pointer}
+.usageBar{width:120px;height:8px;background:#eee;border-radius:999px;margin-top:6px}
+.usageFill{height:100%;width:0%;background:linear-gradient(90deg,#06b6d4,#10b981)}
+
+/* ---------- ECHO MODE ---------- */
 #echoToggle{
   display:flex;align-items:center;gap:10px;
-  margin-top:14px
+  margin-top:14px;
 }
 #echoToggle img{width:26px;height:26px}
 </style>
@@ -85,7 +99,7 @@ header{display:flex;justify-content:space-between;align-items:center}
     <img id="appLogo" src="logo.png"/>
     <div>
       <h2>Emotion Music Recommender</h2>
-      <div class="small">Smart Mood + Echo Mode</div>
+      <div class="small">Text + App Simulation based music suggestions</div>
     </div>
   </div>
   <div>
@@ -95,27 +109,50 @@ header{display:flex;justify-content:space-between;align-items:center}
 </header>
 
 <div class="controls">
-  <input id="moodInput" placeholder="e.g. stressed, relaxed, energetic"/>
+  <input id="moodInput" placeholder="e.g. I need focus or want to relax"/>
 </div>
 
+<!-- ECHO MODE -->
 <div id="echoToggle">
-  <img src="echo.png" alt="Echo Icon"/>
+  <img src="echo.png" alt="Echo Mode Icon"/>
   <label>
-    <input type="checkbox" id="echoMode"/> <b>Echo Mode</b>
-    <span class="small">(Smart Volume)</span>
+    <input type="checkbox" id="echoMode"/>
+    <b>Echo Mode</b>
+    <span class="small muted">(Smart Volume)</span>
   </label>
 </div>
 
 <div class="grid">
 <section>
-  <div id="results"></div>
+
+<button id="toggleSim" class="btn-ghost">Open App Simulation</button>
+
+<div id="appSim" style="display:none">
+  <strong>App Usage Simulation</strong>
+  <div class="small" id="simTime">Time: 00:00</div>
+
+  <div class="appRow">
+    <div class="appBox" onclick="activateApp('instagram')">
+      <img src="instagram.png" width="40"/><br/>Instagram
+      <div class="usageBar"><div id="igFill" class="usageFill"></div></div>
+    </div>
+
+    <div class="appBox" onclick="activateApp('youtube')">
+      <img src="youtube.png" width="40"/><br/>YouTube
+      <div class="usageBar"><div id="ytFill" class="usageFill"></div></div>
+    </div>
+  </div>
+</div>
+
+<div id="results"></div>
+
 </section>
 
 <aside class="info">
 <strong>How it works</strong>
-<p class="small">• NLP detects emotional intent</p>
-<p class="small">• Spotify provides music</p>
-<p class="small">• Echo Mode adapts volume</p>
+<p class="small">• Type mood OR simulate app usage</p>
+<p class="small">• Threshold triggers a break suggestion</p>
+<p class="small">• Echo Mode adapts playback volume</p>
 </aside>
 </div>
 </div>
@@ -129,12 +166,12 @@ let echoMode=false;
 let currentMood="Uplifting";
 let activeAudio=null;
 
-/* Echo volume profiles */
+/* ---------- ECHO PROFILES ---------- */
 const echoProfiles={
   Calm:0.35,
   Focus:0.45,
-  Uplifting:0.65,
-  Energetic:0.85
+  Uplifting:0.6,
+  Energetic:0.8
 };
 
 /* Toast */
@@ -152,29 +189,26 @@ document.getElementById("echoMode").onchange=e=>{
 };
 
 /* Spotify */
-document.getElementById("login").onclick=()=>{
-  location.href=`${API}/login`;
-};
-
+document.getElementById("login").onclick=()=>location.href=`${API}/login`;
 document.getElementById("getSong").onclick=()=>{
   if(!spotifyState) return alert("Connect Spotify first");
-  let text=document.getElementById("moodInput").value.trim();
-  if(!text) return alert("Enter mood");
+  let txt=document.getElementById("moodInput").value.trim();
+  if(!txt) return alert("Enter mood");
 
-  text=normalizeMoodText(text); // 🔑 FIX
-  analyze(text);
+  txt=normalizeMoodText(txt);
+  analyze(txt);
 };
 
-/* Frontend mood normalizer (NO backend change) */
+/* Frontend-only normalizer */
 function normalizeMoodText(text){
   const t=text.toLowerCase();
-  if(t.includes("stressed")) return "I feel stressed and mentally tired";
-  if(t.includes("relax")) return "I want peaceful calm music";
+  if(t.includes("stressed")) return "I feel stressed and need calm focus";
+  if(t.includes("relax")) return "I want calm peaceful music";
   if(t.includes("calm")) return "I feel calm and relaxed";
   return text;
 }
 
-/* Analyze */
+/* NLP call */
 async function analyze(text){
   showToast("Finding music…");
   const r=await fetch(`${API}/analyze?spotify_state=${spotifyState}`,{
@@ -187,7 +221,7 @@ async function analyze(text){
   render(d.tracks||[]);
 }
 
-/* Render */
+/* Render tracks */
 function render(tracks){
   const res=document.getElementById("results");
   res.innerHTML="";
@@ -201,14 +235,14 @@ function render(tracks){
       </div>
       <div>
         ${t.preview_url?
-          `<button onclick="playPreview('${t.preview_url}')">Preview</button>`:""}
+        `<button onclick="playPreview('${t.preview_url}')">Preview</button>`:""}
         <a href="${t.spotify_url}" target="_blank">Spotify</a>
       </div>
     </div>`;
   });
 }
 
-/* Echo-aware preview */
+/* Echo-aware playback */
 function playPreview(url){
   if(activeAudio) activeAudio.pause();
   activeAudio=new Audio(url);
@@ -216,6 +250,50 @@ function playPreview(url){
   activeAudio.volume=vol;
   activeAudio.play();
   showToast(`Volume ${Math.round(vol*100)}% (${currentMood})`);
+}
+
+/* ---------- APP SIM ENGINE (UNCHANGED) ---------- */
+const SIM={time:0,active:null,usage:{instagram:0,youtube:0},threshold:120,popup:false};
+
+document.getElementById("toggleSim").onclick=()=>{
+  const s=document.getElementById("appSim");
+  s.style.display=s.style.display==="none"?"block":"none";
+};
+
+function activateApp(app){SIM.active=app;SIM.popup=false;}
+
+setInterval(()=>{
+  SIM.time+=5;if(SIM.time>=1440)SIM.time=0;
+  document.getElementById("simTime").textContent=
+    `Time: ${String(Math.floor(SIM.time/60)).padStart(2,'0')}:${String(SIM.time%60).padStart(2,'0')}`;
+
+  if(SIM.active){
+    SIM.usage[SIM.active]+=5;
+    updateBars();
+    checkThreshold();
+  }
+},1000);
+
+function updateBars(){
+  igFill.style.width=Math.min(SIM.usage.instagram/SIM.threshold*100,100)+"%";
+  ytFill.style.width=Math.min(SIM.usage.youtube/SIM.threshold*100,100)+"%";
+}
+
+function checkThreshold(){
+  if(SIM.popup||SIM.usage[SIM.active]<SIM.threshold) return;
+  SIM.popup=true;
+  if(confirm("You've been using this app for a while. Take a break?")){
+    triggerMusic(SIM.active);
+    SIM.usage[SIM.active]=0;
+    SIM.active=null;
+  }
+}
+
+function triggerMusic(app){
+  analyze(app==="instagram"
+    ?"I am distracted and need focus"
+    :"I feel tired and want calm music"
+  );
 }
 
 /* Persist Spotify */
